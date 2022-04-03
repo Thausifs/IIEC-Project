@@ -1,0 +1,24 @@
+.studyineuropeheading {
+    color: aliceblue;
+    font-size: 28px;
+    font: bold;
+    width: 50%;
+}
+
+.studyineuropepara{
+font-size: 20px;
+color: white;
+width: 50%;
+
+}
+.studyineuropeage{
+    background-color: rgb(32, 32, 32);
+    position: relative;
+    width: 1440px;
+    display: inline-block;
+
+}
+.studyineuropemainhead{
+    font-size: 34px;
+    color: aliceblue;
+}

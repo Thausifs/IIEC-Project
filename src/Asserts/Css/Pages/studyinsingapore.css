@@ -1,0 +1,57 @@
+.studyinsingaporeheading {
+    color: rgb(205, 213, 255,1);
+    font-size: 26px;
+    font: bold;
+    width: 40%;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 1%;
+}
+
+.studyinsingaporepara{
+    font-size: 20px;
+    color: rgb(205, 213, 255,1);
+    width: 45%;
+    margin-left: 1%;
+
+}
+.studyinsingaporepage{
+    background-color: rgb(32, 32, 32);
+    position: absolute;
+    width: 1366px;
+
+}
+.studyinsingaporestd{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 48%;
+}
+.studyinsingaporeparas{
+    font-size: 20px;
+    color: rgb(205, 213, 255,1);
+    width: 92%;
+    margin-left: 1%;
+}
+.studyinsingaporeheadings{
+    color: rgb(205, 213, 255,1);
+    font-size: 26px;
+    font: bold;
+    width: 92%;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 1%;
+}
+.studyinsingaporemainhead{
+    color: rgb(205, 213, 255,1);
+    font-size: 34px;
+    font: bold;
+    width: 40%;
+    font-family:  'Montserrat', sans-serif;
+    /* margin-left: 1%; */
+    margin-top: 7%;
+}
+
+ul.studyinsingaporeparaul{
+    list-style-type: circle;
+    font-size: 20px;
+color: white;
+width: 45%;
+}

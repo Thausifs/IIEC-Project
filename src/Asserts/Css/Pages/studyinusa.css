@@ -1,0 +1,57 @@
+.studyinusaheading {
+    color: rgb(205, 213, 255,1);
+    font-size: 26px;
+    font: bold;
+    width: 40%;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 1%;
+}
+
+.studyinusapara{
+    font-size: 20px;
+    color: rgb(205, 213, 255,1);
+    width: 45%;
+    margin-left: 1%;
+
+}
+.studyinusapage{
+    background-color: rgb(32, 32, 32);
+    position: absolute;
+    width: 1366px;
+
+}
+.studyinusastd{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 50%;
+}
+.studyinusaparas{
+    font-size: 20px;
+    color: rgb(205, 213, 255,1);
+    width: 92%;
+    margin-left: 1%;
+}
+.studyinusaheadings{
+    color: rgb(205, 213, 255,1);
+    font-size: 26px;
+    font: bold;
+    width: 92%;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 1%;
+}
+.studyinusamainhead{
+    color: rgb(205, 213, 255,1);
+    font-size: 34px;
+    font: bold;
+    width: 40%;
+    font-family:  'Montserrat', sans-serif;
+    /* margin-left: 1%; */
+    margin-top: 7%;
+
+}
+
+.studyinusasub{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}

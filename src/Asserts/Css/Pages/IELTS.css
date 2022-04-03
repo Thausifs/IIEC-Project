@@ -1,0 +1,62 @@
+.ieltsheading {
+    color: rgb(205, 213, 255,1);
+    font-size: 26px;
+    font: bold;
+    width: 40%;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 1%;
+}
+
+.ieltspara{
+    font-size: 20px;
+    color: rgb(205, 213, 255,1);
+    width: 45%;
+    margin-left: 1%;
+
+
+}
+
+.ieltsparali{
+    font-size: 20px;
+    color: rgb(205, 213, 255,1);
+    width: 40%;
+    margin-left: 1%;
+
+}
+.ieltspage{
+    background-color: rgb(32, 32, 32);
+    position: absolute;
+    width: 1366px;
+
+}
+.ieltsstd{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 48%;
+}
+.ieltsparas{
+    font-size: 20px;
+    color: rgb(205, 213, 255,1);
+    width: 92%;
+    margin-left: 1%;
+}
+.ieltsheadings{
+    color: rgb(205, 213, 255,1);
+    font-size: 26px;
+    font: bold;
+    width: 92%;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 1%;
+}
+.ieltsmainhead{
+    color: rgb(205, 213, 255,1);
+    font-size: 34px;
+    font: bold;
+    width: 40%;
+    font-family:  'Montserrat', sans-serif;
+    /* margin-left: 1%; */
+    margin-top: 7%;
+}
+.YNSielts{
+    margin-top: 60%;
+}

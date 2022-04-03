@@ -1,0 +1,57 @@
+.h1balternativeimg{
+    margin-top: 4.7%;
+       display: inline-block;
+       margin-left: 4%;
+       box-shadow: 0px 0px 10px  5px rgb(31, 28, 28);
+       border-radius: 20px;
+}
+.h1balternativecomponents{ 
+
+     width: 632px;
+     height: 340px;
+
+     display: flex;
+     position: relative;
+     background-color: rgb(52, 52, 52);
+     box-shadow: 0px 0px 10px  10px rgb(20, 18, 18);
+     border-radius: 20px;
+     margin-left: 2%;
+     
+     
+     
+    
+   
+    
+}
+.h1balternativeone{
+    
+    font-size: 26px;
+    text-decoration: underline;
+    display: inline-block;
+    text-underline-offset: 8px;
+    margin-top: 60px;
+    position: absolute;
+    height: 50px;
+    margin-left: 345px;
+    color: rgb(205, 213, 255,1);
+    font-family:  'Montserrat', sans-serif; 
+    font: 800;
+    padding-left: 8px;
+    
+}
+.h1balternativetwo{
+    font-size: 15px;
+    width: 40%;
+    height: 40%;
+    display: inline-block;
+    position: absolute;
+
+    margin-left: 345px;
+ 
+    margin-top: 120px;
+    color: rgb(205, 213, 255,1);
+    font-family:  'Montserrat', sans-serif; 
+    padding-left: 8px;
+
+    
+}

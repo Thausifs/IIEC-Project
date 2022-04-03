@@ -1,0 +1,85 @@
+.bottombannersecondcon{
+    width:1330px ;
+    height: 536px ;
+    /* border: 2px solid black; */
+    display: inline-block;
+    box-shadow: 0px 0px 10px  10px rgb(20, 18, 18);
+     border-radius: 20px;
+     background-color: rgb(52, 52, 52);
+     margin-left: 1%;
+}
+.bottombannersecond{
+    width: 300px;
+    height: 456px;
+    /* border: 2px solid black; */
+    display: inline-block;
+    margin-top: 33px;
+    margin-left: 25px;
+    box-shadow: 0px 0px 10px  10px rgb(32, 30, 30);
+     border-radius: 20px;
+     background-color: rgb(52, 52, 52);
+     /* position: absolute; */
+}
+.bottombannersecondtwo{
+
+        width: 308px;
+        height: 456px;
+        /* border: 2px solid black; */
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 21px;
+        box-shadow: 0px 0px 10px  10px rgb(32, 30, 30);
+         border-radius: 20px;
+         background-color: rgb(52, 52, 52);
+
+}
+.images{
+    width: 250px;
+    height: 199px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px  10px rgb(32, 30, 30);
+    /* justify-content: center; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* display: block; */
+    margin-top: 10%;
+    margin-left: 8%;
+}
+.secondparaheading{
+    font-size: 24px;
+    color: aliceblue;
+    margin-left: 10%;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+
+}
+.secondpara{
+    font-size: 18px;
+    color: white;
+    width: 75%;
+    margin-left: 10%;
+}
+.secondparahead{
+    font-size: 24px;
+    color: white;
+    width: 75%;
+    margin-left: 10%;
+    margin-top: 18%;
+}
+
+.secondparaheadingtwo{
+    font-size: 18px;
+    color: aliceblue;
+    margin-left: 10%;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+     
+}
+
+.secondparatwo{
+    font-size: 18px;
+    color: white;
+    width: 75%;
+    margin-left: 10%;
+    
+}

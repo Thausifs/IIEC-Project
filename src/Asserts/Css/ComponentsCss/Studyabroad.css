@@ -1,0 +1,83 @@
+ .studyabroad {
+     height : 1679px;
+     width : 659px;
+    border: 2px solid black;
+    background-image: linear-gradient(234deg, rgb(63,63,63),rgb(58,58,58) );
+    color: rgb(205,213,255);
+    border-radius: 20px;
+    /* position: absolute; */
+    /* margin-left: 50%; */
+    margin: 0px 0px 0px 0px ;
+    box-shadow: 0px 0px 10px 5px black;
+   
+
+ }
+ .studyabroad_inner {
+     margin: auto;
+     height : 1384px;
+     width : 533px;
+
+ }
+ .studyabroad_heading {
+    margin: auto;
+    height : 82px;
+    width : 519px;
+    text-align: center;
+}
+ h1 {
+     text-align: center;
+ }
+  h3 {
+      text-align: center;
+  } 
+  .studyabroad_input {
+      height: 45px; 
+      width: 519px;
+      color: rgb(31, 24, 24);
+      border: 2px solid rgb(208, 56, 55);
+      border-radius: 15px;
+      margin:50px 0px 0px 0px ;
+      font-size: 25px;
+      background-color: rgb(32, 32, 32);
+      
+  }
+  
+  .register_button{
+      border-radius: 15px;
+      border: 2px groove rgb(208,56,59);
+      background-color: rgb(208,56,59) ;
+      height: 67px;
+    width: 351px;  
+    text-align: center;
+    font-size: 32px;
+    /* font-size: large; */
+    margin-top: 90px;
+    margin-left: 80px;
+    font-weight: bold;
+    color: rgb(205, 213, 255,1);
+    box-shadow: 0px 0px 5px 5px rgb(134, 58, 58);
+  }
+  
+  ul {
+    list-style-type:none;
+}
+.studybottomheading{
+    font-size: 25px;
+}
+
+
+  #studyabroadscom::placeholder{
+      color: rgb(205, 213, 255,1);
+  }
+  .stdabdheadthree{
+      font-size: medium;
+      font-weight: 500;
+      font-size: 32px;
+      font-family:  'Montserrat', sans-serif;
+  }
+  /* .registerbtntitle{
+      font-size: 24px;
+  } */
+  .register_button:hover {
+      background-color: rgb(111, 18, 18);
+  }

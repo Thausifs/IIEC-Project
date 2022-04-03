@@ -1,0 +1,57 @@
+.mastersinusaheading {
+    color: rgb(205, 213, 255,1);
+    font-size: 26px;
+    font: bold;
+    width: 40%;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 1%;
+}
+
+.mastersinusapara{
+    font-size: 20px;
+    color: rgb(205, 213, 255,1);
+    width: 45%;
+    margin-left: 1%;
+
+}
+.mastersinusapage{
+    background-color: rgb(32, 32, 32);
+    position: absolute;
+    width: 1366px;
+
+}
+.mastersinusastd{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 50%;
+}
+.mastersinusaparas{
+    font-size: 20px;
+    color: rgb(205, 213, 255,1);
+    width: 92%;
+    margin-left: 1%;
+}
+.mastersinusaheadings{
+    color: rgb(205, 213, 255,1);
+    font-size: 26px;
+    font: bold;
+    width: 92%;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 1%;
+}
+.mastersinusamainhead{
+    color: rgb(205, 213, 255,1);
+    font-size: 34px;
+    font: bold;
+    width: 40%;
+    font-family:  'Montserrat', sans-serif;
+    /* margin-left: 1%; */
+    margin-top: 7%;
+
+}
+
+.mastersinusasub{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}

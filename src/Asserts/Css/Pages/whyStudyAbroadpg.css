@@ -1,0 +1,31 @@
+.whystudyabroadpage{
+    background-color: rgb(32, 32, 32);
+    position: relative;
+    width: 1366px;
+    display:flex;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    /* flex: 50%; */
+    justify-content: space-around;
+    /* flex-direction: column; */
+
+}
+/* .whystudypg , .studyabroadintakeswsapg , .employeoropswsapg {
+    float: left ;
+} */
+.studyabroadwsapg{
+      /* flex:4; */
+    /* margin-left: 3.5%; */
+    max-width: 50%;
+    /* margin-right: -7%; */
+    
+}
+.whystudypg{
+    /* flex: 1; */
+    /* max-height: fit-content; */
+    /* min-height: 200px; */
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

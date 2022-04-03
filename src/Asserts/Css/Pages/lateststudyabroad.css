@@ -1,0 +1,79 @@
+.lateststudyabroadheading{
+    color: rgb(205, 213, 255,1);
+    font-size: 26px;
+    font: bold;
+    width: 40%;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 1%;
+
+}
+
+.lateststudyabroadpara{
+    font-size: 20px;
+    color: rgb(205, 213, 255,1);
+    width: 45%;
+    margin-left: 1%;
+}
+.lateststudyabroadpage{
+    background-color: rgb(32, 32, 32);
+    position: relative;
+    width: 1366px;
+    display: inline-block;
+
+}
+.buttonsone{
+    width:184px ;
+    height:92px ;
+    border-radius: 20px;
+    background-color: rgb(62, 62, 62);
+    box-shadow: 0px 0px 5px 5px rgb(21,21,21);
+    color: aliceblue;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: 24px;
+
+
+}
+.buttonstwo{
+    width:436px ;
+    height:52px ;
+    border-radius: 20px;
+    background-color:rgb(62, 62, 62) ;
+    font: bold;
+    font-size: 20px;
+    color: aliceblue;
+    box-shadow: 0px 0px 5px 5px rgb(21,21,21);
+    margin-left: 2%;
+  
+
+
+}
+.buttonsthree{
+    width:312px ;
+    height:52px ;
+    border-radius: 20px;
+    background-color:rgb(62, 62, 62) ;
+    box-shadow: 0px 0px 5px 5px rgb(21,21,21);
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+.latestpgstudyabd{
+    position: absolute;
+    margin-left: 48%;
+    margin-top: 8%;
+}
+.hrline{
+    width: 45%;
+    margin-left: 2%;
+}
+.latestbox{
+    display: flex;
+    column-gap: 20px;
+    background-color: rgb(32, 32, 32);
+    margin-top: 2%;
+    width: 1366px;
+    margin-bottom: 2%;
+}
+

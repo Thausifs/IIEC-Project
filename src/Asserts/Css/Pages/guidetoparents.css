@@ -1,0 +1,77 @@
+.guidetoparentsheading{
+    color: rgb(205, 213, 255,1);
+    font-size: 34px;
+    font: bold;
+    width: 50%;
+    font-family:  'Montserrat', sans-serif; 
+    margin-left: 2%;
+}
+
+.guidetoparentspara{
+font-size: 22px;
+color: white;
+width: 47%;
+font-family:  'Montserrat', sans-serif; 
+color: rgb(205, 213, 255,1);
+font: 600;
+margin-left: 2%;
+
+}
+.guidetoparentspage{
+    background-color: rgb(32, 32, 32);
+    position: relative;
+    width: 1366px;
+    display: inline-block;
+    /* padding-left: 2%;
+    padding-right: 2%; */
+
+}
+.studyabroadpg{
+    position: absolute;
+    right: 2%;
+    margin-top: 6% ;
+}
+.hrline{
+    width: 45%;
+    margin-left: 2%;
+}
+.guidetoparentsmainhead{
+    font-size: 34px;
+     text-align: left;
+color: rgb(205, 213, 255);
+width: 50%;
+margin-top: 6%;
+font-family:  'Montserrat', sans-serif; 
+font: bold;
+margin-left: 2%;
+}
+
+.guidetoparentsparas{
+    font-size: 22px;
+color: white;
+width: 95%;
+font-family:  'Montserrat', sans-serif; 
+color: rgb(205, 213, 255,1);
+font: 600;
+margin-left: 2%;
+margin-right: 2%;
+
+}
+.guidetoparentsheadings{
+    color: rgb(205, 213, 255,1);
+    font-size: 34px;
+    font: bold;
+    width: 95%;
+    font-family:  'Montserrat', sans-serif; 
+    margin-left: 2%;
+}
+/* 
+.usaapplicationtime{
+    position: absolute;
+    right: 40px;
+    top: 66.5%
+} */
+.guidetoparentsbox{
+    display: flex;
+    column-gap: 25px;
+}

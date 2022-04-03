@@ -1,0 +1,55 @@
+.sixreasonstoiiecheading{
+    color: rgb(205, 213, 255,1);
+    font-size: 26px;
+    font: bold;
+    width: 40%;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 1%;
+}
+
+.sixreasonstoiiecpara{
+    font-size: 20px;
+    color: rgb(205, 213, 255,1);
+    width: 45%;
+    margin-left: 1%;
+
+}
+.sixreasonstoiiecpage{
+    background-color: rgb(32, 32, 32);
+    position: absolute;
+    width: 1366px;
+    /* display: flex;
+    flex-wrap: wrap;
+    flex:50%;
+    row-gap: 25px;
+    column-gap: 1%; */
+
+}
+.sixreasonsdiv{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 48%;
+}
+.sixreasonstoiiecparas{
+    font-size: 20px;
+    color: rgb(205, 213, 255,1);
+    width: 92%;
+    margin-left: 1%;
+}
+.sixreasonstoiiecheadings{
+    color: rgb(205, 213, 255,1);
+    font-size: 26px;
+    font: bold;
+    width: 92%;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 1%;
+}
+.sixreasonstoiiecmainhead{
+    color: rgb(205, 213, 255,1);
+    font-size: 34px;
+    font: bold;
+    width: 40%;
+    font-family:  'Montserrat', sans-serif;
+    /* margin-left: 1%; */
+    margin-top: 6%;
+}

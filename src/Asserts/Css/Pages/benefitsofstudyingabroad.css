@@ -1,0 +1,49 @@
+.guidetoheading{
+    color: rgb(205, 213, 255,1);
+    font-size: 34px;
+    font: bold;
+    width: 50%;
+}
+
+.guidetopara{
+font-size: 20px;
+color: rgb(205, 213, 255,1);
+width: 45%;
+margin-left: 2%;
+
+}
+.guidetoparas{
+    font-size: 20px;
+color: rgb(205, 213, 255,1);
+width: 95%;
+margin-left: 2%;
+}
+.benefitsofstudyingabdpage{
+    background-color: rgb(32, 32, 32);
+    position: relative;
+    width: 1366px;
+    display: inline-block;
+
+}
+.benefitsofstudyingabdheading{
+    color: rgb(205, 213, 255,1);
+    font-size: 26px;
+    font: bold;
+    width: 45%;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 10px;
+}
+.benefitspagestd{
+    position: absolute;
+    margin-left: 48%;
+    margin-top: 8%;
+
+
+}
+.benefitsofstudybox{
+    display: flex;
+    column-gap: 20px;
+    background-color: rgb(32, 32, 32);
+    margin-top: 2%;
+    width: 1366px;
+}

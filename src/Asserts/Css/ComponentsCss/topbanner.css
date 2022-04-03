@@ -1,0 +1,60 @@
+.topbanner_studyabroad,.topbanner_immigration,.topbanner_training{
+    width:298px ;
+    height:216px  ;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom right,rgb(62, 62, 62),rgb(42,42,42));
+    box-shadow: 5px 5px 5px 5px;
+    display: inline-block;
+
+}
+.topbanner_studyabroad h2,.topbanner_immigration h2 ,.topbanner_training h2,.topbanner_visaguidance h2 {
+    margin-top: 25px;
+    text-align: center; 
+   
+}
+.hrline,.hrlineimmigra,.hrlinetrain,.hrlinevisa {
+    border: 1px solid rgb(104, 194, 221);
+    margin: 15px 20px 10px 20px;
+}
+.topbanner_studyabroad p , .topbanner_immigration p, .topbanner_training p , .topbanner_visaguidance  {
+  color: white;
+  padding: 10px 25px 0px 25px ;
+}
+.topbanner {
+    width:644px ;
+    height:478px;
+    /* border: 2px solid black; */
+    display:flexbox;
+    
+  
+}
+.topbanner_visaguidance {
+    width:245px ;
+    height:210px  ;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom right,rgb(62, 62, 62),rgb(42,42,42));
+    box-shadow: 5px 5px 5px 5px black;
+    display: inline-block;
+    margin-top:34px;
+    float: right;
+}
+.topbanner_immigration{
+    margin-right: 0px;
+    margin-top: 0px;
+    float: right;
+    
+
+}
+.topbanner_training{
+    margin-top: 34px;
+}
+
+/* .topbanner_immigration{
+    width:298px ;
+    height:216px  ;
+    border: 1px solid black;
+    background-image: linear-gradient(to bottom right,rgb(62, 62, 62),rgb(42,42,42));
+    box-shadow: 5px 5px 5px 5px;
+} */

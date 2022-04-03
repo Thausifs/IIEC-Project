@@ -1,0 +1,20 @@
+.guidetoheading{
+    color: aliceblue;
+    font-size: 34px;
+    font: bold;
+    width: 50%;
+}
+
+.guidetopara{
+font-size: 20px;
+color: white;
+width: 50%;
+
+}
+.guidetopage{
+    background-color: rgb(32, 32, 32);
+    position: relative;
+    width: 1440px;
+    display: inline-block;
+
+}

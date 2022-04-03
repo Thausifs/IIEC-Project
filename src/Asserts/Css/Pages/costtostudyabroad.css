@@ -1,0 +1,55 @@
+
+.costtostudyheading{
+    color: rgb(205, 213, 255,1);
+    font-size: 34px;
+    font: bold;
+    width: 50%;
+}
+
+.costtostudypara{
+    font-size: 20px;
+    color: rgb(205, 213, 255,1);
+    width: 45%;
+    margin-left: 2%;
+
+}
+.costtostudypage{
+    background-color: rgb(32, 32, 32);
+    position: relative;
+    width: 1366px;
+    display: inline-block;
+
+}
+.tablediv{
+    width:157px ;
+    height:48px ;
+    border-radius: 20px;
+     background-color: rgb(84, 84, 84);
+     box-shadow: 0px 0px 5px 3px rgb(58, 58, 58);
+     margin-left: 4%;
+}
+.trdashed{
+    width:664px ;
+    height: 63px;
+    border-radius: 20px;
+    background-color: rgb(102, 102, 102);
+}
+.costtostudypagestd{
+    position: absolute;
+    margin-left: 48%;
+    margin-top: 8%;
+
+
+}
+.hrline{
+    width: 45%;
+    margin-left: 2%;
+}
+.costtostudybox{
+    display: flex;
+    column-gap: 20px;
+    background-color: rgb(32, 32, 32);
+    margin-top: 2%;
+    width: 1366px;
+    margin-bottom: 2%;
+}

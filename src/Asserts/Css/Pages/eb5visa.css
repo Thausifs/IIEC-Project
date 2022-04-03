@@ -1,0 +1,62 @@
+.eb5visaheading {
+    color: rgb(205, 213, 255,1);
+    font-size: 26px;
+    font: bold;
+    width: 40%;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 1%;
+}
+
+.eb5visapara{
+    font-size: 20px;
+    color: rgb(205, 213, 255,1);
+    width: 45%;
+    margin-left: 1%;
+
+}
+.eb5visapage{
+    background-color: rgb(32, 32, 32);
+    position: absolute;
+    width: 1366px;
+
+}
+.eb5visastd{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 48%;
+}
+.eb5visaparas{
+    font-size: 20px;
+    color: rgb(205, 213, 255,1);
+    width: 92%;
+    margin-left: 1%;
+}
+.eb5visaheadings{
+    color: rgb(205, 213, 255,1);
+    font-size: 26px;
+    font: bold;
+    width: 92%;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 1%;
+}
+.eb5visamainhead{
+    color: rgb(205, 213, 255,1);
+    font-size: 34px;
+    font: bold;
+    width: 40%;
+    font-family:  'Montserrat', sans-serif;
+    /* margin-left: 1%; */
+    margin-top: 7%;
+}
+
+ul.eb5visaparaul{
+    list-style-type: circle;
+    font-size: 20px;
+color: white;
+width: 45%;
+
+}
+
+.yournextstepeb5{
+    margin-top: 40%;
+}

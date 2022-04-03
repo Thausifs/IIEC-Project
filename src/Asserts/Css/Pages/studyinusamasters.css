@@ -1,0 +1,25 @@
+
+.studyinusamastersheading{
+    color: aliceblue;
+    font-size: 34px;
+    font: bold;
+    width: 50%;
+}
+
+.studyinusamasterspara{
+font-size: 20px;
+color: white;
+width: 50%;
+
+}
+.studyinusamasterspage{
+    background-color: rgb(32, 32, 32);
+    position: relative;
+    width: 1440px;
+    display: inline-block;
+
+}
+.studyinusamastersmainhead{
+    font-size: 34px;
+    color: aliceblue;
+}

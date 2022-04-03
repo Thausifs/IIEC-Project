@@ -1,0 +1,148 @@
+
+li {
+    display: inline;
+    margin: 15px;
+    vertical-align: middle;
+}
+ul{
+    text-align: center;
+    height: 74px;
+}
+.logo_img{
+    text-align: left; 
+     float: left;
+}
+
+
+    
+
+.homepage{
+    background-color: rgb(32, 32, 32);
+    position: absolute;
+    width: 1366px;
+    display: flex;
+    flex-wrap: wrap;
+    flex:50%;
+    /* justify-content: space-around; */
+    /* align-content: space-around; */
+    /* gap: 5%; */
+    row-gap: 25px;
+    column-gap: 1%;
+    /* padding-left: 1%;     */
+    
+
+
+}
+
+.imgstudyabroad{
+    
+    /* position: absolute; */
+    display: inline-block; 
+     height:340px ;
+    width:664px ;
+}
+
+.studyabroadintakes{
+    height:340px ;
+    width:664px ;
+    /* float: left; */
+    /* position: absolute; */
+    margin-top:120px ;
+
+}
+.homestudyabroad{
+     /* float: right; */
+     /* position: absolute; */
+     /* margin-left: 55%; */
+     margin-top: 0px;
+}
+.homefooter{
+    margin-top: 750px;
+}
+
+.mapimagediv{
+    width: 1444px;
+}
+.images{
+    display: inline-flex;
+    width: 50%;
+}
+.imagesmap{
+    width: 1366px;
+    /* height: 80%; */
+    
+}
+.studyabroadimage{
+    width: 680px;
+    padding-left: 15px;
+}
+.mainpanel{
+    width: 100%;
+}
+.popular_courses{
+    height:766px;
+    width:100% ;
+    background-color: rgb(69, 0, 1);
+
+}
+.coursesheading{
+    padding-top: 100px;
+    color: aliceblue;
+    text-decoration: underline;
+    padding-bottom: 25px;
+}
+.coursesbox{
+    width:308px ;
+    height:380px ;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(32, 32, 32);
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+}
+.pathtosucess{
+    width:320px ;
+    height:240px ;
+}
+.titlesdiv{
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+}
+.students_testimonial{
+    width:1444px ;
+    height:610px ;
+    border: 2px solid wheat;
+    margin-top: 40px;
+}
+.studentstestheading{
+    font-size: 36px;
+    color: aliceblue;
+    margin-top: 35px;
+    text-align: center;
+    text-decoration: underline;
+}
+.studyabroadhome{
+    margin-top: -7%;
+    /* width: 50%; */
+}
+.topbannerhome{
+    margin-top: -7%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 94px;
+    margin-left: 1%;
+
+}
+.studyabroadhome{
+    /* margin-right: -1% ; */
+}
+/* .whystudyabroadhome{
+  
+} */
+
+.popularcoursehomepg{
+    padding-left: 0%;
+}
+
+

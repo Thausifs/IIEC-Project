@@ -1,0 +1,46 @@
+.areyoureadyheading{
+    color: rgb(205, 213, 255,1);
+    font-size: 26px;
+    font: bold;
+    width: 50%;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 10px;
+}
+
+.areyoureadypara{
+    font-size: 20px;
+    color: rgb(205, 213, 255,1);
+    width: 45%;
+    margin-left: 2%;
+
+}
+.areyoureadypage{
+    background-color: rgb(32, 32, 32);
+    position: relative;
+    width: 1366px;
+    display: inline-block;
+
+}
+.areyoreadystd{
+    position: absolute;
+    margin-left: 49%;
+    margin-top: 8%;
+}
+
+.areyoureadymainhead{
+    color: rgb(205, 213, 255,1);
+    font-size: 34px;
+    font: bold;
+    width: 50%;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 0px;
+}
+
+.areyoureadybox{
+    display: flex;
+    column-gap: 20px;
+    background-color: rgb(32, 32, 32);
+    margin-top: 2%;
+    width: 1366px;
+    /* margin-left: 2%; */
+}

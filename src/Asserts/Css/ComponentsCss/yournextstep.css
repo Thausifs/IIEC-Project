@@ -1,0 +1,84 @@
+.yournextstepcon{
+    width:1366px;
+    height:800px ;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.yournextstephead{
+    font: bold;
+    font-size: 44px;
+    text-decoration: 4px underline;
+    color: rgb(205, 213, 255,1);
+    text-underline-offset: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    /* text-align: center; */
+    margin:auto;
+    width: 100%;
+
+}
+.yournextstepsubject , .yournextstepdreams {
+    width: 540px;
+    height:466px ;
+    border-radius: 15px;
+    background-color: rgb(60, 60, 60);
+    display: inline-block;
+    /* flex-wrap: wrap; */
+    box-shadow: 0px 0px 10px  5px  rgb(20,20,20);
+    margin-left: 8%;
+    /* flex: 50%; */
+    /* float: left; */
+    /* justify-content: space-around; */
+    
+
+
+
+}
+/* .yournextstepsubject {
+    /* margin-left: 25%; */
+ */
+.yournextstepdreams{
+    margin-left: 5%;    
+    /* position: absolute;   */
+    /* margin-top: 10px; */
+
+}
+.yournextstepinner , .yournextstepinnertext{
+    width: 450px;
+    height: 165px;
+    box-shadow: 0px 0px 10px  5px rgb(32, 30, 30);
+    border-radius: 20px;
+    margin-left: 6%;
+    margin-top: 5%;
+
+}
+.yournextstepinnertext{
+   margin-top: 5%;
+}
+
+.imagessub{
+    width: 158px;
+    height: 131px;
+    margin: auto;
+    /* justify-items: center; */
+    margin-left: 35%;
+    /* text-align: center; */
+    margin-top: 10%;
+}
+.imagesabd{
+    width:102px ;
+    height:144px ;
+    margin-top: 8%;
+    margin-left: 35%;
+
+}
+.yournextstepara{
+    font: 400;
+    font-size: 28px;
+    color: white;
+    width:70%;
+    margin-left: 15%;
+    padding-top: 25px;
+}

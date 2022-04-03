@@ -1,0 +1,58 @@
+
+.aboutiiecheading{
+    color: rgb(205, 213, 255,1);
+    font-size: 26px;
+    font: bold;
+    width: 40%;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 1%;
+}
+
+.aboutiiecpara{
+    font-size: 20px;
+    color: rgb(205, 213, 255,1);
+    width: 40%;
+    margin-left: 2%;
+    font-family:  'Montserrat', sans-serif;
+}
+.aboutiiecpage{
+    background-color: rgb(32, 32, 32);
+    position: relative;
+    width: 1366px;
+    display: inline-block;
+
+}
+.aboutiiecmainhead{
+    font-size: 34px;
+    color: aliceblue;
+}
+.iiecpgstd{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 50%;
+}
+.aboutiiecmainhead{
+    color: rgb(205, 213, 255,1);
+    font-size: 34px;
+    font: bold;
+    width: 40%;
+    font-family:  'Montserrat', sans-serif;
+    /* margin-left: 1%; */
+    margin-top: 8%;
+}
+ul.aboutiiecparaul{
+    list-style-type: circle;
+    font-size: 20px;
+color: white;
+width: 45%;
+}
+.aboutiiecparas{
+    font-size: 20px;
+    color: rgb(205, 213, 255,1);
+    width: 46%;
+    margin-left: 2%;
+    font-family:  'Montserrat', sans-serif;
+}
+.nextstepdiv{
+    margin-top: 24%;
+}

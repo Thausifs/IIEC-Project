@@ -1,0 +1,74 @@
+/* li {
+    display: inline;
+    margin: 15px;
+    vertical-align: middle;
+}
+ul{
+    text-align: center;
+    height: 74px;
+} */
+
+
+.headerdiv {
+     height: 50px;
+     width: 100%;
+     /* border: 2px solid black; */
+     background-color: rgb(32, 32, 32);
+     
+}
+
+
+ul{
+    text-align: left;
+}
+
+.header_logo{
+    padding-right: 17.3%;
+}
+
+.header_placeholder{
+    height: 46px;
+    width: 25%;
+    font-size: 20px;
+    border: 2px groove black
+    
+      
+}
+
+.event{
+    color: white;
+    font-size: 22px;
+}
+.findus{
+    color: white;
+    font-size: 22px;
+}
+.header_placeholder{
+    width: 25%;
+    height: 46px;
+    border-radius: 10px;
+    background-color: rgb(52, 48, 48);
+    ;
+    /* border: 5px groove rgb(32, 32, 32); */
+    box-shadow: 2px 2px 2px 2px inset rgb(0, 0, 0)   ;
+    box-shadow: -2px -2px 2px 2px inset rgb(53, 50, 50) ;
+    font-weight: 900;
+}
+#searchimputplaceholder::placeholder{
+    color: rgb(205, 213, 255,1);
+}
+
+.enquirebtn{
+    width: 8.5%;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 22px;
+    color: white;
+    background-color: firebrick;
+}
+
+.header{
+    height: 75px;
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+}

@@ -1,0 +1,26 @@
+.immigrationservicespage{
+    background-color: rgb(32, 32, 32);
+    position: absolute;
+    width: 1366px;
+
+}
+.immigrationservicesstd{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 50%;
+}
+.immigrationservicesfirstdiv{
+    margin-top: 6%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.yoursnextstepimmi{
+    margin-top: 45%;
+}
+.immigrationservicesmainhead{
+    color: rgb(205, 213, 255,1);
+    font-size: 34px;
+    font: bold;
+    width: 50%;
+}

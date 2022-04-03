@@ -1,0 +1,20 @@
+.studyabroaddestinationsheading {
+    color: aliceblue;
+    font-size: 34px;
+    font: bold;
+    width: 50%;
+}
+
+.studyabroaddestinationspara{
+font-size: 20px;
+color: white;
+width: 50%;
+
+}
+.studyabroaddestinationspage{
+    background-color: rgb(32, 32, 32);
+    position: relative;
+    width: 1440px;
+    display: inline-block;
+
+}
