@@ -1,7 +1,7 @@
 
 .studyingabroadheading{
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
@@ -9,7 +9,7 @@
 }
 
 .studyingabroadpara{
-    font-size: 20px;
+    font-size: 1.389vw;
     color: rgb(205, 213, 255,1);
     width: 45%;
     margin-left: 1%;
@@ -17,7 +17,7 @@
 .studyingabroadpage{
     background-color: rgb(32, 32, 32);
     position: relative;
-    width: 1366px;
+    width: 100vw;
     display: inline-block;
 
 }
@@ -27,14 +27,14 @@
     margin-top: 8%;
 }
 .studyingabroadparas{
-    font-size: 20px;
+    font-size: 1.389vw;
     color: rgb(205, 213, 255,1);
     width: 94%;
     margin-left: 1%;
 }
 .studyingabroadheadings{
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 94%;
     font-family:  'Montserrat', sans-serif;
@@ -43,4 +43,39 @@
 .hrline{
     width: 45%;
     margin-left: 2%;
+}
+
+@media only screen and  (max-width:480px) and (min-width:150px){
+
+.studyingAbroadfaqsstd{
+    display: block;
+    width: 100%;
+    position: relative;
+    margin-left: 0%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+}
+.studyingabroadheading{
+    font-size: 3.6vw;
+}
+.studyingabroadpara , .studyingabroadparaul{
+    width: 95%;
+    font-size: 2.8vw;
+}
+.guidetoparentsparas{
+    width: 95%;
+    font-size: 2.8vw;
+}
+.studyingabroadheading , .studyingabroadheadings {
+    width: 95%;
+    font-size: 4vw;
+}
+ul.studyingabroadparaul{
+    width: 95%;
+    line-height: 1.389vw;
+}
+.studyingabroadparas{
+    font-size: 2.8vw;
+}
 }

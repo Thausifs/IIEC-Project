@@ -1,38 +1,76 @@
 .whatwedoheading{
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
-    width: 40%;
+    width: 100%;
     font-family:  'Montserrat', sans-serif;
     margin-left: 1%;
 }
 
 .whatwedopara{
-    font-size: 20px;
+    font-size: 1.389vw;
     color: rgb(205, 213, 255,1);
-    width: 45%;
+    width: 98%;
     margin-left: 1%;
 
 }
 .whatwedopage{
     background-color: rgb(32, 32, 32);
     position: absolute;
-    width: 1366px;
+    width: 100vw;
 }
 .whatwestd{
     position: absolute;
-    margin-top: 10%;
-    margin-left: 48%;
+    margin-top: 20%;
+    margin-left: 49%;
 }
-.nextstepdiv{
-    margin-top: 100%;
+.whatwedonextstepdiv{
+    margin-top: 5%;
+    /* position: relative; */
 }
 .whatwedomainhead{
     color: rgb(205, 213, 255,1);
-    font-size: 34px;
+    font-size: 2.361vw;
     font: bold;
-    width: 40%;
+    width: 100%;
     font-family:  'Montserrat', sans-serif;
     /* margin-left: 1%; */
     margin-top: 8%;
+}
+.whatwedotitlediv{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vw;
+    margin-bottom: 1%;
+}
+
+@media only screen and  (max-width:480px) and (min-width:150px){
+
+    .whatwedoheading{
+        width: 90%;
+        font-size: 3.2vw;
+    }
+        .whatwedopara{
+        width: 95%;
+        font-size: 3vw;
+        }
+        .whatwestd{
+            position: relative;
+            width: 95%;
+            margin-top: 5%;
+            margin-left: 2%;
+        }
+            .whatwedonextstepdiv{
+                margin-top: 3%;
+            }
+            .whatwedomainhead{
+                width: 90%;
+                font-size: 5vw;
+            }
+        
+            .whatwedotitlediv{
+                width: 90%;
+                padding-left: 2%;
+            }
 }

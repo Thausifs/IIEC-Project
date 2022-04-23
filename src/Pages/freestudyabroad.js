@@ -5,6 +5,10 @@ import Footer from '../Components/footer';
 import Navbar from '../Components/navbar';
 import StudyAbroad from '../Components/StudyAbroad';
 import YourNextStep from '../Components/YourNextStep';
+import CourseAdvicesixreasons from '../Components/Courseadvicesixreasons';
+import IIecguidetoStudyAbroad from '../Components/IIecguidetostudyabroad';
+
+
 
 
 const FreeStudyAbroad = ()=>{
@@ -41,7 +45,10 @@ const FreeStudyAbroad = ()=>{
            <p className='freestudyabroadpara'>How can I book an appointment?</p>
            <p className='freestudyabroadpara'>You may either call us on 1800 102 2233 or walk in to your nearest IDP office in India. You may also book an appointment online.</p>
            <p className='freestudyabroadpara'>Our support does not end with your acceptance letter. We will be there to assist you even after you reach your new country. Come, see us – It’s free!</p>
-
+        <div className='freestudyabroadbottomdiv'>
+            <CourseAdvicesixreasons/>
+            <IIecguidetoStudyAbroad/>
+        </div>
         <YourNextStep></YourNextStep>
         <Footer></Footer>
         </div>

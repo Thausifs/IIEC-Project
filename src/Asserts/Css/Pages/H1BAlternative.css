@@ -1,6 +1,7 @@
-.h1balternativeheading {
+
+.h1balternativeheading{
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
@@ -8,7 +9,7 @@
 }
 
 .h1balternativepara{
-    font-size: 20px;
+    font-size: 1.389vw;
     color: rgb(205, 213, 255,1);
     width: 45%;
     margin-left: 1%;
@@ -17,46 +18,63 @@
 .h1balternativepage{
     background-color: rgb(32, 32, 32);
     position: absolute;
-    width: 1366px;
+    width: 100vw;
 
-}
-.h1baltstd{
-    position: absolute;
-    margin-top: 7%;
-    margin-left: 48%;
-}
-.h1balternativeparas{
-    font-size: 20px;
-    color: rgb(205, 213, 255,1);
-    width: 92%;
-    margin-left: 1%;
-}
-.h1balternativeheadings{
-    color: rgb(205, 213, 255,1);
-    font-size: 26px;
-    font: bold;
-    width: 92%;
-    font-family:  'Montserrat', sans-serif;
-    margin-left: 1%;
 }
 .h1balternativemainhead{
     color: rgb(205, 213, 255,1);
-    font-size: 34px;
+    font-size: 2.361vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
     /* margin-left: 1%; */
     margin-top: 7%;
 }
-
-ul.h1balternativeparaul{
-    list-style-type: circle;
-    font-size: 20px;
-color: white;
-width: 45%;
-
+.h1balternativestd{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 48%;
+}
+.h1balternativeheadings{
+    color: rgb(205, 213, 255,1);
+    font-size: 1.806vw;
+    font: bold;
+    width: 92%;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 1%;
+}
+.h1balternativeparas{
+    font-size: 1.389vw;
+    color: rgb(205, 213, 255,1);
+    width: 92%;
+    margin-left: 1%;
+}
+.yournextsteph1a{
+    margin-top: 85%;
 }
 
-.yournextsteph1a{
-    margin-top: 90%;
+@media only screen and  (max-width:480px) and (min-width:150px){
+    .h1balternativepara , .h1balternativeparas {
+        font-size: 3vw;
+        width: 90%;
+    }
+    .h1balternativeheading , .h1balternativeheadings {
+        font-size: 3.4vw;
+        width: 90%;
+
+    }
+   
+
+    .h1balternativestd{
+        width: 100%;
+        position: relative;
+        margin-left:0%;
+    }
+    .h1balternativemainhead{
+        font-size: 4.5vw;
+
+    }
+    .yournextsteph1a{
+        margin-top: 15%;
+    }
 }

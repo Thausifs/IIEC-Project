@@ -4,13 +4,14 @@ import Bachelorsinusa from "../Asserts/images/Bachelorsinusa.png";
 
 const BachelorsinUSA  = () => {
   return (
-    
-      <div className="Bachelorsinusacomponents">
+    <div className='bachelorsinusamaindiv'>
+      <div className="bachelorsinusacomponents">
         {" "}
-        <a href='/bachelorsinusa'><img className='Bachelorsinusacomponentsimg' src={Bachelorsinusa} width="320px" height="274px" ></img></a>
-        <p className="Bachelorsinusacomponentsone">BACHELORS IN USA </p>
-        <p className='Bachelorsinusacomponentstwo'>Bachelor’s level education in USA normally starts after the completion of 12 years of primary and secondary education. Hence, education beyond class XII is also known as ‘post-secondary’ education, in USA.
+        <div className='bachelorsinusaimgdiv'>  <a href='/bachelorsinusa'><img className='bachelorsinusaimg' src={Bachelorsinusa}  ></img></a></div>
+        <p className="bachelorsinusaone">BACHELORS IN USA </p>
+        <p className='bachelorsinusatwo'>Bachelor’s level education in USA normally starts after the completion of 12 years of primary and secondary education. Hence, education beyond class XII is also known as ‘post-secondary’ education, in USA.
  </p>
+      </div>
       </div>
     
   );

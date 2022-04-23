@@ -23,37 +23,37 @@ const StudyHTM = ()=>{
             <p className='studyhtmpara'>Register your name on success by registering with IIEC.</p>
 
             <h1 className='studyhtmmainhead'>Advantages of joining HTMI Dubai</h1>
-            <ul className='studyhtmpara'>
-                <li>75% of HTMi graduates join Major international hotel chains.
-</li><br/>
-                <li>Brand new state-of-the-art campus in the heart of Dubai at Studio one hotel.
-</li><br/>
-                <li>Approved and attested by the Knowledge and Human Development Authority in UAE.
-</li><br/>
-                <li>
+            <div className='studyhtmpara'>
+                <p>75% of HTMi graduates join Major international hotel chains.
+</p><br/>
+                <p>Brand new state-of-the-art campus in the heart of Dubai at Studio one hotel.
+</p><br/>
+                <p>Approved and attested by the Knowledge and Human Development Authority in UAE.
+</p><br/>
+                <p>
 International study pathway to HTMi's Global Campuses in Singapore and Switzerland.
-</li><br/>
-                <li>International study pathway to HTMi's Global Campuses in Singapore and Switzerland.
-</li><br/>
-                <li>Global hospitality network for Internships and work placements.
-</li><br/>
-<li>80% of HTMI graduates secure full-time placement before completing final semesters. 
-</li><br/>
-            </ul><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+</p><br/>
+                <p>International study pathway to HTMi's Global Campuses in Singapore and Switzerland.
+</p><br/>
+                <p>Global hospitality network for Internships and work placements.
+</p><br/>
+<p>80% of HTMI graduates secure full-time placement before completing final semesters. 
+</p><br/>
+            </div>
             <h1 className='studyhtmmainhead'>Get only the best in Dubai </h1>
-            <ul className='studyhtmpara'>
-                <li>Soak into the luxury of Dubai
-</li><br/>
-                <li>Many Cultures in One Location
-</li><br/>
-                <li>Explore All Seven Emirates countries
-</li><br/>
-                <li>Gateway to Europe
-</li><br/>
-                <li>Known for the luxury hotels and resorts
-</li><br/>
-                <li>Part-time jobs for students </li>
-            </ul>
+            <div className='studyhtmpara'>
+                <p>Soak into the luxury of Dubai
+</p><br/>
+                <p>Many Cultures in One Location
+</p><br/>
+                <p>Explore All Seven Emirates countries
+</p><br/>
+                <p>Gateway to Europe
+</p><br/>
+                <p>Known for the luxury hotels and resorts
+</p><br/>
+                <p>Part-time jobs for students </p>
+            </div>
             
 
 <div className='yournextstepdiv'><YourNextStep></YourNextStep></div>

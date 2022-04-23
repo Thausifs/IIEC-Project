@@ -1,6 +1,7 @@
-.eb5visaheading {
+
+.eb5visaheading{
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
@@ -8,7 +9,7 @@
 }
 
 .eb5visapara{
-    font-size: 20px;
+    font-size: 1.7vw;
     color: rgb(205, 213, 255,1);
     width: 45%;
     margin-left: 1%;
@@ -17,46 +18,57 @@
 .eb5visapage{
     background-color: rgb(32, 32, 32);
     position: absolute;
-    width: 1366px;
+    width: 100vw;
 
-}
-.eb5visastd{
-    position: absolute;
-    margin-top: 7%;
-    margin-left: 48%;
-}
-.eb5visaparas{
-    font-size: 20px;
-    color: rgb(205, 213, 255,1);
-    width: 92%;
-    margin-left: 1%;
-}
-.eb5visaheadings{
-    color: rgb(205, 213, 255,1);
-    font-size: 26px;
-    font: bold;
-    width: 92%;
-    font-family:  'Montserrat', sans-serif;
-    margin-left: 1%;
 }
 .eb5visamainhead{
     color: rgb(205, 213, 255,1);
-    font-size: 34px;
+    font-size: 2.361vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
     /* margin-left: 1%; */
     margin-top: 7%;
 }
-
-ul.eb5visaparaul{
-    list-style-type: circle;
-    font-size: 20px;
-color: white;
-width: 45%;
-
+.eb5visastd{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 48%;
+}
+.eb5visaheadings{
+    color: rgb(205, 213, 255,1);
+    font-size: 1.806vw;
+    font: bold;
+    width: 92%;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 1%;
+}
+.eb5visaparas{
+    font-size: 1.7vw;
+    color: rgb(205, 213, 255,1);
+    width: 92%;
+    margin-left: 1%;
 }
 
-.yournextstepeb5{
-    margin-top: 40%;
+@media only screen and  (max-width:480px) and (min-width:150px){
+    .eb5visapara , .eb5visaparas {
+        font-size: 3vw;
+        width: 90%;
+    }
+    .eb5visaheading , .eb5visaheadings {
+        font-size: 3.4vw;
+        width: 90%;
+
+    }
+   
+
+    .eb5visastd{
+        width: 100%;
+        position: relative;
+        margin-left:0%;
+    }
+    .eb5visamainhead{
+        font-size: 4.5vw;
+
+    }
 }

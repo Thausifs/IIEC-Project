@@ -21,12 +21,13 @@ const Visa = ()=>{
         <div className='visapage'>
         <Header></Header>
         <Navbar></Navbar>
+        <h2 className='visamainhead'>VISA SERVICES</h2>
         <div className='visastd'>  <StudyAbroad></StudyAbroad></div>
-           <h2 className='visamainhead'>VISA SERVICES</h2>
+          
        <div className='visafirstdiv'> <BusinessVisa ></BusinessVisa ><DependentVisa/><EB5Visa/><H1BAlternative/><TouristVisa/><VisaRefusal/>
          </div> 
           
-       <div className='yoursnextstepdiv' > <YourNextStep></YourNextStep></div>
+       <div className='visafirstyoursnextstepdiv' > <YourNextStep></YourNextStep></div>
       <Footer></Footer>
      </div>
     )

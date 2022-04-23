@@ -1,6 +1,6 @@
 .usaj1heading {
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
@@ -8,41 +8,32 @@
 }
 
 .usaj1para{
-    font-size: 20px;
+    font-size: 1.389vw;
     color: rgb(205, 213, 255,1);
     width: 45%;
-    margin-left: 1%;
-
-
-}
-
-.usaj1parali{
-    font-size: 20px;
-    color: rgb(205, 213, 255,1);
-    width: 40%;
     margin-left: 1%;
 
 }
 .usaj1page{
     background-color: rgb(32, 32, 32);
     position: absolute;
-    width: 1366px;
+    width: 100vw;
 
 }
 .usaj1std{
     position: absolute;
     margin-top: 7%;
-    margin-left: 48%;
+    margin-left: 50%;
 }
 .usaj1paras{
-    font-size: 20px;
+    font-size: 1.389vw;
     color: rgb(205, 213, 255,1);
     width: 92%;
     margin-left: 1%;
 }
 .usaj1headings{
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 92%;
     font-family:  'Montserrat', sans-serif;
@@ -50,13 +41,51 @@
 }
 .usaj1mainhead{
     color: rgb(205, 213, 255,1);
-    font-size: 34px;
+    font-size: 2.361vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
     /* margin-left: 1%; */
     margin-top: 7%;
 }
+.tabledivusaj1{
+    height: auto;
+    width: 46%;
+    border-radius: 1.389vw;
+     background-color: rgb(61, 61, 61);
+     box-shadow: 0px 0px 5px 3px rgb(58, 58, 58);
+     margin-left: 2%;
+}
 .yournextstepUSAJ1{
-    margin-top: 100%;
+    margin-top: 35%;
+}
+
+
+@media only screen and  (max-width:480px) and (min-width:150px){
+    .usaj1para , .usaj1paras {
+        font-size: 2.2vw;
+        width: 90%;
+    }
+    .usaj1heading , .usaj1headings {
+        font-size: 3.4vw;
+        width: 90%;
+
+    }
+   
+
+    .usaj1std{
+        width: 100%;
+        position: relative;
+        margin-left:0%;
+    }
+    .usaj1mainhead{
+        font-size: 4.5vw;
+
+    }
+    .tabledivusaj1{
+        width: 95%;
+    }
+    .yournextstepUSAJ1{
+        margin-top: 5%;
+    }
 }

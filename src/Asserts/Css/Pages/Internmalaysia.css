@@ -1,6 +1,6 @@
 .Internmalaysiaheading {
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
@@ -8,7 +8,7 @@
 }
 
 .Internmalaysiapara{
-    font-size: 20px;
+    font-size: 1.389vw;
     color: rgb(205, 213, 255,1);
     width: 45%;
     margin-left: 1%;
@@ -17,7 +17,7 @@
 }
 
 .Internmalaysiaparali{
-    font-size: 22px;
+    font-size: 1.528vw;
     color: rgb(205, 213, 255,1);
     width: 40%;
     margin-left: 1%;
@@ -26,7 +26,7 @@
 .Internmalaysiapage{
     background-color: rgb(32, 32, 32);
     position: absolute;
-    width: 1366px;
+    width: 100vw;
 
 }
 .Internmalaysiastd{
@@ -35,14 +35,14 @@
     margin-left: 48%;
 }
 .Internmalaysiaparas{
-    font-size: 20px;
+    font-size: 1.389vw;
     color: rgb(205, 213, 255,1);
     width: 92%;
     margin-left: 1%;
 }
 .Internmalaysiaheadings{
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 92%;
     font-family:  'Montserrat', sans-serif;
@@ -50,7 +50,7 @@
 }
 .Internmalaysiamainhead{
     color: rgb(205, 213, 255,1);
-    font-size: 34px;
+    font-size: 2.361vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
@@ -59,4 +59,24 @@
 }
 .yournextstepInternmalaysia{
     margin-top: 30%;
+}
+
+@media only screen and  (max-width:480px) and (min-width:150px){
+    .Internmalaysiapara{
+        width: 90%;
+        font-size: 3vw;
+    }
+    .Internmalaysiastd{
+        position: relative;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .Internmalaysiamainhead{
+        font-size: 4.5vw;
+        width: 100%;
+    }
+    .Internmalaysiaheading {
+        font-size: 3.8vw;
+        width: 100%;
+    }
 }

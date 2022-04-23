@@ -11,7 +11,7 @@ const StudyinEurope = () => {
     <div className="studyineuropepage">
       <Header></Header>
       <Navbar></Navbar>
-      <StudyAbroad></StudyAbroad>
+      <div className="studyineuropestd">  <StudyAbroad></StudyAbroad></div>
       <h1 className="studyineuropemainhead">Study in Europe</h1>
       <h2 className="studyineuropemainhead">EDUCATION IN SINGAPORE</h2>
       <p className="studyineuropepara">
@@ -65,7 +65,7 @@ const StudyinEurope = () => {
       <h1 className="studyineuropemainhead">WHY STUDY IN EUROPE</h1>
       <h1 className="studyineuropemainhead">QUALITY</h1>
       <h1 className="studyineuropemainhead">Excellence</h1>
-      <p className="studyineuropepara">
+      <p className="studyineuropeparas">
         Europe has a world-wide reputation as a centre of excellence in
         learning. Year after year, European universities rank prominently among
         the top 100 in the world. And only Europe can offer state-of-the-art
@@ -73,14 +73,14 @@ const StudyinEurope = () => {
         chance to walk in the footsteps of so many of the world’s most
         influential thinkers.
       </p>
-      <h1>Quality assured</h1>
-      <p className="studyineuropepara">
+      <h1 className="studyineuropemainhead">Quality assured</h1>
+      <p className="studyineuropeparas">
         Europe is developing a scheme of quality assurance. A comprehensive
         quality control process is planned for 2010, by when Europe will be
         emblematic of a guarantee of quality in higher education.
       </p>
       <h1 className="studyineuropemainhead">Value for Money</h1>
-      <p className="studyineuropepara">
+      <p className="studyineuropeparas">
         These high academic standards are achieved without breaking the bank.
         Tuition fees and daily costs are reasonable, the education sector being
         a top priority for Europe’s competitiveness. Lasting legacy Europe
@@ -89,15 +89,15 @@ const StudyinEurope = () => {
         higher education institutions benefit from this lasting legacy.
       </p>
       <h1 className="studyineuropemainhead">DIVERSITY</h1>
-      <h2>Choice</h2>
-      <p className="studyineuropepara">
+      <h2 className="studyineuropeheadings">Choice</h2>
+      <p className="studyineuropeparas">
         There are thousands of higher education institutions in Europe to choose
         from, offering a great variety of degree programmes. From leading
         research universities to small, friendly teaching colleges, you’re sure
         to find what you’re looking for.
       </p>
       <h1 className="studyineuropemainhead">Tradition and innovation</h1>
-      <p className="studyineuropepara">
+      <p className="studyineuropeparas">
         Immerse yourself in a continent with a wealth of traditions and a
         history as rich and varied as its many peoples and landscapes. At the
         same time, Europe is a hotbed of research and innovation, home to
@@ -106,7 +106,7 @@ const StudyinEurope = () => {
         from ICT to nuclear fusion.
       </p>
       <h1 className="studyineuropemainhead">Multicultural</h1>
-      <p className="studyineuropepara">
+      <p className="studyineuropeparas">
         Europe offers a unique cultural experience in a dynamic, multinational
         environment. Besides earning a world-class qualification, you’ll have
         the chance to learn new languages and intercultural skills that are of
@@ -116,36 +116,36 @@ const StudyinEurope = () => {
         innovate
       </p>
       <h1 className="studyineuropemainhead">OPPORTUNITIES</h1>
-      <h2>World-reowned</h2>
-      <p className="studyineuropepara">
+      <h2 className="studyineuropeheadings">World-reowned</h2>
+      <p className="studyineuropeparas">
         Studying in Europe gives you a top-quality education which will be
         respected the world over. Moreover, you can take advantage of the many
         scholarships that European universities offer.
       </p>
-      <h2>Opening Doors</h2>
-      <p className="studyineuropepara">
+      <h2 className="studyineuropeheadings">Opening Doors</h2>
+      <p className="studyineuropeparas">
         Employers won’t only be impressed by your education; they’ll also
         appreciate the other skills you will have acquired. Your time in Europe
         will prepare you for the global economy, developing assets such as
         self-reliance, independence and intercultural and linguistic abilities
         that will set you apart from the competition.
       </p>
-      <h2>Portable Skills</h2>
-      <p className="studyineuropepara">
+      <h2 className="studyineuropeheadings">Portable Skills</h2>
+      <p className="studyineuropeparas">
         Many countries encourage the best and brightest students to remain after
         their studies. Alternatively, you can take your newly acquired skills
         back home to use there. A European higher education will increase your
         mobility – across Europe and the rest of the world.
       </p>
-      <h2>Spring board from your Travels</h2>
-      <p className="studyineuropepara">
+      <h2 className="studyineuropeheadings">Spring board from your Travels</h2>
+      <p className="studyineuropeparas">
         Always wanted to explore Europe? Studying here provides the perfect
         launch-pad for your travels. Take the chance to visit our great cities,
         bathe on our beautiful beaches, ski in the Alps or join in the fiesta.
       </p>
       <h1 className="studyineuropemainhead">LIVING IN EUROPE</h1>
-      <ul className="studyineuropepara">
-        <li>
+     <div className="studyineuropeparas" >
+        <p>
           In today’s Europe, a nickel is the new penny. Yes, rich countries like
           Finland and the Netherlands have actually taken their one-cent and
           two-cent euro coins out of circulation. Prices are high for
@@ -153,117 +153,117 @@ const StudyinEurope = () => {
           too. Yet regardless of the soaring cost of living, Europeans remain
           experts at living well. Even those who don’t have much money manage
           plenty of la dolce vita.
-        </li>
-        <li>
+        </p>
+        <p>
           If you travel like a European, you can live well, too—enjoying a
           memorable and affordable trip anywhere in Europe, traveling “through
           the back door” for €100 a day. If everyone says, “Portugal is cheap,”
           but your travel dreams are taking you to the Swiss Alps, then your
           best value is in Switzerland…traveling smartly.
-        </li>
-      </ul>
+        </p>
+      </div>
 
       <h1 className="studyineuropemainhead">TYPE OF EDUCATION IN EUROPE</h1>
-      <ul className="studyineuropepara">
-        <li>
+     <div className="studyineuropeparas">
+        <p>
           In the European Union, more than one person in six enrolled in
           education is in tertiary education
-        </li>
-        <li>
+        </p>
+        <p>
           Over 80 % of European students enrolled in tertiary education are in
           ‘theoretically based’ programmes (ISCED 5A)
-        </li>
-        <li>
+        </p>
+        <p>
           The number of students in tertiary education is continuing to grow,
           especially in advanced research programmes (ISCED 6)
-        </li>
-        <li>
+        </p>
+        <p>
           Participation rates of those aged 18-39 in tertiary education vary in
           the proportion of one to three.
-        </li>
-        <li>
+        </p>
+        <p>
           The proportion of women in tertiary education tends to be higher if
           overall enrolment rates are high.
-        </li>
-        <li>
+        </p>
+        <p>
           Men and women enroll in similar numbers in ‘agriculture and veterinary
           science’
-        </li>
-        <li>
+        </p>
+        <p>
           One-third of doctoral students in Europe are preparing for a career in
           science and technology
-        </li>
-        <li>
+        </p>
+        <p>
           Tertiary education participation rates peak in the 20-24 age group. In
           all age groups women are enrolled in greater numbers than men.
-        </li>
-        <li>The age distribution of students in Europe is very mixed.</li>
-        <li>
+        </p>
+        <p>The age distribution of students in Europe is very mixed.</p>
+        <p>
           Part-time students are much older, particularly in the case of women.
-        </li>
-        <li>
+        </p>
+        <p>
           {" "}
           In the first cycle of tertiary education as a whole, over 20 % of
           students abandon or prolong their studies.
-        </li>
-      </ul>
+        </p>
+     </div>
 
       <h1 className="studyineuropemainhead">10 GREAT REASONS TO STUDY IN EUROPE</h1>
-      <ul className="studyineuropepara">
-        <li>
+     <div className="studyineuropeparas">
+        <p>
           Great intellectual and technical innovations have made Europe what it
           is today: a leader in areas of the liberal arts, in design and
           fashion, in banking and financing, in the media and in
           telecommunications technologies.
-        </li>
-        <li>
+        </p>
+        <p>
           Europe is an important centre of innovation and a driving force behind
           scientific progress with highly regarded universities and institutes
           of education guaranteeing an unparalleled standard of teaching.
-        </li>
-        <li>
+        </p>
+        <p>
           In Europe you will find an astounding mosaic of universities and
           institutions of higher education. No matter what your personal
           preference – whether scientific or technical, the liberal arts or
           business and economics – you can attend the courses you need for your
           future career
-        </li>
-        <li>
+        </p>
+        <p>
           In the EU you find qualified higher education and training directly
           connected to business, industry and on-the-job work experience.
-        </li>
-        <li>
+        </p>
+        <p>
           You can expect excellent education systems that can serve as a
           springboard to your future career. European higher education
           institutions regularly undergo quality control reviews and meet the
           highest international standards.
-        </li>
-        <li>
+        </p>
+        <p>
           Education is considered a basic right and great effort is undertaken
           to ensure that the more than 6,000 higher education institutions re
           open to anyone with the appropriate qualifications.
-        </li>
-        <li>Tuition fees either do not exist or are very modest if charged.</li>
-        <li>
+        </p>
+        <p>Tuition fees either do not exist or are very modest if charged.</p>
+        <p>
           European universities are becoming increasingly internationalized.
           Already, more than 100,000 students from Asia alone are currently
           studying at higher learning institutions throughout the European
           Union.
-        </li>
-        <li>
+        </p>
+        <p>
           No need to learn a new language if you do not want to. English is
           sufficient in most EU universities.
-        </li>
-        <li>
+        </p>
+        <p>
           During study breaks, you can also enjoy the vibrant life of modern
           Europe: contemporary music trends, modern dance, avant-garde theatre,
           or fashion. Study in Europe and enjoy Europe’s varied and cosmopolitan
           traditions!
-        </li>
-      </ul>
+        </p>
+      </div>
 
       <h1 className="studyineuropemainhead">SCHOLARSHIP</h1>
-      <ul className="studyineuropepara">
+      <ul className="studyineuropeparas">
         <li>
           There are many scholarship schemes which will be very useful to the
           students who go abroad for studies. We support in getting the

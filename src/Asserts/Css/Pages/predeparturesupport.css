@@ -1,6 +1,6 @@
 .predeparturesupportheading {
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
@@ -8,7 +8,7 @@
 }
 
 .predeparturesupportpara{
-    font-size: 20px;
+    font-size: 1.369vw;
     color: rgb(205, 213, 255,1);
     width: 45%;
     margin-left: 1%;
@@ -17,7 +17,7 @@
 .predeparturesupportpage{
     background-color: rgb(32, 32, 32);
     position: absolute;
-    width: 1366px;
+    width: 100vw;
 
 }
 .predepartmentdiv{
@@ -27,14 +27,14 @@
 }
 
 .predeparturesupportparas{
-    font-size: 20px;
+    font-size: 1.369vw;
     color: rgb(205, 213, 255,1);
     width: 92%;
     margin-left: 1%;
 }
 .predeparturesupportheadings{
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 92%;
     font-family:  'Montserrat', sans-serif;
@@ -42,10 +42,35 @@
 }
 .predeparturemainhead{
     color: rgb(205, 213, 255,1);
-    font-size: 34px;
+    font-size: 2.361vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
     /* margin-left: 1%; */
     margin-top: 4%;
 }
+
+@media only screen and  (max-width:480px) and (min-width:200px) {
+    .predepartmentdiv{
+        width: 90%;
+        position: relative;
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+   
+    .predeparturesupportheading , .predeparturesupportheadings{
+        font-size: 3.6vw;
+        width: 95%;
+    }
+    .predeparturesupportpara, .predeparturesupportparas {
+        font-size: 2.8vw;
+        width: 95%;
+    }
+    .predeparturesupportpage{
+        position: relative;
+    }
+    .predeparturemainhead{
+        font-size: 4.2vw;
+    }
+}    
+    

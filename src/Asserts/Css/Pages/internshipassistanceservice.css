@@ -1,26 +1,56 @@
 .internshipassistancepage{
     background-color: rgb(32, 32, 32);
     position: absolute;
-    width: 1366px;
+    width: 100vw;
 
 }
 .internshipassistancestd{
     position: absolute;
-    margin-top: 6%;
+    margin-top: 0%;
     margin-left: 50%;
 }
 .internshipassistancefirstdiv{
     margin-top: 6%;
     display: flex;
     flex-direction: column;
-    row-gap: 25px;
+    row-gap: 1.736vw;
+    width: 49%;
 }
-.yoursnextstepIAS{
-    margin-top: 5%;
-}
+
 .internshipassistancemainhead{
     color: rgb(205, 213, 255,1);
-    font-size: 34px;
+    font-size: 2.361vw;
     font: bold;
     width: 50%;
+}
+.yoursnextstepYNS{
+    margin-top: 9%;
+}
+
+@media only screen and  (max-width:480px) and (min-width:200px) {
+    .internshipassistancefirstdiv{
+         /* margin-top: -15%; */
+         display: flex;
+         flex-direction: column;
+         width: 100%;
+         /* margin-top: 30px; */
+         margin-left: 0%;
+         row-gap:  4vw;
+         margin-bottom: 2%;
+
+       
+
+    }
+    .internshipassistancemainhead{
+        font-size: 4.2vw;
+    }
+
+    .internshipassistancestd{
+        width: 100%;
+        margin-top: 2%;
+        position: relative;
+        margin-left: 2%;
+       
+    }
+
 }

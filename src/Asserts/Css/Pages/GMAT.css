@@ -1,6 +1,7 @@
-.gmatheading {
+
+.gmatheading{
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
@@ -8,55 +9,74 @@
 }
 
 .gmatpara{
-    font-size: 20px;
+    font-size: 1.7vw;
     color: rgb(205, 213, 255,1);
     width: 45%;
-    margin-left: 1%;
-
-
-}
-
-.gmatparali{
-    font-size: 20px;
-    color: rgb(205, 213, 255,1);
-    width: 40%;
     margin-left: 1%;
 
 }
 .gmatpage{
     background-color: rgb(32, 32, 32);
     position: absolute;
-    width: 1366px;
+    width: 100vw;
 
-}
-.gmatstd{
-    position: absolute;
-    margin-top: 7%;
-    margin-left: 48%;
-}
-.gmatparas{
-    font-size: 20px;
-    color: rgb(205, 213, 255,1);
-    width: 92%;
-    margin-left: 1%;
-}
-.gmatheadings{
-    color: rgb(205, 213, 255,1);
-    font-size: 26px;
-    font: bold;
-    width: 92%;
-    font-family:  'Montserrat', sans-serif;
-    margin-left: 1%;
 }
 .gmatmainhead{
     color: rgb(205, 213, 255,1);
-    font-size: 34px;
+    font-size: 2.361vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
     /* margin-left: 1%; */
     margin-top: 7%;
 }
-.YNSgmat{
-    margin-top: 75%;
+.gmatstd{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 48%;
+}
+.gmatheadings{
+    color: rgb(205, 213, 255,1);
+    font-size: 1.806vw;
+    font: bold;
+    width: 92%;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 1%;
+}
+.gmatparas{
+    font-size: 1.7vw;
+    color: rgb(205, 213, 255,1);
+    width: 92%;
+    margin-left: 1%;
+}
+.gmatYNS{
+    margin-top: 60%;
+}
+
+@media only screen and  (max-width:480px) and (min-width:150px){
+    .gmatpara , .gmatparas {
+        font-size: 3vw;
+        width: 90%;
+    }
+    .gmatheading , .gmatheadings {
+        font-size: 3.4vw;
+        width: 90%;
+
+    }
+   
+
+    .gmatstd{
+        width: 100%;
+        position: relative;
+        margin-left:0%;
+        margin-bottom: 2%;
+    }
+    .gmatmainhead{
+        font-size: 4.5vw;
+
+    }
+    .gmatYNS{
+        margin-top: 5%;
+    }
+    
 }

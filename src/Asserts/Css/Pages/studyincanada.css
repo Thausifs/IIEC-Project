@@ -1,7 +1,7 @@
 
 .studyincanadaheading{
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
@@ -9,7 +9,7 @@
 }
 
 .studyincanadapara{
-    font-size: 20px;
+    font-size: 1.389vw;
     color: rgb(205, 213, 255,1);
     width: 45%;
     margin-left: 1%;
@@ -18,12 +18,12 @@
 .studyincanadapage{
     background-color: rgb(32, 32, 32);
     position: absolute;
-    width: 1366px;
+    width: 100vw;
 
 }
 .studyincanadamainhead{
     color: rgb(205, 213, 255,1);
-    font-size: 34px;
+    font-size: 2.361vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
@@ -37,15 +37,39 @@
 }
 .studyincanadaheadings{
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 92%;
     font-family:  'Montserrat', sans-serif;
     margin-left: 1%;
 }
 .studyincanadaparas{
-    font-size: 20px;
+    font-size: 1.389vw;
     color: rgb(205, 213, 255,1);
     width: 92%;
     margin-left: 1%;
+}
+
+
+@media only screen and  (max-width:480px) and (min-width:150px){
+    .studyincanadapara , .studyincanadaparas {
+        font-size: 2.2vw;
+        width: 90%;
+    }
+    .studyincanadaheading , .studyincanadaheadings {
+        font-size: 3.4vw;
+        width: 90%;
+
+    }
+   
+
+    .studyincanadastd{
+        width: 100%;
+        position: relative;
+        margin-left:0%;
+    }
+    .studyincanadamainhead{
+        font-size: 4.5vw;
+
+    }
 }

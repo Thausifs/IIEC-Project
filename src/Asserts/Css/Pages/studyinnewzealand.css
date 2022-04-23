@@ -1,6 +1,6 @@
 .studyinnewzealandheading {
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
@@ -8,7 +8,7 @@
 }
 
 .studyinnewzealandpara{
-    font-size: 20px;
+    font-size: 1.6vw;
     color: rgb(205, 213, 255,1);
     width: 45%;
     margin-left: 1%;
@@ -17,7 +17,7 @@
 .studyinnewzealandpage{
     background-color: rgb(32, 32, 32);
     position: absolute;
-    width: 1366px;
+    width: 94.861vw;
 
 }
 .studyinnewzealandstd{
@@ -26,14 +26,14 @@
     margin-left: 48%;
 }
 .studyinnewzealandparas{
-    font-size: 20px;
+    font-size: 1.6vw;
     color: rgb(205, 213, 255,1);
     width: 92%;
     margin-left: 1%;
 }
 .studyinnewzealandheadings{
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 92%;
     font-family:  'Montserrat', sans-serif;
@@ -41,10 +41,41 @@
 }
 .studyinnewzealandmainhead{
     color: rgb(205, 213, 255,1);
-    font-size: 34px;
+    font-size: 2.361vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
     /* margin-left: 1%; */
     margin-top: 7%;
+}
+
+ul.studyinnewzealandparaul{
+    list-style-type: circle;
+    font-size: 1.389vw;
+color: white;
+width: 45%;
+}
+
+
+@media only screen and  (max-width:480px) and (min-width:150px){
+    .studyinnewzealandpara , .studyinnewzealandparas {
+        font-size: 3vw;
+        width: 90%;
+    }
+    .studyinnewzealandheading , .studyinnewzealandheadings {
+        font-size: 3.4vw;
+        width: 90%;
+
+    }
+   
+
+    .studyinnewzealandstd{
+        width: 100%;
+        position: relative;
+        margin-left:0%;
+    }
+    .studyinnewzealandmainhead{
+        font-size: 4.5vw;
+
+    }
 }

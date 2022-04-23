@@ -9,19 +9,22 @@ import USAj1_Summer from '../Components/Usaj1_summer';
 import Usaj1_Caretaker from '../Components/Usaj1_caretaker';
 import MalaySia from '../Components/Malaysia';
 import USAJ1 from '../Components/USAJ1';
+import InternshipinMalaysia from '../Components/internshipinmalaysia';
 
+
+InternshipinMalaysia
 
 const InternshipAssistance = ()=>{
     return (
         <div className='internshipassistancepage'>
         <Header></Header>
         <Navbar></Navbar>
+        <h2 className='internshipassistancemainhead'>INTERNSHIP ASSISTANCE SERVICES</h2>
         <div className='internshipassistancestd'>  <StudyAbroad></StudyAbroad></div>
-           <h2 className='internshipassistancemainhead'>INTERNSHIP ASSISTANCE SERVICES</h2>
-       <div className='internshipassistancefirstdiv'> <USAJ1/><USAj1_Summer/><Usaj1_Caretaker/><MalaySia/>
+       <div className='internshipassistancefirstdiv'> <USAJ1/><USAj1_Summer/><Usaj1_Caretaker/><InternshipinMalaysia/>
          </div> 
           
-       <div className='yoursnextstepIAS' > <YourNextStep></YourNextStep></div>
+       <div className='yoursnextstepYNS' > <YourNextStep></YourNextStep></div>
       <Footer></Footer>
      </div>
     )

@@ -1,6 +1,6 @@
 .studentvisaapplicationheading {
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
@@ -8,7 +8,7 @@
 }
 
 .studentvisaapplicationpara{
-    font-size: 20px;
+    font-size: 1.389vw;
     color: rgb(205, 213, 255,1);
     width: 45%;
     margin-left: 1%;
@@ -17,7 +17,7 @@
 .studentvisaapplicationpage{
     background-color: rgb(32, 32, 32);
     position: absolute;
-    width: 1366px;
+    width: 100vw;
 
 }
 .studentvisaapplicationpgstd{
@@ -28,10 +28,43 @@
 }
 .studentvisaapplicationmainhead{
     color: rgb(205, 213, 255,1);
-    font-size: 34px;
+    font-size: 2.361vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
     /* margin-left: 1%; */
     margin-top: 7%;
 }
+
+.studentvisaapplicationbottomdiv{
+    width: 50%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+@media only screen and  (max-width:480px) and (min-width:200px) {
+    .studentvisaapplicationpgstd{
+        width: 90%;
+        position: relative;
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+    .studentvisaapplicationbottomdiv{
+       width: 100%;
+    }
+    .studentvisaapplicationheading {
+        font-size: 3.6vw;
+        width: 95%;
+    }
+    .studentvisaapplicationpara {
+        font-size: 2.8vw;
+        width: 95%;
+    }
+    .studentvisaapplicationpage{
+        position: relative;
+    }
+    .studentvisaapplicationmainhead{
+        font-size: 4.6vw;
+    }
+}    
+    

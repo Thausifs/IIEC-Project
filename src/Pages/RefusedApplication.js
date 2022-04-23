@@ -12,33 +12,33 @@ const RefusedApplication = ()=>{
           <div className='refusedapplicationpage'>
               <Header></Header>
               <Navbar></Navbar>
-             <div className='refusedappstd'> <StudyAbroad></StudyAbroad></div>
+             <div className='refusedapplicationstd'> <StudyAbroad></StudyAbroad></div>
              <h1 className='refusedapplicationmainhead'>Why does an application get refused?</h1>
              <h2 className='refusedapplicationheading'>Visa applications are normally declined due to the following reasons:
 </h2>
-<ul className='refusedapplicationpara'>
-    <li>Unsatisfactory answers to the questions asked in the application or during the visa interview.
-</li><br/>
-    <li>Insufficient funds to support your trip, study and business.
-</li><br/>
-    <li>Applicant has committed fraud or misrepresentation in his or herr application.
-</li><br/>
-    <li>Has criminal charges pending.
-</li><br/>
-    <li>Applicant is considered to be a threat to the national security.</li><br/>
-    <li>Cannot prove to have strong ties to their current country of residence.</li><br/>
-    <li>Intends to reside or work permanently in the country she/he will visit though not applying for an immigrant or work visa. Does not have a legitimate reason for the journey.
-</li><br/>
-    <li>Has no visible means of sustenance.</li><br/>
-    <li>Does not have a good moral character.
-</li><br/>
-    <li>Had their previous visa application(s) rejected and cannot prove that the reasons for the previous denials no longer exist or are not applicable any more.
-</li><br/>
-    <li>Has a communicable disease, such as tuberculosis.
-</li><br/>
-    <li>Has previous visa and immigration violations.
-</li>
-</ul><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<div className='refusedapplicationpara'>
+    <p>Unsatisfactory answers to the questions asked in the application or during the visa interview.
+</p><br/>
+    <p>Insufficient funds to support your trip, study and business.
+</p><br/>
+    <p>Applicant has committed fraud or misrepresentation in his or herr application.
+</p><br/>
+    <p>Has criminal charges pending.
+</p><br/>
+    <p>Applicant is considered to be a threat to the national security.</p><br/>
+    <p>Cannot prove to have strong ties to their current country of residence.</p><br/>
+    <p>Intends to reside or work permanently in the country she/he will visit though not applying for an immigrant or work visa. Does not have a legitimate reason for the journey.
+</p><br/>
+    <p>Has no visible means of sustenance.</p><br/>
+    <p>Does not have a good moral character.
+</p><br/>
+    <p>Had their previous visa application(s) rejected and cannot prove that the reasons for the previous denials no longer exist or are not applicable any more.
+</p><br/>
+    <p>Has a communicable disease, such as tuberculosis.
+</p><br/>
+    <p>Has previous visa and immigration violations.
+</p>
+</div>
 <p className='refusedapplicationpara'>Didn’t use a previously issued visa at all without a valid reason
 (e.g., a trip cancellation due to a family emergency)
 </p>

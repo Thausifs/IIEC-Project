@@ -12,8 +12,9 @@ const ImmigrateToSouthAfrica = ()=>{
           <div className='ImmigratetosouthAfricapage'>
               <Header></Header>
               <Navbar></Navbar>
+              <h1 className='ImmigratetosouthAfricamainhead'>Immigrate To South Africa</h1>
              <div className='ImmigratetosouthAfricastd'> <StudyAbroad></StudyAbroad></div>
-             <h1 className='ImmigratetosouthAfricamainhead'>Immigrate To South Africa</h1>
+             
 <div className='yournextstepimmitosouth'><YourNextStep></YourNextStep></div>
            <Footer></Footer>
               </div>

@@ -27,14 +27,14 @@ London is well connected by rail and road to the rest of the UK and Europe, and 
 <h1 className='studyinUKmainhead'>STUDYING IN THE UK IS A SMART CHOIC</h1>
 <h2 className='studyinUKheading'>World Class Qualification
 </h2>
-<ul >
-    <li className='studyinUKparali'>
-The international alumni from UK institutions includes many leading <br/>politicians, thinkers and business people who have had an important influence <br/>on the world such as Bill Clinton (former President of the USA), Wole Soyinka<br/> (Nobel prize-winning author) and Imran Khan (cricket legend and politician).
-</li><br/>
-    <li className='studyinUKpara'>The sheer variety of specializations means finding a course that suits your<br/> real interests, your ambitions and passions.
-</li>
+<div className='studyinUKpara'>
+    <p className='studyinUKparali'>
+The international alumni from UK institutions includes many leading politicians, thinkers and business people who have had an important influence on the world such as Bill Clinton (former President of the USA), Wole Soyinka (Nobel prize-winning author) and Imran Khan (cricket legend and politician).
+</p>
+    <p className='studyinUKpara'>The sheer variety of specializations means finding a course that suits your real interests, your ambitions and passions.
+</p>
 
-</ul>
+</div>
 <h1 className='studyinUKmainhead'>Modern Learning Environment
 </h1>
 <ul className='studyinUKpara'>
@@ -46,27 +46,27 @@ The international alumni from UK institutions includes many leading <br/>politic
 </ul><br/>
 <h1 className='studyinUKmainhead'>Quality of Education
 </h1>
-<ul className='studyinUKpara'>
-    <li className='studyinUKparali' >The education system provides facilities such as international student’s societies, planned social activities, academic support, and academic counselors. UK has one of the lowest ‘drops out rates.
-</li><br/>
-    <li className='studyinUKparali'>Its quality is unrivaled throughout the world.
-</li><br/>
-    <li className='studyinUKparali'>Encourages relevant skills that are marketable and sought by today’s top companies.</li>
+<div className='studyinUKparas'>
+    <p className='studyinUKparali' >The education system provides facilities such as international student’s societies, planned social activities, academic support, and academic counselors. UK has one of the lowest ‘drops out rates.
+</p><br/>
+    <p className='studyinUKparali'>Its quality is unrivaled throughout the world.
+</p><br/>
+    <p className='studyinUKparali'>Encourages relevant skills that are marketable and sought by today’s top companies.</p>
 
-</ul>
+</div>
 <h1 className='studyinUKmainhead'>Affordable
 </h1>
-<ul className='studyinUKpara'>
-    <li className='studyinUKparali'>Realization of earning potentials sooner.
-</li><br/>
-    <li className='studyinUKparali'>Numerous Scholarships and bursaries offered by UK institutions.
-</li><br/>
-    <li className='studyinUKparali'>Almost free health care by National Health Service.
-</li><br/>
-    <li className='studyinUKparali'>Student discount facilities provided free through National </li><br/>
-    <li className='studyinUKparali'>Union of Students membership for all students.
-</li>
-</ul>
+<div className='studyinUKparas'>
+    <p className='studyinUKparali'>Realization of earning potentials sooner.
+</p><br/>
+    <p className='studyinUKparali'>Numerous Scholarships and bursaries offered by UK institutions.
+</p><br/>
+    <p className='studyinUKparali'>Almost free health care by National Health Service.
+</p><br/>
+    <p className='studyinUKparali'>Student discount facilities provided free through National </p><br/>
+    <p className='studyinUKparali'>Union of Students membership for all students.
+</p>
+</div>
 <h1 className='studyinUKmainhead'>Choice</h1>
 <p className='studyinUKparas'>Vast choice of institutions, academics and subjects.
     Flexible programs.
@@ -75,35 +75,35 @@ The international alumni from UK institutions includes many leading <br/>politic
 <h1 className='studyinUKmainhead'>
 Mulitcultural
 </h1>
-<ul className='studyinUKpara'>
-    <li className='studyinUKparali'>Cosmopolitan place to live.
-</li><br/>
-    <li className='studyinUKparali'>Home to numerous ethnic groups and nationalities from around the world.
-</li><br/>
-    <li className='studyinUKparali'>Tolerant, stable society where students learn about diverse range of people.
-</li><br/>
-</ul>
+<div className='studyinUKpara'>
+    <p className='studyinUKparali'>Cosmopolitan place to live.
+</p><br/>
+    <p className='studyinUKparali'>Home to numerous ethnic groups and nationalities from around the world.
+</p><br/>
+    <p className='studyinUKparali'>Tolerant, stable society where students learn about diverse range of people.
+</p><br/>
+</div>
 <h1 className='studyinUKmainhead'>Duration
 </h1>
-<ul className='studyinUKpara'>
-    <li>Compared to other educational destinations shorter duration programs.
-</li><br/>
-    <li>Undergraduate – 3 years, Postgraduate – 1 year.
-</li>
-</ul>
+<div className='studyinUKpara'>
+    <p>Compared to other educational destinations shorter duration programs.
+</p><br/>
+    <p>Undergraduate – 3 years, Postgraduate – 1 year.
+</p>
+</div>
 
 <h1 className='studyinUKmainhead'>MBA IN UK</h1>
 <p className='studyinUKpara'>With a strong practical and professional orientation to the curriculum, the main emphasis of the programme is on leadership through strategic management. Its objectives are fourfold:</p>
-<ul className='studyinUKpara'>
-    <li className='studyinUKparali'>The advanced study of organizations, their management and the changing global context in which they operate.
-</li><br/>
-    <li className='studyinUKparali'>Preparation for and/or development of a career in business and management by developing skills at a professional or equivalent level, or as preparation for research or further study in the area.
-</li><br/>
-    <li className='studyinUKparali'>Development of the ability to apply knowledge and understanding of business and management to complex issues, both systematically and creatively, to improve business and management practice.
-</li><br/>
-    <li className='studyinUKparali'>Enhancement of lifelong learning skills and personal development so as to be able to work with self-direction and originality and to contribute to business and society at large.
-</li>
-</ul><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<div className='studyinUKpara'>
+    <p className='studyinUKparali'>The advanced study of organizations, their management and the changing global context in which they operate.
+</p><br/>
+    <p className='studyinUKparali'>Preparation for and/or development of a career in business and management by developing skills at a professional or equivalent level, or as preparation for research or further study in the area.
+</p><br/>
+    <p className='studyinUKparali'>Development of the ability to apply knowledge and understanding of business and management to complex issues, both systematically and creatively, to improve business and management practice.
+</p><br/>
+    <p className='studyinUKparali'>Enhancement of lifelong learning skills and personal development so as to be able to work with self-direction and originality and to contribute to business and society at large.
+</p>
+</div>
 
 <p className='studyinUKparas'>This is a generalist programme designed to add value to a first degree and to further the career development of individuals who have significant post-graduation and relevant work experience – which means at least two years and typically much more.
 </p>
@@ -131,18 +131,18 @@ Apply for Undergraduate Study</h2>
 </p>
 <p className='studyinUKparas'>Types of undergraduate degree include:
 </p>
-<ul className='studyinUKpara'>
-    <li className='studyinUKparali'>
+<div className='studyinUKpara'>
+    <p className='studyinUKparali'>
 BSc (Bachelor of Science) – a science degree
-</li><br/>
-    <li className='studyinUKparali'>
+</p>
+    <p className='studyinUKparali'>
 BA (Bachelor of Arts) – an arts degree
-</li><br/>
-    <li className='studyinUKparali'>
+</p>
+    <p className='studyinUKparali'>
 Eng (Bachelor of Engineering) – an engineering degree
-</li><br/>
-    <li className='studyinUKparali'>Undergraduate Masters degree (e.g. M. Eng) – an enhanced four year undergraduate degree including extra subjects studied at a deeper level</li>
-</ul>
+</p>
+    <p className='studyinUKparali'>Undergraduate Masters degree (e.g. M. Eng) – an enhanced four year undergraduate degree including extra subjects studied at a deeper level</p>
+</div>
     
 
 <h1 className='studyinUKmainhead'>Applying for postgraduate study
@@ -180,16 +180,16 @@ Other entry requirements
 </h1>
 <p className='studyinUKparas' >Some courses have additional entry requirements such as previous work experience, submission of written work with the application or previous study of a particular subject. Departments sometimes have different entry requirements so it is important to check the individual course information before you apply:
 </p>
-<ul >
-    <li className='studyinUKparali'>If you do not have the appropriate subject background for direct entry to first year, or you have not studied the appropriate subjects to the required depth, (which may be the case if you have followed a 12-year education system), you might be eligible to undertake a foundation year course to bring you up to the right level for first year entry.
-</li><br/>
-    <li className='studyinUKparali'>
+<div  className='studyinUKparas'>
+    <p className='studyinUKparali'>If you do not have the appropriate subject background for direct entry to first year, or you have not studied the appropriate subjects to the required depth, (which may be the case if you have followed a 12-year education system), you might be eligible to undertake a foundation year course to bring you up to the right level for first year entry.
+</p>
+    <p className='studyinUKparali'>
 This is a bridging course designed to provide you with the appropriate academic background for study at Bachelor degree level and includes additional English language teaching if you need to improve your proficiency. If English is not your first language, you will be required to provide evidence of English language ability for entry onto the above foundation year courses.
-</li><br/>
-    <li className='studyinUKparali'>
+</p>
+    <p className='studyinUKparali'>
 An English language qualification equivalent to IELTS 6.0 or 5.5 is required . If you do not have an English qualification equivalent to GCSE English grade C or IELTS 5.5, then you may still be eligible.
-</li><br/>
-</ul>
+</p>
+</div>
 
 
 

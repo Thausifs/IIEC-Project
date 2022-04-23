@@ -5,7 +5,11 @@ import Footer from '../Components/footer';
 import Navbar from '../Components/navbar';
 import StudyAbroad from '../Components/StudyAbroad';
 import YourNextStep from '../Components/YourNextStep';
-import IIECGuidetoStudyingAbroad from '../Components/IIECGuidetoStudyingAbroad';
+
+import CourseAdvicesixreasons from '../Components/Courseadvicesixreasons';
+import IIecguidetoStudyAbroad from '../Components/IIecguidetostudyabroad';
+
+
 
 
 const CourseAdvice = ()=>{
@@ -47,7 +51,10 @@ const CourseAdvice = ()=>{
              <div className='notediv'>
                  <p className='courseadviceparas'>Note: Given the current COVID-19 situation, there might be some changes in the 2020/2021 intakes. Don’t worry, our international education experts are here to guide you with the latest updates to help you apply to your desired course and institution. Feel free to connect with our experts for a free counselling session and keep posted about the latest COVID- 19 updates. </p>
              </div>
-             <IIECGuidetoStudyingAbroad></IIECGuidetoStudyingAbroad>
+             <div className='courseadvicebottomdiv'>
+            <CourseAdvicesixreasons/>
+            <IIecguidetoStudyAbroad/>
+        </div>
               <YourNextStep></YourNextStep>
               <Footer></Footer>
         </div>

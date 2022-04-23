@@ -1,6 +1,7 @@
-.Immigratetoaustraliaheading {
+
+.Immigratetoaustraliaheading{
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
@@ -8,52 +9,66 @@
 }
 
 .Immigratetoaustraliapara{
-    font-size: 20px;
+    font-size: 1.389vw;
     color: rgb(205, 213, 255,1);
     width: 45%;
-    margin-left: 1%;
-
-
-}
-
-.Immigratetoaustraliaparali{
-    font-size: 20px;
-    color: rgb(205, 213, 255,1);
-    width: 40%;
     margin-left: 1%;
 
 }
 .Immigratetoaustraliapage{
     background-color: rgb(32, 32, 32);
     position: absolute;
-    width: 1366px;
+    width: 100vw;
 
+}
+.Immigratetoaustraliamainhead{
+    color: rgb(205, 213, 255,1);
+    font-size: 2.361vw;
+    font: bold;
+    width: 40%;
+    font-family:  'Montserrat', sans-serif;
+    /* margin-left: 1%; */
+    margin-top: 7%;
 }
 .Immigratetoaustraliastd{
     position: absolute;
     margin-top: 7%;
     margin-left: 48%;
 }
-.Immigratetoaustraliaparas{
-    font-size: 20px;
-    color: rgb(205, 213, 255,1);
-    width: 92%;
-    margin-left: 1%;
-}
 .Immigratetoaustraliaheadings{
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 92%;
     font-family:  'Montserrat', sans-serif;
     margin-left: 1%;
 }
-.Immigratetoaustraliamainhead{
+.Immigratetoaustraliaparas{
+    font-size: 1.389vw;
     color: rgb(205, 213, 255,1);
-    font-size: 34px;
-    font: bold;
-    width: 40%;
-    font-family:  'Montserrat', sans-serif;
-    /* margin-left: 1%; */
-    margin-top: 7%;
+    width: 92%;
+    margin-left: 1%;
+}
+
+@media only screen and  (max-width:480px) and (min-width:150px){
+    .Immigratetoaustraliapara , .Immigratetoaustraliaparas {
+        font-size: 2.8vw;
+        width: 90%;
+    }
+    .Immigratetoaustraliaheading , .Immigratetoaustraliaheadings {
+        font-size: 3.4vw;
+        width: 90%;
+
+    }
+   
+
+    .Immigratetoaustraliastd{
+        width: 100%;
+        position: relative;
+        margin-left:0%;
+    }
+    .Immigratetoaustraliamainhead{
+        font-size: 4.5vw;
+
+    }
 }

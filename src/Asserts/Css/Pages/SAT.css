@@ -1,6 +1,7 @@
-.satheading {
+
+.satheading{
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
@@ -8,52 +9,74 @@
 }
 
 .satpara{
-    font-size: 20px;
+    font-size: 1.7vw;
     color: rgb(205, 213, 255,1);
     width: 45%;
-    margin-left: 1%;
-
-
-}
-
-.satparali{
-    font-size: 20px;
-    color: rgb(205, 213, 255,1);
-    width: 40%;
     margin-left: 1%;
 
 }
 .satpage{
     background-color: rgb(32, 32, 32);
     position: absolute;
-    width: 1366px;
+    width: 100vw;
 
-}
-.satstd{
-    position: absolute;
-    margin-top: 7%;
-    margin-left: 48%;
-}
-.satparas{
-    font-size: 20px;
-    color: rgb(205, 213, 255,1);
-    width: 92%;
-    margin-left: 1%;
-}
-.satheadings{
-    color: rgb(205, 213, 255,1);
-    font-size: 26px;
-    font: bold;
-    width: 92%;
-    font-family:  'Montserrat', sans-serif;
-    margin-left: 1%;
 }
 .satmainhead{
     color: rgb(205, 213, 255,1);
-    font-size: 34px;
+    font-size: 2.361vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
     /* margin-left: 1%; */
     margin-top: 7%;
+}
+.satstd{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 48%;
+}
+.satheadings{
+    color: rgb(205, 213, 255,1);
+    font-size: 1.806vw;
+    font: bold;
+    width: 92%;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 1%;
+}
+.satparas{
+    font-size: 1.7vw;
+    color: rgb(205, 213, 255,1);
+    width: 92%;
+    margin-left: 1%;
+}
+.satYNS{
+    margin-top: 60%;
+}
+
+@media only screen and  (max-width:480px) and (min-width:150px){
+    .satpara , .satparas {
+        font-size: 3vw;
+        width: 90%;
+    }
+    .satheading , .satheadings {
+        font-size: 3.4vw;
+        width: 90%;
+
+    }
+   
+
+    .satstd{
+        width: 100%;
+        position: relative;
+        margin-left:0%;
+        margin-bottom: 2%;
+    }
+    .satmainhead{
+        font-size: 4.5vw;
+
+    }
+    .satYNS{
+        margin-top: 5%;
+    }
+    
 }

@@ -4,14 +4,14 @@ import StudyAbroadparentresources  from "../Asserts/images/StudyAbroadparentreso
 
 const StudyAbroadParentResources  = () => {
   return (
-    <div >
+      <div className='Studyabroadparentresourcesmaindiv'>
       <div className="Studyabroadparentresourcescomponents">
         {" "}
-        <img className='Studyabroadparentresourcesimg' src={StudyAbroadparentresources} ></img>{" "}
+       <div className='Studyabroadparentresourcesimgdiv'><img className='Studyabroadparentresourcesimg' src={StudyAbroadparentresources} ></img>{" "}</div> 
         <p className="Studyabroadparentresourcesone"> Study Abroad Parent Resources </p>
         <p className='Studyabroadparentresourcestwo'>Here is a list of resources for parents to support and prepare your child for studying abroad.</p>
-      </div>{" "}
-    </div>
+      </div>
+  </div>
   );
 };
 

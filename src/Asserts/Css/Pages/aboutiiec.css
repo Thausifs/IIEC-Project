@@ -1,7 +1,7 @@
 
 .aboutiiecheading{
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
@@ -9,31 +9,33 @@
 }
 
 .aboutiiecpara{
-    font-size: 20px;
+    font-size: 1.389vw;
     color: rgb(205, 213, 255,1);
-    width: 40%;
+    width: 45%;
     margin-left: 2%;
     font-family:  'Montserrat', sans-serif;
 }
 .aboutiiecpage{
     background-color: rgb(32, 32, 32);
     position: relative;
-    width: 1366px;
+    width: 100vw;
     display: inline-block;
 
 }
 .aboutiiecmainhead{
-    font-size: 34px;
+    font-size: 2.361vw;
     color: aliceblue;
 }
 .iiecpgstd{
     position: absolute;
     margin-top: 10%;
     margin-left: 50%;
+    width: 49%;
 }
+
 .aboutiiecmainhead{
     color: rgb(205, 213, 255,1);
-    font-size: 34px;
+    font-size: 2.361vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
@@ -42,17 +44,50 @@
 }
 ul.aboutiiecparaul{
     list-style-type: circle;
-    font-size: 20px;
+    font-size: 1.369vw;
 color: white;
 width: 45%;
 }
 .aboutiiecparas{
-    font-size: 20px;
+    font-size: 1.369vw;
     color: rgb(205, 213, 255,1);
-    width: 46%;
+    width: 90%;
     margin-left: 2%;
     font-family:  'Montserrat', sans-serif;
 }
-.nextstepdiv{
-    margin-top: 24%;
-}
+
+
+
+
+
+@media only screen and  (max-width:480px) and (min-width:200px) {
+    .iiecpgstd{
+        width: 90%;
+        position: relative;
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+    .aboutiiecbottomdiv{
+        display: flex;
+        flex-direction: column;
+        row-gap: 2vw;
+        width: 90%;
+        margin-left: 3%;
+    }
+    .aboutiiecheading , .aboutiiecheadings{
+        font-size: 3.6vw;
+        width: 95%;
+    }
+    .aboutiiecpara, .aboutiiecparas {
+        font-size: 2.8vw;
+        width: 95%;
+    }
+    .aboutiiecpage{
+        position: relative;
+    }
+    .aboutiiecmainhead{
+        font-size: 4.6vw;
+    }
+}    
+    
+

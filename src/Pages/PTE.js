@@ -14,9 +14,10 @@ const PTE = ()=>{
         <div className='ptepage'>
               <Header></Header>
               <Navbar></Navbar>
-           <div className='ptestd'>  <StudyAbroad></StudyAbroad></div> 
-            <h1 className='ptemainhead'>PTE:</h1>
+              <h1 className='ptemainhead'>PTE:</h1>
             <h2 className='pteheading'>PTE COACHING AND TRAINING @ IIEC</h2>
+           <div className='ptestd'>  <StudyAbroad></StudyAbroad></div> 
+            
             <p  className='ptepara'>PTE course offer extensive coverage on all PTE test topics. The trainer will examine key fundamentals, right approach, effective solving techniques and test-taking strategies; no stone will be left unturned. Expect plenty of interaction and practice from learning PTE specialist.
 
 </p>
@@ -36,19 +37,19 @@ const PTE = ()=>{
   <p className='ptepara' >PTE Young Learners (formerly known as LTEfC) are international English language exams for young children (aged from 7 to 12) who are learning English as a foreign language (EFL). They test the four skills: reading, writing, listening and speaking.
 
 </p>       
-<p className='ptepara'>PTE Young Learners exams are based around the amusing adventures of the Brown family. The exams are theme based and designed to be fun and motivating. At the lower levels they aim to test how well children can use language structures and at the higher levels how well they can use language to complete communicative tasks. For this reason, the tests use real-life scenarios rather than grammatical exercises.</p>
-<p className='ptepara'>There are four PTE Young Learners levels</p>
+<p className='pteparas'>PTE Young Learners exams are based around the amusing adventures of the Brown family. The exams are theme based and designed to be fun and motivating. At the lower levels they aim to test how well children can use language structures and at the higher levels how well they can use language to complete communicative tasks. For this reason, the tests use real-life scenarios rather than grammatical exercises.</p>
+<p className='pteparas'>There are four PTE Young Learners levels</p>
 
-<h2  className='pteheading'>History</h2>
-<p className='ptepara'>PTE General were originally developed by the University of London Schools Examination Board in 1982. The Examination Board merged with Business & Technological Council (BTEC) in 1996 to become Edexcel, the largest examining body of academic and vocational in the UK.
+<h2  className='pteheadings'>History</h2>
+<p className='pteparas'>PTE General were originally developed by the University of London Schools Examination Board in 1982. The Examination Board merged with Business & Technological Council (BTEC) in 1996 to become Edexcel, the largest examining body of academic and vocational in the UK.
 </p>
-<h2  className='pteheading'>Schema Theory</h2>
+<h2  className='pteheadings'>Schema Theory</h2>
 
-<p className='ptepara'>PTE General were one of the first set of ESOL exams to apply the Notional -Functional Syllabus and Schema Theory to language testing. Schema Theory was developed by psychologists such as R.C.Anderson and Frederic Bartlett. Schemata (plural of schema) are learned models suggesting relationships between objects and help structure future learning.
+<p className='pteparas'>PTE General were one of the first set of ESOL exams to apply the Notional -Functional Syllabus and Schema Theory to language testing. Schema Theory was developed by psychologists such as R.C.Anderson and Frederic Bartlett. Schemata (plural of schema) are learned models suggesting relationships between objects and help structure future learning.
 </p>
-<p className='ptepara'>PTE General tasks are related through a common theme which allows candidates to activate the different domains of knowledge they have acquired and thus further enhance second language acquisition. It also provides a coherent thread for candidates to guide them through the various tasks.
+<p className='pteparas'>PTE General tasks are related through a common theme which allows candidates to activate the different domains of knowledge they have acquired and thus further enhance second language acquisition. It also provides a coherent thread for candidates to guide them through the various tasks.
 </p>
-<p className='ptepara'>The tasks can be interrelated through a common topic or a scenario where the different tasks “build” a story and integrate different language skills.
+<p className='pteparas'>The tasks can be interrelated through a common topic or a scenario where the different tasks “build” a story and integrate different language skills.
 </p>
 
 

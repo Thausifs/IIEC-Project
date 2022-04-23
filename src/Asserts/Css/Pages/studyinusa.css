@@ -1,6 +1,6 @@
 .studyinusaheading {
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
@@ -8,7 +8,7 @@
 }
 
 .studyinusapara{
-    font-size: 20px;
+    font-size: 1.389vw;
     color: rgb(205, 213, 255,1);
     width: 45%;
     margin-left: 1%;
@@ -17,23 +17,23 @@
 .studyinusapage{
     background-color: rgb(32, 32, 32);
     position: absolute;
-    width: 1366px;
+    width: 100vw;
 
 }
 .studyinusastd{
     position: absolute;
-    margin-top: 7%;
+    margin-top: 13%;
     margin-left: 50%;
 }
 .studyinusaparas{
-    font-size: 20px;
+    font-size: 1.389vw;
     color: rgb(205, 213, 255,1);
     width: 92%;
     margin-left: 1%;
 }
 .studyinusaheadings{
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 92%;
     font-family:  'Montserrat', sans-serif;
@@ -41,7 +41,7 @@
 }
 .studyinusamainhead{
     color: rgb(205, 213, 255,1);
-    font-size: 34px;
+    font-size: 2.361vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
@@ -53,5 +53,38 @@
 .studyinusasub{
     display: flex;
     flex-direction: column;
-    row-gap: 25px;
+    row-gap:1.736vw;
+    width: 49%;
+}
+
+
+@media only screen and  (max-width:480px) and (min-width:150px){
+    .studyinusapara , .studyinusaparas {
+        font-size: 2.2vw;
+        width: 90%;
+    }
+    .studyinusaheading , .studyinusaheadings {
+        font-size: 3.4vw;
+        width: 90%;
+
+    }
+   
+
+    .studyinusastd{
+        width: 100%;
+        position: relative;
+        margin-left:0%;
+    }
+    .studyinusamainhead{
+        font-size: 4.5vw;
+
+    }
+    .studyinusasub{
+        display: flex;
+        flex-direction: column;
+        row-gap:3vw;
+        width: 95%;
+        margin: auto;
+        margin-bottom: 2%;
+    }
 }

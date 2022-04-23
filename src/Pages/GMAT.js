@@ -14,9 +14,10 @@ const GMAT = ()=>{
         <div className='gmatpage'>
               <Header></Header>
               <Navbar></Navbar>
+              <h1 className='gmatmainhead'>GMAT:</h1>
            <div className='gmatstd'>  <StudyAbroad></StudyAbroad></div> 
            
-           <h1 className='gmatmainhead'>GMAT:</h1>
+           
 
            <h2 className='gmatheading'>GMAT  COACHING AND TRAINING @ IIEC</h2>
            <p className='gmatpara'>We offer GMAT coaching with extensive coverage of all the GMAT test topics. The trainers will examine students on the key fundamentals, right approach, effective solving techniques and test-taking strategies. Our One On One training strategy ensures plenty of interaction and practice learning with a GMAT specialist trainer.
@@ -32,7 +33,7 @@ const GMAT = ()=>{
 
 
 
-<div className='YNSgmat'><YourNextStep></YourNextStep></div>
+<div className='gmatYNS'><YourNextStep></YourNextStep></div>
            <Footer></Footer>
               </div>
     )

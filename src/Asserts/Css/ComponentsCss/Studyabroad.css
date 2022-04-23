@@ -1,27 +1,27 @@
  .studyabroad {
-     height : 1679px;
-     width : 659px;
+     height : 116.597vw;
+     width : 100%;
     border: 2px solid black;
     background-image: linear-gradient(234deg, rgb(63,63,63),rgb(58,58,58) );
     color: rgb(205,213,255);
-    border-radius: 20px;
+    border-radius: 1.7vw;
     /* position: absolute; */
     /* margin-left: 50%; */
-    margin: 0px 0px 0px 0px ;
+    margin: 0%;
     box-shadow: 0px 0px 10px 5px black;
    
 
  }
  .studyabroad_inner {
      margin: auto;
-     height : 1384px;
-     width : 533px;
+     height : 100vw;
+     width : 79%;
 
  }
  .studyabroad_heading {
     margin: auto;
-    height : 82px;
-    width : 519px;
+    height : 5.694vw;
+    width : 100%;
     text-align: center;
 }
  h1 {
@@ -31,13 +31,14 @@
       text-align: center;
   } 
   .studyabroad_input {
-      height: 45px; 
-      width: 519px;
-      color: rgb(31, 24, 24);
-      border: 2px solid rgb(208, 56, 55);
+      height: 3.506vw; 
+      width: 100%;
+      color: rgb(253, 253, 253);
+      border: 0.139vw solid rgb(208, 56, 55);
       border-radius: 15px;
-      margin:50px 0px 0px 0px ;
-      font-size: 25px;
+      margin-top: 2.083vw;
+      font-size: 1.736vw;
+      font-family:  'Montserrat', sans-serif;
       background-color: rgb(32, 32, 32);
       
   }
@@ -46,13 +47,13 @@
       border-radius: 15px;
       border: 2px groove rgb(208,56,59);
       background-color: rgb(208,56,59) ;
-      height: 67px;
-    width: 351px;  
+      height: 4.653vw;
+    width: 53.5%;  
     text-align: center;
-    font-size: 32px;
+    font-size: 2.222vw;
     /* font-size: large; */
-    margin-top: 90px;
-    margin-left: 80px;
+    margin-top: 15%;
+    margin-left: 22%;
     font-weight: bold;
     color: rgb(205, 213, 255,1);
     box-shadow: 0px 0px 5px 5px rgb(134, 58, 58);
@@ -62,17 +63,25 @@
     list-style-type:none;
 }
 .studybottomheading{
-    font-size: 25px;
+    font-size: 1.736vw;
+    height: auto;
+}
+.listitemsstudyabrd{
+    font-family:  'Montserrat', sans-serif;
+    font-size: 1.389vw;
+    height: auto;
+    text-align: left;
 }
 
 
-  #studyabroadscom::placeholder{
+   .studyabroad_input::placeholder{
       color: rgb(205, 213, 255,1);
+      font-size: 1.389vw;
   }
   .stdabdheadthree{
       font-size: medium;
       font-weight: 500;
-      font-size: 32px;
+      font-size: 2.222vw;
       font-family:  'Montserrat', sans-serif;
   }
   /* .registerbtntitle{
@@ -81,3 +90,72 @@
   .register_button:hover {
       background-color: rgb(111, 18, 18);
   }
+  .stdabrdh1{
+      font-size: 2.222vw;
+  }
+  .checkboxforstudyabroad{
+      height: 1.667vw;
+      width: 1.667vw;
+  }
+  @media only screen and  (max-width:480px) and (min-width:100px) {
+
+    .studyabroad{
+        height : 190.597vw;
+        border-radius: 4vw;
+    }
+    
+    .stdabrdh1{
+        font-size: 4.44vw;
+    }
+    .stdabdheadthree{
+        font-size: 4.44vw;
+    }
+    .studybottomheading{
+        font-size: 3.5vw;
+    }
+    .studyabroad_input::placeholder{
+        font-size: 2.8vw;
+    }
+    .listitemsstudyabrd{
+        font-size: 2.8vw;
+    }
+    .register_button{
+        font-size: 4.4vw;
+        height: 7vw;
+    }
+    .studyabroad_input {
+        font-size: 3.5vw;
+        margin-top: 5vw;
+        height: 6vw
+    }
+  }
+
+/* @media only screen and  (max-width:280px) and (min-width:100px) {
+    
+    .register_button{
+        font-size: 14px;
+    }
+    .stdabdheadthree{
+        font-size: 2.222vw;
+    }
+    .stdabrdh1{
+        font-size: 2.22vw;
+    }
+    .listitemsstudyabrdli{
+        font-size: 1.250vw;
+    }
+    .studybottomheading{
+        font-size: 1.528vw;
+    }
+    #studyabroadscom::placeholder{
+        font-size: 1.042vw;
+        padding-left: 3%;
+    }
+    .studyabroad_input{
+        height: 1.5%;
+    }
+    .listitemsstudyabrd{
+        height: 14%;
+    }
+   
+} */

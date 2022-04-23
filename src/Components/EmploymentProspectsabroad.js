@@ -4,14 +4,14 @@ import EmploymentProspectsabroad from "../Asserts/images/EmploymentProspectsabro
 
 const EmploymentProspectsAbroad = () => {
   return (
-    <div >
+    
       <div className="employmentprospectsabroadcomponents">
         {" "}
-        <img className='employmentprospectsabroadimg' src={EmploymentProspectsabroad} width="340px" height="304px"></img>{" "}
+       <div className='employmentprospectimgdiv'> <img className='employmentprospectsabroadimg' src={EmploymentProspectsabroad} ></img>{" "}</div>
         <p className="employmentprospectsabroadone"> Employment Prospects abroad</p>
         <p className='employmentprospectsabroadtwo'>Know what kinds of job opportunities are available, and how to find them</p>
-      </div>{" "}
-    </div>
+      </div>
+    
   );
 };
 

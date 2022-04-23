@@ -1,29 +1,29 @@
-.bottombannerfirstcon{
-    width:1330px ;
-    height: 536px ;
+.letspreptopbannercon{
+    width:100% ;
+    height: 37.222vw ;
     /* border: 2px solid black; */
     display: inline-block;
     box-shadow: 0px 0px 10px  10px rgb(20, 18, 18);
-     border-radius: 20px;
+     border-radius: 1.389vw;
      background-color: rgb(52, 52, 52);
      /* margin-left: 1%; */
 }
-.bottombannerfirst{
-    width: 300px;
-    height: 456px;
+.letspreptopbannerfirstone ,  .letspreptopbannerfirsttwo , .letspreptopbannerfirstthree  , .letspreptopbannerfirstfour   {
+    width: 20.833vw;
+    height: 31.667vw;
     /* border: 2px solid black; */
     display: inline-block;
-    margin-top: 30px;
-    margin-left: 25px;
+    margin-top: 2.083vw;
+    margin-left: 3.1vw;
     box-shadow: 0px 0px 10px  10px rgb(32, 30, 30);
-     border-radius: 20px;
+     border-radius: 1.389vw;
      background-color: rgb(52, 52, 52);
      /* position: absolute; */
 }
-.paveyourpathtosuccessimg{
-    width: 250px;
-    height: 199px;
-    border-radius: 20px;
+.letspreptopbannerimg{
+    width: 17.361vw;
+    height: 13.819vw;
+    border-radius: 1.389vw;
     box-shadow: 0px 0px 10px  10px rgb(32, 30, 30);
     /* justify-content: center; */
     /* margin-left: auto; */
@@ -32,29 +32,69 @@
     margin-top: 10%;
     margin-left: 8%;
 }
-.firstparaheading{
-    font-size: 24px;
+.letsprepparaheading{
+    font-size: 1.667vw;
     color: aliceblue;
     margin-left: 10%;
     text-decoration: underline;
-    text-underline-offset: 10px;
+    text-underline-offset: 0.694vw;
 
 }
-.firstpara{
-    font-size: 18px;
+.letsprepparaone{
+    font-size: 1.250vw  ;
     color: white;
     width: 75%;
     margin-left: 10%;
 }
-.firstparatwo{
-    font-size: 14px;
+.letsprepparatwo{
+    font-size: 0.972vw;
     color: white;
     width: 75%;
     margin-left: 10%;
 }
-.firstparathree{
-    font-size: 19px;
+.letsprepparathree{
+    font-size: 1.319vw;
     color: white;
     width: 75%;
     margin-left: 10%;
+}
+
+@media only screen and  (max-width:480px) and (min-width:150px){
+    .letspreptopbannercon{
+        height: 110vw;
+        display: inline-block;
+        /* flex: 50%; */
+        justify-content: space-between;
+        padding-bottom: 8vw;
+
+    }
+    .letspreptopbannerfirstone, .letspreptopbannerfirsttwo , .letspreptopbannerfirstthree , .letspreptopbannerfirstfour {
+        height: 50%;
+        width: 45%;
+        /* margin-left: 3%; */
+       
+    }
+    
+    .letspreptopbannerfirstfour{
+       float: right;
+    }
+    .letspreptopbannerfirsttwo{
+        float: right;
+        margin-right: 2%;
+    }
+    .letsprepparaone ,    .letsprepparathree  {
+        font-size: 2.5vw;
+    }
+    .letsprepparatwo{
+        font-size: 2.1vw;
+    }
+
+    .letsprepparaheading{
+        font-size: 3.2vw;
+    }
+    .letspreptopbannerfirstthree img , .letspreptopbannerfirstone img , .letspreptopbannerfirsttwo img , .letspreptopbannerfirstfour img  {
+        height: 22vw;
+        border-radius: 1.389vw;
+        width: 85%;
+    }
 }

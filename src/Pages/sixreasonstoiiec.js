@@ -5,6 +5,9 @@ import Footer from '../Components/footer';
 import Navbar from '../Components/navbar';
 import StudyAbroad from '../Components/StudyAbroad';
 import YourNextStep from '../Components/YourNextStep';
+import CometoourFreeCounsellingsession from '../Components/Cometoourfreecounsellingsession';
+import CourseAdvicesixreasons from '../Components/Courseadvicesixreasons';
+
 
 
 const SixReasonstoIIEC = ()=>{
@@ -28,16 +31,18 @@ const SixReasonstoIIEC = ()=>{
          <h2 className='sixreasonstoiiecheading'>3. Support every step of the way.</h2>
          <p className='sixreasonstoiiecpara'>Our support doesn't end when you receive your university acceptance letter. At IDP, we're dedicated to ensuring you feel supported at every stage of your study journey. We offer a full suite of services, covering English language testing (IELTS), visa assistance and pre-departure advice. Our services are continually evolving to support our students through to graduation and beyond.</p>
          <p className='sixreasonstoiiecpara'>Find out about our student support</p>
-         <h2 className='sixreasonstoiiecheading'>4. Proud co-owners of IELTS</h2>
-         <p className='sixreasonstoiiecpara'>As a co-owner of IELTS, we can help you book and prepare for your IELTS test. Recognised by more than 10,000 organisations around the world, IELTS is the world’s leading English language test for study, work and migration purposes. Our IELTS network spans in more than 450 test locations across 55 countries. </p>
+         <h2 className='sixreasonstoiiecheadings'>4. Proud co-owners of IELTS</h2>
+         <p className='sixreasonstoiiecparas'>As a co-owner of IELTS, we can help you book and prepare for your IELTS test. Recognised by more than 10,000 organisations around the world, IELTS is the world’s leading English language test for study, work and migration purposes. Our IELTS network spans in more than 450 test locations across 55 countries. </p>
         
-         <p className='sixreasonstoiiecpara'>Know all about the  IELTS</p>
+         <p className='sixreasonstoiiecparas'>Know all about the  IELTS</p>
          
          <h2 className='sixreasonstoiiecheadings'>5. Part of a living network</h2>
          <p className='sixreasonstoiiecparas'>We’ll put you in touch with alumni or current students who’ve been where you want to be and are happy to share their stories. IDP is a living network of students, alumni and employers, buzzing across the world. When you arrive in your new country, we’ll connect you with other IDP students through welcome events to help you settle in.</p>
          <h2 className='sixreasonstoiiecheadings'>6. Let’s make it happen </h2>
          <p className='sixreasonstoiiecparas'>If you've been thinking about your study abroad options, let’s work together to find your best country, university and course. Book an appointment with one of our teams, so we can start to plan your journey from where you are today, to where you want to be.</p>
-         <YourNextStep></YourNextStep>
+        <div className='sixreasonstoiiecbottomdiv'> <CometoourFreeCounsellingsession/>
+         <CourseAdvicesixreasons/></div>
+        <div className='sixreasonstoiiecYNS'> <YourNextStep></YourNextStep></div> 
          <Footer></Footer>
         </div>
 

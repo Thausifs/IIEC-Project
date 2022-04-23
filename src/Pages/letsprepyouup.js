@@ -27,13 +27,13 @@ const LetsPrepYouUp = ()=>{
     <h2 className='letsprepyoumainhead'>Let’s prep you up!</h2>
     <p className='letsprepyoupara'>So, you’ve chosen your course. Now it’s time to get ready for your life-changing international education experience. There are many things to consider when making the move to your new country – visa, insurance, financial support, accommodation and work opportunities. Since all this may seem overwhelming, IDP’s counsellors are dedicated to support you throughout your journey.</p>
     <h2 className='letsprepyouheading'>Social advice for international students</h2></div>
-    <StudyTips></StudyTips> <ManagingMoney></ManagingMoney> <WanttoPack></WanttoPack>
+    <StudyTips></StudyTips> <ManagingMoney></ManagingMoney> <WanttoPack></WanttoPack>    <NetworkingandSocialising></NetworkingandSocialising>
     </div>
   <div className='prepyouupstd'> <StudyAbroad></StudyAbroad></div> 
    
    
    
-    <NetworkingandSocialising></NetworkingandSocialising>
+
     <LetsprepTopbanner></LetsprepTopbanner>
      <YourNextStep></YourNextStep>
      <Footer></Footer>

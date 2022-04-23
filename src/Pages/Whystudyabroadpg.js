@@ -24,10 +24,10 @@ const Whystudyabroad =()=>{
              <Navbar></Navbar>
            <div className='whystudypg'> <WhyStudyAbroad ></WhyStudyAbroad><StudyAbroadIntakes></StudyAbroadIntakes> <EmploymentProspectsAbroad></EmploymentProspectsAbroad><BenefitsofStudyingAbroad></BenefitsofStudyingAbroad> <IIECGuidetoStudyingAbroad></IIECGuidetoStudyingAbroad> </div>
            <div className='studyabroadwsapg'> <StudyAbroad ></StudyAbroad></div> 
-             <TypesofOfferLetters></TypesofOfferLetters>
-             <StudyAbroadParentResources></StudyAbroadParentResources>
+            <div className='whystudyabdbottom'> <TypesofOfferLetters></TypesofOfferLetters></div> 
+           <div  className='whystudyabdbottom'> <StudyAbroadParentResources></StudyAbroadParentResources></div>
              <BottomBannerfirst></BottomBannerfirst>
-             <YourNextStep></YourNextStep>
+            <div className='whystudtabdYNS'><YourNextStep></YourNextStep></div> 
              <Footer></Footer>
 
        </div>

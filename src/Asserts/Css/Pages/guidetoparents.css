@@ -1,6 +1,6 @@
 .guidetoparentsheading{
     color: rgb(205, 213, 255,1);
-    font-size: 34px;
+    font-size: 2.361vw;
     font: bold;
     width: 50%;
     font-family:  'Montserrat', sans-serif; 
@@ -8,7 +8,7 @@
 }
 
 .guidetoparentspara{
-font-size: 22px;
+font-size: 1.528vw;
 color: white;
 width: 47%;
 font-family:  'Montserrat', sans-serif; 
@@ -20,23 +20,25 @@ margin-left: 2%;
 .guidetoparentspage{
     background-color: rgb(32, 32, 32);
     position: relative;
-    width: 1366px;
+    width: 100vw;
     display: inline-block;
     /* padding-left: 2%;
     padding-right: 2%; */
 
 }
-.studyabroadpg{
+.studyabroadgtp{
     position: absolute;
     right: 2%;
     margin-top: 6% ;
+    width: 50%;
+
 }
 .hrline{
     width: 45%;
     margin-left: 2%;
 }
 .guidetoparentsmainhead{
-    font-size: 34px;
+    font-size: 2.361vw;
      text-align: left;
 color: rgb(205, 213, 255);
 width: 50%;
@@ -47,7 +49,7 @@ margin-left: 2%;
 }
 
 .guidetoparentsparas{
-    font-size: 22px;
+    font-size: 1.528vw;
 color: white;
 width: 95%;
 font-family:  'Montserrat', sans-serif; 
@@ -59,7 +61,7 @@ margin-right: 2%;
 }
 .guidetoparentsheadings{
     color: rgb(205, 213, 255,1);
-    font-size: 34px;
+    font-size: 2.361vw;
     font: bold;
     width: 95%;
     font-family:  'Montserrat', sans-serif; 
@@ -73,5 +75,40 @@ margin-right: 2%;
 } */
 .guidetoparentsbox{
     display: flex;
-    column-gap: 25px;
+    column-gap: 1.736vw;
+}
+
+
+@media only screen and  (max-width:480px) and (min-width:150px){
+    .guidetoparentsbox{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        row-gap: 3vw;
+        margin-bottom: 6%;
+    }
+    .studyabroadgtp{
+        display: block;
+        width: 100%;
+        position: relative;
+        margin-left: 0%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    
+    }
+    .guidetoparentsheading{
+        font-size: 3.6vw;
+    }
+    .guidetoparentspara{
+        width: 95%;
+        font-size: 2.8vw;
+    }
+    .guidetoparentsparas{
+        width: 95%;
+        font-size: 2.8vw;
+    }
+    .guidetoparentsheadings{
+        width: 95%;
+        font-size: 4vw;
+    }
 }

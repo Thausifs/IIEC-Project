@@ -1,60 +1,94 @@
-.topbanner_studyabroad,.topbanner_immigration,.topbanner_training{
-    width:298px ;
-    height:216px  ;
+.topbanner_studyabroad,.topbanner_immigration,.topbanner_training, .topbanner_visaguidances{
+    width:48% ;
+    height:15.278vw ;
     /* border: 1px solid black; */
-    border-radius: 20px;
+    border-radius: 1.497vw;
     background-image: linear-gradient(to bottom right,rgb(62, 62, 62),rgb(42,42,42));
     box-shadow: 5px 5px 5px 5px;
-    display: inline-block;
+    /* display: flex; */
+    margin: 1% 1% 1% 1%;
+    flex:48%;
+    
 
 }
-.topbanner_studyabroad h2,.topbanner_immigration h2 ,.topbanner_training h2,.topbanner_visaguidance h2 {
-    margin-top: 25px;
+.topbanner_studyabroad h2,.topbanner_immigration h2 ,.topbanner_training h2,.topbanner_visaguidances h2 {
+    margin-top: 1.736vw;
     text-align: center; 
    
 }
-.hrline,.hrlineimmigra,.hrlinetrain,.hrlinevisa {
+.hrlines,.hrlineimmigra,.hrlinetrain,.hrlinevisas {
     border: 1px solid rgb(104, 194, 221);
-    margin: 15px 20px 10px 20px;
+    margin: 1% 2% 1% 2%;
 }
-.topbanner_studyabroad p , .topbanner_immigration p, .topbanner_training p , .topbanner_visaguidance  {
+.topbanner_studyabroad p , .topbanner_immigration p, .topbanner_training p  {
   color: white;
-  padding: 10px 25px 0px 25px ;
+  padding: 1% 2% 0 2% ;
 }
 .topbanner {
-    width:644px ;
-    height:478px;
+    width:100% ;
+    height:auto;
     /* border: 2px solid black; */
-    display:flexbox;
+    display: flex ;
+    flex-wrap: wrap;
+    /* flex: 50%; */
+    
+
+
     
   
 }
-.topbanner_visaguidance {
-    width:245px ;
+.topbanner_visaguidances {
+    color: white;
+    padding: 0px 0.694vw 0px 0.694vw ;
+    box-shadow: 5px 5px 5px 5px black;
+    /* width: 46%; */
+    /* float: right; */
+    display: inline-block;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+/* .topbanner_visaguidance {
+    width:47% ;
     height:210px  ;
     border: 1px solid black;
     border-radius: 20px;
     background-image: linear-gradient(to bottom right,rgb(62, 62, 62),rgb(42,42,42));
     box-shadow: 5px 5px 5px 5px black;
     display: inline-block;
-    margin-top:34px;
-    float: right;
-}
-.topbanner_immigration{
+    /* margin-top:34px; */
+    /* float: right;
+} */ */
+.topbanner_immigration {
     margin-right: 0px;
     margin-top: 0px;
     float: right;
     
 
 }
-.topbanner_training{
-    margin-top: 34px;
+* {
+    box-sizing: border-box;
+  }
+
+.ptopbanner{
+    font-family:  'Montserrat', sans-serif;
+    font-size: 1.389vw;
+    font-weight: 700;
+}
+.h2topbanner{
+    font-family:  'Montserrat', sans-serif;
+    font-size: 1.528vw;
+    font-weight: 700;
 }
 
-/* .topbanner_immigration{
-    width:298px ;
-    height:216px  ;
-    border: 1px solid black;
-    background-image: linear-gradient(to bottom right,rgb(62, 62, 62),rgb(42,42,42));
-    box-shadow: 5px 5px 5px 5px;
-} */
+
+@media only screen and  (max-width:480px) and (min-width:200px){
+    .topbanner_studyabroad,.topbanner_immigration,.topbanner_training, .topbanner_visaguidances{
+        height: 24.6vw;
+    }
+    .ptopbanner{
+        font-size: 2.8vw;
+    }
+    .h2topbanner{
+        font-size: 3.1vw;
+    }
+}

@@ -4,12 +4,12 @@ import Typesofofferletters from "../Asserts/images/Typesofofferletters.png";
 
 const TypesofOfferLetters = () => {
   return (
-    <div >
-      <div className="IIECguidetostudyingabroadcomponents">
+    <div className='TypesofOfferLettersmaindiv' >
+      <div className="TypesofOfferLetterscomponents">
         {" "}
-        <img className='IIECguidetostudyingabroadimg' src={Typesofofferletters} ></img>{" "}
-        <p className="IIECguidetostudyingabroadone">  </p>
-        <p className='IIECguidetostudyingabroadtwo'>Understand the difference between conditional and unconditional offer letters.</p>
+       <div className="TypesofOfferLettersimgdiv"> <img className='IIECguidetostudyingabroadimg' src={Typesofofferletters} ></img>{" "}</div>
+     
+        <p className='TypesofOfferLetterstwo'>Understand the difference between conditional and unconditional offer letters.</p>
       </div>{" "}
     </div>
   );

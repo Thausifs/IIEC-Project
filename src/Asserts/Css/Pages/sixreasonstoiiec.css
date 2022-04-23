@@ -1,14 +1,18 @@
 .sixreasonstoiiecheading{
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
     margin-left: 1%;
 }
 
+
+
+
+
 .sixreasonstoiiecpara{
-    font-size: 20px;
+    font-size: 1.389vw;
     color: rgb(205, 213, 255,1);
     width: 45%;
     margin-left: 1%;
@@ -17,7 +21,7 @@
 .sixreasonstoiiecpage{
     background-color: rgb(32, 32, 32);
     position: absolute;
-    width: 1366px;
+    width: 100vw;
     /* display: flex;
     flex-wrap: wrap;
     flex:50%;
@@ -31,14 +35,14 @@
     margin-left: 48%;
 }
 .sixreasonstoiiecparas{
-    font-size: 20px;
+    font-size: 1.389vw;
     color: rgb(205, 213, 255,1);
     width: 92%;
     margin-left: 1%;
 }
 .sixreasonstoiiecheadings{
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 92%;
     font-family:  'Montserrat', sans-serif;
@@ -46,10 +50,56 @@
 }
 .sixreasonstoiiecmainhead{
     color: rgb(205, 213, 255,1);
-    font-size: 34px;
+    font-size: 2.361vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
     /* margin-left: 1%; */
     margin-top: 6%;
+}
+.sixreasonstoiiecbottomdiv{
+    display: flex;
+    flex: 50%;
+}
+.sixreasonstoiiecYNS{
+    margin: 2%;
+}
+
+@media only screen and  (max-width:480px) and (min-width:200px) {
+    .sixreasonstoiiecheading{
+        width: 90%;
+        font-size: 3vw;
+    }
+    .sixreasonstoiiecpara{
+        width: 90%;
+        font-size: 2.8vw;
+    }
+    .sixreasonsdiv{
+        position: relative ;
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+    .sixreasonstoiiecparas{
+        font-size: 2.8vw;
+    }
+    .sixreasonstoiiecheadings{
+        font-size: 3.6vw;
+    }
+    .sixreasonstoiiecmainhead{
+        width: 40%;
+        font-size: 4.6vw;
+    }
+    .sixreasonstoiiecbottomdiv{
+        display: flex;
+        flex-direction: column;
+        row-gap: 3vw;
+        width: 95%;
+        margin-left: 2%;
+    
+    }
+    .sixreasonstoiiecpage{
+      position: relative ;
+    }
+    
+
 }

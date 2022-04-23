@@ -12,7 +12,7 @@ const H1BAlternative = ()=>{
           <div className='h1balternativepage'>
               <Header></Header>
               <Navbar></Navbar>
-            <div className='h1baltstd'>  <StudyAbroad></StudyAbroad></div>
+            <div className='h1balternativestd'>  <StudyAbroad></StudyAbroad></div>
                <h1 className='h1balternativemainhead'>H1B Alternative</h1>
                  <p className='h1balternativepara'>A H1B visa allows a student to remain in the US legally and work full time in a job that relates to their degree course. Most students opt for this visa upon completion of their studies in the US. Candidates who have exceptional work experience that will qualify adequately to be equivalent to a degree can also apply for this visa. Students can work full time and get paid the market based pay scale for their occupation. It is a wonderful option to work and grow in your career while working towards a more permanent residency visa category like a Green Card.
 

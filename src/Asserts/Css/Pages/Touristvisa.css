@@ -1,6 +1,7 @@
-.Touristvisaheading {
+
+.Touristvisaheading{
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
@@ -8,7 +9,7 @@
 }
 
 .Touristvisapara{
-    font-size: 20px;
+    font-size: 1.389vw;
     color: rgb(205, 213, 255,1);
     width: 45%;
     margin-left: 1%;
@@ -17,46 +18,57 @@
 .Touristvisapage{
     background-color: rgb(32, 32, 32);
     position: absolute;
-    width: 1366px;
+    width: 100vw;
 
-}
-.touristvisastd{
-    position: absolute;
-    margin-top: 7%;
-    margin-left: 48%;
-}
-.Touristvisaparas{
-    font-size: 20px;
-    color: rgb(205, 213, 255,1);
-    width: 92%;
-    margin-left: 1%;
-}
-.Touristvisaheadings{
-    color: rgb(205, 213, 255,1);
-    font-size: 26px;
-    font: bold;
-    width: 92%;
-    font-family:  'Montserrat', sans-serif;
-    margin-left: 1%;
 }
 .Touristvisamainhead{
     color: rgb(205, 213, 255,1);
-    font-size: 34px;
+    font-size: 2.361vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
     /* margin-left: 1%; */
     margin-top: 7%;
 }
-
-ul.Touristvisaparaul{
-    list-style-type: circle;
-    font-size: 20px;
-color: white;
-width: 45%;
-
+.Touristvisastd{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 48%;
+}
+.Touristvisaheadings{
+    color: rgb(205, 213, 255,1);
+    font-size: 1.806vw;
+    font: bold;
+    width: 92%;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 1%;
+}
+.Touristvisaparas{
+    font-size: 1.389vw;
+    color: rgb(205, 213, 255,1);
+    width: 92%;
+    margin-left: 1%;
 }
 
-.touristvisayns{
-    margin-top: 60%;
+@media only screen and  (max-width:480px) and (min-width:150px){
+    .Touristvisapara , .Touristvisaparas {
+        font-size: 3vw;
+        width: 90%;
+    }
+    .Touristvisaheading , .Touristvisaheadings {
+        font-size: 3.4vw;
+        width: 90%;
+
+    }
+   
+
+    .Touristvisastd{
+        width: 100%;
+        position: relative;
+        margin-left:0%;
+    }
+    .Touristvisamainhead{
+        font-size: 4.5vw;
+
+    }
 }

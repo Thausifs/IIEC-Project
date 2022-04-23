@@ -25,23 +25,26 @@ const Home =()=>{
    return (
 
           <div className='homepage'>
+           
+           
              <Header ></Header>
             <Navbar></Navbar>
-            <div className='imagesmap'><img  src={map} width="1366px" height="500px"    ></img></div> 
-            <div className='topbannerhome'> <TopBanner ></TopBanner><WhyStudyAbroad ></WhyStudyAbroad>  <StudyAbroadIntakes></StudyAbroadIntakes><EmploymentProspectsAbroad></EmploymentProspectsAbroad> </div>
+            <div className='imagesmap'><img  src={map}     ></img></div>  
+             <div className='topbannerhome'> <TopBanner ></TopBanner><WhyStudyAbroad ></WhyStudyAbroad>  <StudyAbroadIntakes></StudyAbroadIntakes><EmploymentProspectsAbroad></EmploymentProspectsAbroad> </div>
             <div className='studyabroadhome'> <StudyAbroad ></StudyAbroad></div>
-             <div className='whystudyabroadhome'> </div>
            
-             
-             <BenefitsofStudyingAbroad></BenefitsofStudyingAbroad>
-             <StudyAbroadParentResources></StudyAbroadParentResources>
-             <IIECGuidetoStudyingAbroad></IIECGuidetoStudyingAbroad>
-             <TypesofOfferLetters></TypesofOfferLetters>
+           
+            <div className='homepagesecond'> 
+            <div className='homepagesecondcomponents'>  <BenefitsofStudyingAbroad></BenefitsofStudyingAbroad></div>
+            <div className='homepagesecondcomponents'> <StudyAbroadParentResources></StudyAbroadParentResources></div>
+            <div className='homepagesecondcomponents'> <IIECGuidetoStudyingAbroad></IIECGuidetoStudyingAbroad></div>
+            <div className='homepagesecondcomponents'> <TypesofOfferLetters></TypesofOfferLetters></div></div>
              <BottomBannerfirst></BottomBannerfirst>
-             <BottomBannertwo></BottomBannertwo>
-            <div className='popularcoursehomepg'> <PopularCourses style="flex:100%"></PopularCourses></div>
+              <BottomBannertwo></BottomBannertwo>
+            <PopularCourses ></PopularCourses>
+            <h1 className='yournextstephead'>Your Next Steps</h1> 
              <YourNextStep></YourNextStep>
-           <div className='footerhomepg'>  <Footer></Footer></div>
+            <Footer></Footer>
            </div>
  )}
 

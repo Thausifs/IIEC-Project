@@ -4,17 +4,17 @@ import mastersinusa from "../Asserts/images/mastersinusa.png";
 
 const MastersinUSA = () => {
   return (
-    
+    <div className='mastersinusamaindiv'>
       <div className="mastersinusacomponents">
         {" "}
-        <a href='/mastersinusa'><img className='mastersinusacomponentsimg' src={mastersinusa} width="320px" height="274px" ></img></a>
-        <p className="mastersinusacomponentsone">MASTERS IN USA
+        <div className='mastersinusaimgdiv'>   <a href='/mastersinusa'><img className='mastersinusacomponentsimg' src={mastersinusa}  ></img></a></div>
+        <p className="mastersinusaone">MASTERS IN USA
 
 </p>
-        <p className='mastersinusacomponentstwo'>The Master of Sciences and Master of Engineering programs in U.S universities are second to none in the range of specialties, quality and popularity.
+        <p className='mastersinusatwo'>The Master of Sciences and Master of Engineering programs in U.S universities are second to none in the range of specialties, quality and popularity.
  </p>
       </div>
-    
+      </div>
   );
 };
 

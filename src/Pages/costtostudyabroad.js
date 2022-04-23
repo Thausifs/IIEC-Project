@@ -5,8 +5,8 @@ import Footer from '../Components/footer';
 import Navbar from '../Components/navbar';
 import YourNextStep from '../Components/YourNextStep';
 import StudyAbroad from '../Components/StudyAbroad';
-import InterviewguidefortheUSF1StudentVisa from '../Components/InterviewguidefortheUSF1studentvisa'
-import USAapplicationtimeline from '../Components/USAapplicationtimeline';
+import LetterofRecommendation from '../Components/Letterofrecommendation';
+import StatementofPurpose from '../Components/statementofpurpose';
 
 const CosttoStudyAbroad = ()=>{
     return (
@@ -70,21 +70,21 @@ const CosttoStudyAbroad = ()=>{
     <h2 className='costtostudyheading'>3. Know your student visa cost</h2>
     <p className='costtostudypara'>Every country has its own set of rules and costs when it comes to visa. Speak with your IDP counsellor to know the latest updates regarding the student visa procedure of your chosen study destination. </p>
     <p className='costtostudypara'>Know more about student visa procedures in Canada | New Zealand | Australia | UK | US | Ireland </p>
-    <h2 className='costtostudyheading'>4. Don’t ignore your living expenses</h2>
-    <p className='costtostudypara'>When you stay in a new country, you’ll have to adapt to its culture and ways of living, and this sometimes comes with a cost. Keep some money aside for your everyday expenses, grocery, communication (data and calling) expenses, stationery, utilities, social activities and emergencies. Do keep track of your expenditures to manage your budget well. </p>
-    <p className='costtostudypara'>To have a close approximate of what your living expenses when studying abroad may look like, try our cost of living calculator.</p>
-    <h2 className='costtostudyheading'>5. Health support is important</h2>
-    <p className='costtostudypara'>Make sure you have medical insurance before your program starts, it is mandatory for all students travelling abroad! For instance, the average cost for medical insurance in Canada ranges between CAD 300- CAD 800 a year (indicative). </p>
-    <p className='costtostudypara'>Just know that as an international student from India, you will have access to extensive health and support services in every destination. Your counsellor will help you with the health insurance that is right for you. </p>
-    <p className='costtostudypara'>Know more about health and support services in
+    <h2 className='costtostudyheadings'>4. Don’t ignore your living expenses</h2>
+    <p className='costtostudyparas'>When you stay in a new country, you’ll have to adapt to its culture and ways of living, and this sometimes comes with a cost. Keep some money aside for your everyday expenses, grocery, communication (data and calling) expenses, stationery, utilities, social activities and emergencies. Do keep track of your expenditures to manage your budget well. </p>
+    <p className='costtostudyparas'>To have a close approximate of what your living expenses when studying abroad may look like, try our cost of living calculator.</p>
+    <h2 className='costtostudyheadings'>5. Health support is important</h2>
+    <p className='costtostudyparas'>Make sure you have medical insurance before your program starts, it is mandatory for all students travelling abroad! For instance, the average cost for medical insurance in Canada ranges between CAD 300- CAD 800 a year (indicative). </p>
+    <p className='costtostudyparas'>Just know that as an international student from India, you will have access to extensive health and support services in every destination. Your counsellor will help you with the health insurance that is right for you. </p>
+    <p className='costtostudyparas'>Know more about health and support services in
 Canada | New Zealand | Australia | UK | US | Ireland</p>
-      <h2 className='costtostudyheading'>6. You’ll have to commute</h2>
-      <p className='costtostudypara'>Enquire if your institution provides with a shuttle service. If not, you’ll have to rely on the available public transport. Locally, you can make use of regional trains, buses, and subways, the schedule of which is available on the web or government listings. Getting monthly passes for commuting to your institution is an affordable option. </p>
-      <h2 className='costtostudyheading'>7. When you earn, you pay taxes</h2>
-      <p className='costtostudypara'>Indian students studying abroad are allowed to work for a few hours every week (approx. 20 hrs) during academic sessions and full-time during vacations. Remember, when you earn, you’ll be liable to pay taxes as well. Do ensure if your visa conditions permit working, and check with your counsellor about such opportunities. </p>
-      <p className='costtostudypara'>Do consider the exchange rate variations as they may also affect your budgeting. It is a wise idea to look for a part-time job or seek scholarships to lower the cost of studying abroad. </p>
-      <div className='costtostudybox'>   <InterviewguidefortheUSF1StudentVisa></InterviewguidefortheUSF1StudentVisa>
-               <USAapplicationtimeline></USAapplicationtimeline></div>
+      <h2 className='costtostudyheadings'>6. You’ll have to commute</h2>
+      <p className='costtostudyparas'>Enquire if your institution provides with a shuttle service. If not, you’ll have to rely on the available public transport. Locally, you can make use of regional trains, buses, and subways, the schedule of which is available on the web or government listings. Getting monthly passes for commuting to your institution is an affordable option. </p>
+      <h2 className='costtostudyheadings'>7. When you earn, you pay taxes</h2>
+      <p className='costtostudyparas'>Indian students studying abroad are allowed to work for a few hours every week (approx. 20 hrs) during academic sessions and full-time during vacations. Remember, when you earn, you’ll be liable to pay taxes as well. Do ensure if your visa conditions permit working, and check with your counsellor about such opportunities. </p>
+      <p className='costtostudyparas'>Do consider the exchange rate variations as they may also affect your budgeting. It is a wise idea to look for a part-time job or seek scholarships to lower the cost of studying abroad. </p>
+      <div className='costtostudybox'>   <StatementofPurpose/>
+                <LetterofRecommendation/></div>
      <YourNextStep></YourNextStep> 
      <Footer></Footer>
    </div>

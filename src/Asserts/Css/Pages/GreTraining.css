@@ -1,6 +1,7 @@
-.Gretrainingheading {
+
+.Gretrainingheading{
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
@@ -8,55 +9,74 @@
 }
 
 .Gretrainingpara{
-    font-size: 20px;
+    font-size: 1.7vw;
     color: rgb(205, 213, 255,1);
     width: 45%;
-    margin-left: 1%;
-
-
-}
-
-.Gretrainingparali{
-    font-size: 20px;
-    color: rgb(205, 213, 255,1);
-    width: 40%;
     margin-left: 1%;
 
 }
 .Gretrainingpage{
     background-color: rgb(32, 32, 32);
     position: absolute;
-    width: 1366px;
+    width: 100vw;
 
-}
-.Gretrainingstd{
-    position: absolute;
-    margin-top: 7%;
-    margin-left: 48%;
-}
-.Gretrainingparas{
-    font-size: 20px;
-    color: rgb(205, 213, 255,1);
-    width: 92%;
-    margin-left: 1%;
-}
-.Gretrainingheadings{
-    color: rgb(205, 213, 255,1);
-    font-size: 26px;
-    font: bold;
-    width: 92%;
-    font-family:  'Montserrat', sans-serif;
-    margin-left: 1%;
 }
 .Gretrainingmainhead{
     color: rgb(205, 213, 255,1);
-    font-size: 34px;
+    font-size: 2.361vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
     /* margin-left: 1%; */
     margin-top: 7%;
 }
-.YNSgre{
-    margin-top: 100%;
+.Gretrainingstd{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 48%;
+}
+.Gretrainingheadings{
+    color: rgb(205, 213, 255,1);
+    font-size: 1.806vw;
+    font: bold;
+    width: 92%;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 1%;
+}
+.Gretrainingparas{
+    font-size: 1.7vw;
+    color: rgb(205, 213, 255,1);
+    width: 92%;
+    margin-left: 1%;
+}
+.GretrainingYNS{
+    margin-top: 95%;
+}
+
+@media only screen and  (max-width:480px) and (min-width:150px){
+    .Gretrainingpara , .Gretrainingparas {
+        font-size: 3vw;
+        width: 90%;
+    }
+    .Gretrainingheading , .Gretrainingheadings {
+        font-size: 3.4vw;
+        width: 90%;
+
+    }
+   
+
+    .Gretrainingstd{
+        width: 100%;
+        position: relative;
+        margin-left:0%;
+        margin-bottom: 2%;
+    }
+    .Gretrainingmainhead{
+        font-size: 4.5vw;
+
+    }
+    .GretrainingYNS{
+        margin-top: 5%;
+    }
+    
 }

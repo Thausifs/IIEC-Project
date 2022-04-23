@@ -14,8 +14,9 @@ const TOEFL = ()=>{
         <div className='Toeflpage'>
               <Header></Header>
               <Navbar></Navbar>
+              <h1 className='Toeflmainhead'>TOEFL:</h1>
            <div className='Toeflstd'>  <StudyAbroad></StudyAbroad></div> 
-               <h1 className='Toeflmainhead'>TOEFL:</h1>
+               
                <h2 className='Toeflheading'>TOEFL COACHING AND TRAINING @ IIEC</h2>
                <p className='Toeflpara'>TOEFL course offers extensive coverage on all topics. Our trainers will examine key fundamentals, the right approach, effective solving technique and test taking strategies. No stone will be left unturned! Expect plenty of interaction and practice from the leading TOEFL specialist.
 </p>
@@ -31,7 +32,7 @@ Team of professional trainers with necessary professional experience and academi
 You will receive all the study materials that you will need to ace your TOEFL access extensive notes, cheat sheets, practice questions, mock test and vocabulary lists, our learning systems are constantly updated by our highly experienced in-house R&D team. So you can be assured that you will be in touch with the latest techniques and testing trend. We maintain a well-stocked resource library that our students have full access to.</p>
 
 
-<div className='toeflyns'></div><YourNextStep></YourNextStep>
+<div className='ToeflYNS'></div><YourNextStep></YourNextStep>
            <Footer></Footer>
               </div>
     )

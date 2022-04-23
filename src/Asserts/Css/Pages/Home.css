@@ -13,16 +13,20 @@ ul{
      float: left;
 }
 
-
-    
+.studyabroadhome{
+    width: 49%;
+}
+    .BottomBannerfirsthomepg{
+        width: 100%;
+    }
 
 .homepage{
     background-color: rgb(32, 32, 32);
-    position: absolute;
-    width: 1366px;
+    /* position: absolute; */
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    flex:50%;
+    /* flex:50%; */
     /* justify-content: space-around; */
     /* align-content: space-around; */
     /* gap: 5%; */
@@ -32,6 +36,14 @@ ul{
     
 
 
+}
+.homepagesecond{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 50%;
+    flex-direction: row;
+    row-gap: 1.464vw;
+   
 }
 
 .imgstudyabroad{
@@ -68,8 +80,8 @@ ul{
     width: 50%;
 }
 .imagesmap{
-    width: 1366px;
-    /* height: 80%; */
+    width: 100%;
+    height: auto;   
     
 }
 .studyabroadimage{
@@ -130,19 +142,52 @@ ul{
     margin-top: -7%;
     display: flex;
     flex-direction: column;
-    row-gap: 94px;
-    margin-left: 1%;
+    row-gap: 6.881vw;
+    margin-left: 0%;
+    width: 50%;
 
 }
-.studyabroadhome{
-    /* margin-right: -1% ; */
+.homepagesecondcomponents{
+    width: 50%;
 }
-/* .whystudyabroadhome{
-  
-} */
+
 
 .popularcoursehomepg{
     padding-left: 0%;
+    background-color: rgb(71, 18, 19);
+}
+.imagesmap  img {
+    width: 100%; 
 }
 
+@media only screen and  (max-width:480px) and (min-width:200px) {
+    .topbannerhome{
+        margin-top: -15%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* margin-top: 30px; */
+        margin-left: 0%;
+        row-gap:  4vw;
+
+
+       
+
+    }
+    .studyabroadhome{
+        width: 100%;
+        margin-top: -3%;
+       
+    }
+    .homepagesecond{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        row-gap: 3vw;
+    }
+    .homepagesecondcomponents{
+        width: 100%;
+    }
+      
+}
 

@@ -10,65 +10,311 @@ ul{
 
 
 .headerdiv {
-     height: 50px;
+     /* height: 100px; */
      width: 100%;
      /* border: 2px solid black; */
      background-color: rgb(32, 32, 32);
+     padding-bottom: 10px;
      
 }
 
-
+li {
+    padding:0;
+    margin: 2%;
+}
 ul{
-    text-align: left;
+    /* text-align: left;
+    display: inline-flex; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 .header_logo{
-    padding-right: 17.3%;
+    /* padding-right: 1.3%; */
+    width: 100%;
 }
 
-.header_placeholder{
-    height: 46px;
-    width: 25%;
-    font-size: 20px;
-    border: 2px groove black
-    
-      
+
+
+.headerlogo{
+    width: 17.361vw;
 }
 
 .event{
-    color: white;
-    font-size: 22px;
+   
+    font-size: 2.2vw;
+    font-weight: 900;
+    color: rgb(205, 213, 255,1);
+   
+}
+.event img {
+    width: 25px;
+    height: 25px;
 }
 .findus{
-    color: white;
-    font-size: 22px;
+   
+    font-size: 2.2vw;
+    font-weight: 900;
+    color: rgb(205, 213, 255,1);
+   
 }
 .header_placeholder{
-    width: 25%;
-    height: 46px;
-    border-radius: 10px;
+    width:22.222vw;
+    height: 4.5vw;
+    border-radius: 0.694vw;
     background-color: rgb(52, 48, 48);
-    ;
+    
     /* border: 5px groove rgb(32, 32, 32); */
     box-shadow: 2px 2px 2px 2px inset rgb(0, 0, 0)   ;
     box-shadow: -2px -2px 2px 2px inset rgb(53, 50, 50) ;
     font-weight: 900;
+    font-size: 1.528vw;
+    border: 2px groove black
+ 
 }
 #searchimputplaceholder::placeholder{
     color: rgb(205, 213, 255,1);
+    font-size: 1.944vw;
+    text-align: center;
 }
 
 .enquirebtn{
-    width: 8.5%;
-    height: 40px;
-    border-radius: 15px;
-    font-size: 22px;
-    color: white;
+    width: 10.417vw;
+    height: 3.472vw;
+    border-radius: 1.042vw;
+    font-size: 1.5vw;
+    
     background-color: firebrick;
+    font-weight: 900;
+    color: rgb(205, 213, 255,1);
+
 }
 
 .header{
-    height: 75px;
+    height: 8vw;
     width: 100%;
     background-color: rgb(32, 32, 32);
 }
+
+@media only screen and (max-width:480px) and (min-width:200px){
+     .headerdiv {
+         height:6vw ;
+         width: 100%;
+     }
+     .headerlogo{
+         width: 20%;
+     }
+
+     .header_placeholder{
+            height:6vw ;
+            font-size: 3vw;
+            width: 24vw;
+     }
+     .event{
+         font-size: 3.3vw;
+     }
+     .header{
+         width: 100%;
+         margin-bottom: 1%;
+     }
+     .header_logo{
+        padding-right: 0%;
+     }
+    .findus{
+        font-size: 3.3vw;
+    }
+    .enquirebtn{
+        font-size: 3vw;
+        height: 6vw;
+        width: 18vw;
+        border-radius: 6vw;
+    }
+    #searchimputplaceholder::placeholder{
+        font-size: 3vw;
+    }
+    li{
+        padding: 0%;
+        margin: 1%;
+    }
+}
+/* 
+@media only screen and (max-width:768px) and (min-width:480px) {
+    .headerdiv {
+        height:45px ;
+        width: 100%;
+    }
+
+    .header_placeholder{
+           height:22px ;
+           font-size: 12px;
+           width: 15%;
+    }
+    .event{
+        font-size: 18px;
+    }
+    .header{
+        width: 100%;
+    }
+    .header_logo{
+       padding-right: 0%;
+    }
+   .findus{
+       font-size: 18px;
+   }
+   .enquirebtn{
+       font-size: 14px;
+       height: 25px;
+   }
+   #searchimputplaceholder::placeholder{
+       font-size: 12px;
+   }
+   li{
+       padding: 0%;
+       margin: 3%;
+   }
+}
+@media only screen and (max-width:1200px) and (min-width:768px) {
+    .headerdiv {
+        height:65px ;
+        width: 100%;
+    }
+
+    .header_placeholder{
+           height:30px ;
+           font-size: 12px;
+           width: 15%;
+    }
+    .event{
+        font-size: 22px;
+    }
+    
+    .header_logo{
+       padding-right: 0%;
+    }
+   .findus{
+       font-size: 22px;
+   }
+   .enquirebtn{
+       font-size: 18px;
+       height: 25px;
+       height: 35px;
+    
+       
+   }
+   #searchimputplaceholder::placeholder{
+       font-size: 22px;
+   }
+   li{
+       padding: 0%;
+       margin: 3%;
+   }
+}
+
+@media only screen and (max-width:1600px) and (min-width:1200px) {
+    .headerdiv {
+        height:90px ;
+        width: 100%;
+    }
+
+    .header_placeholder{
+           height:50px ;
+           font-size: 12px;
+           width: 25%;
+    }
+    .event{
+        font-size: 32px;
+    }
+    
+    .header_logo{
+       padding-right: 0%;
+    }
+   .findus{
+       font-size: 32px;
+   }
+   .enquirebtn{
+       font-size: 24px;
+       height: 45px;
+      
+    
+       
+   }
+   #searchimputplaceholder::placeholder{
+       font-size: 32px;
+   }
+   li{
+       padding: 0%;
+       margin: 3%;
+   }
+}
+@media only screen and (max-width:2000px) and (min-width:1600px) {
+    .headerdiv {
+        height:110px ;
+        width: 100%;
+    }
+
+    .header_placeholder{
+           height:65px ;
+           font-size: 12px;
+           width: 25%;
+    }
+    .event{
+        font-size: 36px;
+    }
+    
+    .header_logo{
+       padding-right: 0%;
+    }
+   .findus{
+       font-size: 36px;
+   }
+   .enquirebtn{
+       font-size: 28px;
+       height: 45px;     
+   }
+   #searchimputplaceholder::placeholder{
+       font-size: 36px;
+   }
+   li{
+       padding: 0%;
+       margin: 3%;
+   }
+}
+
+@media only screen and  (min-width:2000px) {
+    .headerdiv {
+        height:160px ;
+        width: 100%;
+        margin-bottom: 0%;
+       
+    }
+
+    .header_placeholder{
+           height:60px ;
+           font-size: 12px;
+           width: 25%;
+    }
+    .event{
+        font-size: 38px;
+    }
+    
+    .header_logo{
+       padding-right: 0%;
+    }
+   .findus{
+       font-size: 38px;
+   }
+   .enquirebtn{
+       font-size: 28px;
+       height: 50px;     
+   }
+   #searchimputplaceholder::placeholder{
+       font-size: 38px;
+   }
+   li{
+       padding: 0%;
+       margin: 3%;
+   }
+  
+} */

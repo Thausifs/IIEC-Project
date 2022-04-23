@@ -34,22 +34,22 @@ const StudyinNewZealand = ()=>{
    <h2 className='studyinnewzealandheading'>Permit Requirments
 </h2>
 
- <p className='studyinnewzealandpara'>Once you have a student permit, you must meet certain conditions during your stay:
+ <p className='studyinnewzealandparas'>Once you have a student permit, you must meet certain conditions during your stay:
 </p>
-<ul className='studyinnewzealandpara'>
-    <li>You must attend the place of study noted in your permit. However, you can apply to us to change your course or institution.
-</li><br/>
-    <li>If you have to be accompanied by a guardian, you must live with that person.
-</li><br/>
-    <li>You must be able to show that you are passing your course.
-</li><br/>
-    <li>You may only undertake work allowed by your student permit.</li><br/>
-    <li>
+<div className='studyinnewzealandparas'>
+    <p>You must attend the place of study noted in your permit. However, you can apply to us to change your course or institution.
+</p><br/>
+    <p>If you have to be accompanied by a guardian, you must live with that person.
+</p><br/>
+    <p>You must be able to show that you are passing your course.
+</p><br/>
+    <p>You may only undertake work allowed by your student permit.</p><br/>
+    <p>
 You must obey New Zealand’s laws.
-</li><br/>
-    <li>You must only stay in New Zealand for the time allowed by your permit.
-</li><br/>
-</ul><br/><br/><br/><br/><br/><br/>
+</p><br/>
+    <p>You must only stay in New Zealand for the time allowed by your permit.
+</p><br/>
+</div>
 
 <p className='studyinnewzealandparas'>If you break any of these conditions we may revoke your permit.
 If you are studying at an education provider with which Immigration New Zealand (INZ) has a Memorandum of Understanding you have the opportunity to apply for a Length of Course permit.
@@ -65,27 +65,27 @@ If you are a full scholarship or fees scholarship student you may be granted a s
 </h1>
 <p className='studyinnewzealandparas'>The total cost depends on each student spending habits. However a student should be able to live in New Zealand for a total cost of living of between NZ$8,000 and NZ$10,000 a year including accommodation, transport and entertainment. Due to the moderating effect of the ocean, summer and winter temperatures in most NZ locations differ by less than 10 oC. The most continental climate is found in the South Island, in Central Otago, inland from Dunedin. Here the temperature reaches 24 oC on an average day in summer while in winter it falls to -2 oC on an average night
 </p>
-<ul className='studyinnewzealandparas'>
-    <li>The relaxed pace of life or lifestyle 44%
-</li><br/>
-    <li>The climate or clean, green environment 40%
-</li><br/>
-    <li>To provide a better future for their children 39%
-</li><br/>
-    <li>Employment Opportunity 28%
-</li><br/>
-    <li>friendly People 27%
-</li><br/>
-    <li>Climate and natural beauty 77%
-</li><br/>
-    <li>Friendly people or relaxed pace of life 63%
-</li><br/>
-    <li>The ability to achieve one’s desired lifestyle 62%
-</li><br/>
-    <li>Safety from crime and violence 44%
-</li><br/>
-    <li>Recreation and leisure activities 43% </li>
-</ul><br/><br/><br/><br/><br/><br/>
+<div className='studyinnewzealandparas'>
+    <p>The relaxed pace of life or lifestyle 44%
+</p><br/>
+    <p>The climate or clean, green environment 40%
+</p><br/>
+    <p>To provide a better future for their children 39%
+</p><br/>
+    <p>Employment Opportunity 28%
+</p><br/>
+    <p>friendly People 27%
+</p><br/>
+    <p>Climate and natural beauty 77%
+</p><br/>
+    <p>Friendly people or relaxed pace of life 63%
+</p><br/>
+    <p>The ability to achieve one’s desired lifestyle 62%
+</p><br/>
+    <p>Safety from crime and violence 44%
+</p><br/>
+    <p>Recreation and leisure activities 43% </p>
+</div>
 
 <h2 className='studyinnewzealandheadings'>GUIDE FOR INTERNATIONAL STUDIES
 </h2>

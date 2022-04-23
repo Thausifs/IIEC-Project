@@ -26,6 +26,7 @@ import StudyinUSA  from './Pages/Study Abroad Destination/StudyinUSA';
 import StudyinAustralia from './Pages/Study Abroad Destination/StudyinAustralia';
 import StudyinMalaysia from './Pages/Study Abroad Destination/StudyinMalaysia';
 import StudyinSingapore from './Pages/Study Abroad Destination/StudyinSingapore';
+import StudyinEurope from './Pages/Study Abroad Destination/StudyinEurope';
 import StudyinCanada from './Pages/Study Abroad Destination/StudyinCanada';
 import StudyinUK from './Pages/Study Abroad Destination/StudyinUK';
 import StudyinNewzealand from './Pages/Study Abroad Destination/StudyinNewZealand';
@@ -54,13 +55,15 @@ import  USAJ1Caretaker from './Pages/USAJ1caretaker';
 import  InternMalaysia from './Pages/Internmalaysia';
 import  IELTS from './Pages/IELTS';
 import  TOEFL from './Pages/Toefl';
-import  GreTraining from './Pages/GreTraining';
+import  GRE from './Pages/GreTraining';
 import  PTE from './Pages/PTE';
 import  GMAT from './Pages/GMAT';
 import  SAT from './Pages/SAT';
 import  BachelorsInUSA from './Pages/Study Abroad Destination/BachelorsInUsa';
 import  MastersinUSA from './Pages/Study Abroad Destination/Mastersinusa';
 import  MBAinUSA from './Pages/Study Abroad Destination/MBAinusa';
+// import  InternMalaysia from './Pages/Internmalaysia';
+import  VisaforExams from './Pages/visaforexams';
 
 
 
@@ -92,6 +95,7 @@ function App() {
               <Route path='/studyinaustralia' element={<StudyinAustralia/>} />
               <Route path='/studyinmalaysia' element={<StudyinMalaysia/>} />
               <Route path='/studyinsingapore' element={<StudyinSingapore/>} />
+              <Route path='/studyineurope' element={<StudyinEurope/>} />
               <Route path='/studyincanada' element={<StudyinCanada/>} />
               <Route path='/studyinuk' element={<StudyinUK/>} />
               <Route path='/studyinnewzealand' element={<StudyinNewzealand/>} />
@@ -121,16 +125,19 @@ function App() {
               <Route path='/Internmalaysia' element={< InternMalaysia/>} />
               <Route path='/ielts' element={<IELTS/>} />
               <Route path='/toefl' element={<TOEFL/>} />
-              <Route path='/gretraining' element={<GreTraining/>} />
+              <Route path='/gre' element={<GRE/>} />
               <Route path='/pte' element={< PTE/>} />
               <Route path='/gmat' element={< GMAT/>} />
               <Route path='/sat' element={< SAT/>} />
               <Route path='/bachelorsinusa' element={< BachelorsInUSA/>} />
               <Route path='/mastersinusa' element={< MastersinUSA/>} />
               <Route path='/mbainusa' element={< MBAinUSA/>} />
+              <Route path='/visaforexams' element={< VisaforExams/>} />
+             
+             
             
+             
 
-              
               
               
              

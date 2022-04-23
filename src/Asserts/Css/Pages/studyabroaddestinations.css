@@ -1,20 +1,86 @@
 .studyabroaddestinationsheading {
     color: aliceblue;
-    font-size: 34px;
+    font-size: 2.361vw;
     font: bold;
-    width: 50%;
+    width: 100%;
+}
+.studyabroaddestinationshead {
+    color: aliceblue;
+    font-size: 3vw;
+    font: bold;
+    width: 100%;
 }
 
 .studyabroaddestinationspara{
-font-size: 20px;
+font-size: 1.389vw;
 color: white;
-width: 50%;
+width: 100%;
 
 }
 .studyabroaddestinationspage{
     background-color: rgb(32, 32, 32);
-    position: relative;
-    width: 1440px;
-    display: inline-block;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex:50%;
+    row-gap: 1.736vw;
+    column-gap: 1%;
+}
 
+.studyabroaddestinationstd{
+ margin-top: 35%;
+  width: 48%;
+}
+
+.studyabroaddestinationmaindiv{
+    width: 48%;
+    row-gap: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.studyabroaddestinationbottomdivone{
+    width: 100%;
+    display: flex;
+
+
+}
+
+.studyabroaddestinationbottomdivtwo{
+    width: 100%;
+    display: flex;
+
+
+}
+
+@media only screen and  (max-width:480px) and (min-width:200px) {
+    .studyabroaddestinationmaindiv{
+        /* margin-top: -15%; */
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* margin-top: 30px; */
+        margin-left: 0%;
+        row-gap:  4vw;
+
+
+       
+
+    }
+    .studyabroaddestinationstd{
+        width: 100%;
+       
+       
+    }
+    .studyabroaddestinationbottomdivone , .studyabroaddestinationbottomdivtwo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        row-gap: 3vw;
+    }
+    .homepagesecondcomponents{
+        width: 100%;
+    }
+      
 }

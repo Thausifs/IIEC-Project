@@ -1,14 +1,15 @@
 .letsprepyouheading{
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     /* width: 40%; */
     font-family:  'Montserrat', sans-serif;
     margin-left: 1%;
 }
 
+
 .letsprepyoupara{
-    font-size: 20px;
+    font-size: 1.389vw;
     color: rgb(205, 213, 255,1);
     /* width: 45%; */
     margin-left: 1%;
@@ -16,31 +17,66 @@
 }
 .Totaltitlediv{
     width: 48%;
-    row-gap: 5%;
+    row-gap: 2%;
     display: flex;
     flex-direction: column;
 }
 .letsprepyoupage{
     background-color: rgb(32, 32, 32);
     position: absolute;
-    width: 1366px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex:50%;
-    row-gap: 25px;
+    row-gap: 1.736vw;
     column-gap: 1%;
 }
 .prepyouupstd{
     /* display: flex;
  */
-  margin-top: 6%;
+  margin-top: 17%;
+  width: 48%;
 }
 .letsprepyoumainhead{
     color: rgb(205, 213, 255,1);
-    font-size: 34px;
+    font-size: 2.361vw;
     font: bold;
     width: 60%;
     font-family:  'Montserrat', sans-serif;
     /* margin-left: 1%; */
     margin-top: 4%;
 }
+
+@media only screen and  (max-width:480px) and (min-width:200px) {
+    .Totaltitlediv{
+        margin-top: 0%;
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        /* margin-top: 30px; */
+        margin-left: 0%;
+        row-gap:  4vw;
+        padding-left: 3%;
+
+       
+
+    }
+    .prepyouupstd{
+        width: 95%;
+        margin-top: 1%;
+        padding-left: 3%;
+       
+    }
+   .letsprepyoumainhead{
+       font-size:2.8vw ;
+   }
+   .letsprepyoupara{
+    font-size: 1.8vw;
+   }
+   .letsprepyouheading{
+    font-size: 2.5vw;
+}
+   
+      
+}
+

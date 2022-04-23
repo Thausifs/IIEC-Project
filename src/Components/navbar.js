@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
 
      
-            
+         
        <div className="navbar">
       
        <div className="dropdown">
@@ -67,8 +67,7 @@ const Navbar = () => {
          </div>
        </div>
        <div className="dropdown">
-         <button class="dropbtn">Training
-           
+         <button class="dropbtn">Training    
          </button>
          <div className="dropdown-contentfifth">
            <a href="/ielts">IELTS</a>
@@ -80,6 +79,7 @@ const Navbar = () => {
          </div>
        </div>
      </div>
+   
     )}
 
     

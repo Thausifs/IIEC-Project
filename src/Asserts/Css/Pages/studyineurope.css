@@ -1,24 +1,81 @@
 .studyineuropeheading {
-    color: aliceblue;
-    font-size: 28px;
+    color: rgb(205, 213, 255,1);
+    font-size: 1.806vw;
     font: bold;
-    width: 50%;
+    width: 40%;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 1%;
 }
 
 .studyineuropepara{
-font-size: 20px;
-color: white;
-width: 50%;
+    font-size: 1.6vw;
+    color: rgb(205, 213, 255,1);
+    width: 45%;
+    margin-left: 1%;
 
 }
-.studyineuropeage{
+.studyineuropepage{
     background-color: rgb(32, 32, 32);
-    position: relative;
-    width: 1440px;
-    display: inline-block;
+    position: absolute;
+    width: 94.861vw;
 
+}
+.studyineuropestd{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 48%;
+}
+.studyineuropeparas{
+    font-size: 1.6vw;
+    color: rgb(205, 213, 255,1);
+    width: 92%;
+    margin-left: 1%;
+}
+.studyineuropeheadings{
+    color: rgb(205, 213, 255,1);
+    font-size: 1.806vw;
+    font: bold;
+    width: 92%;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 1%;
 }
 .studyineuropemainhead{
-    font-size: 34px;
-    color: aliceblue;
+    color: rgb(205, 213, 255,1);
+    font-size: 2.361vw;
+    font: bold;
+    width: 40%;
+    font-family:  'Montserrat', sans-serif;
+    /* margin-left: 1%; */
+    margin-top: 7%;
+}
+
+ul.studyineuropeparaul{
+    list-style-type: circle;
+    font-size: 1.389vw;
+color: white;
+width: 45%;
+}
+
+
+@media only screen and  (max-width:480px) and (min-width:150px){
+    .studyineuropepara , .studyineuropeparas {
+        font-size: 3vw;
+        width: 90%;
+    }
+    .studyineuropeheading , .studyineuropeheadings {
+        font-size: 3.4vw;
+        width: 90%;
+
+    }
+   
+
+    .studyineuropestd{
+        width: 100%;
+        position: relative;
+        margin-left:0%;
+    }
+    .studyineuropemainhead{
+        font-size: 4.5vw;
+
+    }
 }

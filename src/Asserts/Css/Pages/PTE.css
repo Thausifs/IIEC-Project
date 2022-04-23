@@ -1,6 +1,7 @@
-.pteheading {
+
+.pteheading{
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
@@ -8,52 +9,75 @@
 }
 
 .ptepara{
-    font-size: 20px;
+    font-size: 1.7vw;
     color: rgb(205, 213, 255,1);
     width: 45%;
-    margin-left: 1%;
-
-
-}
-
-.pteparali{
-    font-size: 20px;
-    color: rgb(205, 213, 255,1);
-    width: 40%;
     margin-left: 1%;
 
 }
 .ptepage{
     background-color: rgb(32, 32, 32);
     position: absolute;
-    width: 1366px;
+    width: 100vw;
 
-}
-.ptestd{
-    position: absolute;
-    margin-top: 7%;
-    margin-left: 48%;
-}
-.pteparas{
-    font-size: 20px;
-    color: rgb(205, 213, 255,1);
-    width: 92%;
-    margin-left: 1%;
-}
-.pteheadings{
-    color: rgb(205, 213, 255,1);
-    font-size: 26px;
-    font: bold;
-    width: 92%;
-    font-family:  'Montserrat', sans-serif;
-    margin-left: 1%;
 }
 .ptemainhead{
     color: rgb(205, 213, 255,1);
-    font-size: 34px;
+    font-size: 2.361vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
     /* margin-left: 1%; */
     margin-top: 7%;
+}
+.ptestd{
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 48%;
+}
+.pteheadings{
+    color: rgb(205, 213, 255,1);
+    font-size: 1.806vw;
+    font: bold;
+    width: 92%;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 1%;
+}
+.pteparas{
+    font-size: 1.7vw;
+    color: rgb(205, 213, 255,1);
+    width: 92%;
+    margin-left: 1%;
+}
+.pteYNS{
+    margin-top: 14%;
+}
+
+@media only screen and  (max-width:480px) and (min-width:150px){
+    .ptepara , .pteparas {
+        font-size: 3vw;
+        width: 90%;
+    }
+    .pteheading , .pteheadings {
+        font-size: 3.4vw;
+        width: 90%;
+
+    }
+   
+
+    .ptestd{
+        width: 100%;
+        position: relative;
+        margin-left:0%;
+        margin-bottom: 2%;
+        margin-top: 0%;
+    }
+    .ptemainhead{
+        font-size: 4.5vw;
+
+    }
+    .pteYNS{
+        margin-top: 5%;
+    }
+    
 }

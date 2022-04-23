@@ -7,7 +7,7 @@ const StudyAbroadIntakes = () => {
     
       <div className="studyabroadcomponents">
         {" "}
-        <img className='studyabroadimg' src={Studyabroadintakes} width="340px" height="304px"></img>{" "}
+      <div className='imgstdabrdcomp'> <img className='studyabroadimg' src={Studyabroadintakes} ></img>{" "}</div> 
         <p className="intakes"> Study abroad intakes </p>
         <p className='intakestwo'>Did you know academic year in universities abroad differ from the ones in India? Most universities offer two major intakes for the students aspiring to study abroad – Spring intake and fall intake. Let’s help you know all about it.</p>
       </div>

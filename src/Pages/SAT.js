@@ -14,8 +14,9 @@ const SAT = ()=>{
         <div className='satpage'>
               <Header></Header>
               <Navbar></Navbar>
-           <div className='satstd'>  <StudyAbroad></StudyAbroad></div> 
            <h1 className='satmainhead'>SAT</h1>
+
+           <div className='satstd'>  <StudyAbroad></StudyAbroad></div> 
            <p className='satpara'>SAT course offer extensive coverage on all SAT test topics. The trainer will examine key fundamentals, right approach, effective solving techniques and test-taking strategies; no stone will be left unturned. Expect plenty of interaction and practice from learning GMAT specialist.
 </p>
             <p className='satpara'>We are so confident of quality of our SAT preparation programs that we guarantee your official SAT score will increase after going through our proven programs.
@@ -35,15 +36,15 @@ The Writing and Language Test of the SAT is made up of one section with 44 multi
 </p>
 
 <h1 className='satmainhead'>Mathematics</h1>
-<p className='satpara'>The mathematics portion of the SAT is divided into two sections: Math Test – Calculator and Math Test – No Calculator. In total, the SAT math test is 80 minutes long and includes 58 questions: 45 multiple choice questions and 13 grid-in questions. The multiple choice questions have four possible answers; the grid-in questions are free response and require the test taker to provide an answer.
+<p className='satparas'>The mathematics portion of the SAT is divided into two sections: Math Test – Calculator and Math Test – No Calculator. In total, the SAT math test is 80 minutes long and includes 58 questions: 45 multiple choice questions and 13 grid-in questions. The multiple choice questions have four possible answers; the grid-in questions are free response and require the test taker to provide an answer.
 </p>
-<ul className='satpara'>
-    <li>The Math Test – No Calculator section has 20 questions (15 multiple choice and 5 grid-in) and lasts 25 minutes.
-</li>
-    <li>The Math Test – Calculator section has 38 questions (30 multiple choice and 8 grid-in) and lasts 55 minutes.
-</li>
+<ul className='satparas'>
+    <p>The Math Test – No Calculator section has 20 questions (15 multiple choice and 5 grid-in) and lasts 25 minutes.
+</p>
+    <p>The Math Test – Calculator section has 38 questions (30 multiple choice and 8 grid-in) and lasts 55 minutes.
+</p>
 </ul>
-<p className='satpara'>Several scores are provided to the test taker for the math test. A sub score (on a scale of 1 to 15) is reported for each of three categories of math content: “Heart of Algebra” (linear equations, systems of linear equations, and linear functions), “Problem Solving and Data Analysis” (statistics, modelling, and problem-solving skills), and “Passport to Advanced Math” (non-linear expressions, radicals, exponentials and other topics that form the basis of more advanced math). A test score for the math test is reported on a scale of 10 to 40, and a section score (equal to the test score multiplied by 20) is reported on a scale of 200 to 800. 
+<p className='satparas'>Several scores are provided to the test taker for the math test. A sub score (on a scale of 1 to 15) is reported for each of three categories of math content: “Heart of Algebra” (linear equations, systems of linear equations, and linear functions), “Problem Solving and Data Analysis” (statistics, modelling, and problem-solving skills), and “Passport to Advanced Math” (non-linear expressions, radicals, exponentials and other topics that form the basis of more advanced math). A test score for the math test is reported on a scale of 10 to 40, and a section score (equal to the test score multiplied by 20) is reported on a scale of 200 to 800. 
 </p>
            
 

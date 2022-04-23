@@ -17,55 +17,55 @@ const StudyinAustralia = ()=>{
             <h2 className='studyinaustraliaheading'>WHY STUDY IN AUSTRALIA</h2>
             <p className='studyinaustraliapara'>More than 450,000 international students were enrolled in Australian institutions in 2007. Students come from around the world to learn in Australia’s dynamic, exciting study environment.</p>
             <h2 className='studyinaustraliaheading'>STUDENTS COME TO AUSTRALIA FOR MANY REASONS INCLUDING:</h2>
-            <ul>
-                <li className='studyinaustraliapara'>The excellent education system
-</li><br/>
-                <li className='studyinaustraliapara'>The range of courses from school to postgraduate degrees
-</li><br/>
-                <li className='studyinaustraliapara'>The many types of specialist institutions
-</li><br/>
-                <li className='studyinaustraliapara'>The worldwide acceptance of Australian qualifications
-</li><br/>
-                <li className='studyinaustraliapara'>The innovative teaching and learning
-</li><br/>
-                <li className='studyinaustraliapara'>The quality of scientific research
-</li><br/>
-                <li className='studyinaustraliapara'>The support for international students
-</li><br/>
-                <li className='studyinaustraliapara'>The safe environment
-</li><br/>
-                <li className='studyinaustraliapara'>The multicultural society
-</li><br/>
-            </ul><br/><br/><br/><br/><br/><br/><br/>
+            <div className='studyinaustralialidivone'>
+                <p className='studyinaustraliapara'>The excellent education system
+</p><br/>
+                <p className='studyinaustraliapara'>The range of courses from school to postgraduate degrees
+</p><br/>
+                <p className='studyinaustraliapara'>The many types of specialist institutions
+</p><br/>
+                <p className='studyinaustraliapara'>The worldwide acceptance of Australian qualifications
+</p><br/>
+                <p className='studyinaustraliapara'>The innovative teaching and learning
+</p><br/>
+                <p className='studyinaustraliapara'>The quality of scientific research
+</p><br/>
+                <p className='studyinaustraliapara'>The support for international students
+</p><br/>
+                <p className='studyinaustraliapara'>The safe environment
+</p><br/>
+                <p className='studyinaustraliapara'>The multicultural society
+</p><br/>
+</div>
             <p className='studyinaustraliapara'>An Australian qualification will develop you personally and professionally. It is your passport to a well-paid career and a secure future.</p>
             <p className='studyinaustraliapara'>Successful graduates from Australian institutions are working globally at the highest levels in government and business. You’d be surprised by the Australian alumni in your own country.</p>
             <h2 className='studyinaustraliaheading'>LIVING IN AUSTRALIA</h2>
-            <ul className='studyinaustraliapara'>
-                <li>Australia is a great place to live – a safe, friendly, multicultural environment which welcomes international students and visitors from around the world.</li><br/>
-                <li> You can make the most of your study experience by immersing yourself in Australian life. Enjoy the culture, the food, the sights and the people!</li><br/>
-                <li>In addition to your Australian qualification, you will gain from your exposure to a different society. International students say that it has increased their confidence, independence, resourcefulness and developed other personal attributes.</li><br/>
-                <li>On the following pages, you’ll find some details on the essentials of living in Australia. For more information, talk to your local IIEC counsellor. Many IIEC counsellors have lived in Australia themselves and can tell you about their experiences.</li><br/>
-            </ul><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+           <div>
+                <p className='studyinaustraliapara'>Australia is a great place to live – a safe, friendly, multicultural environment which welcomes international students and visitors from around the world.</p><br/>
+                <p className='studyinaustraliapara'> You can make the most of your study experience by immersing yourself in Australian life. Enjoy the culture, the food, the sights and the people!</p><br/>
+                <p className='studyinaustraliapara'>In addition to your Australian qualification, you will gain from your exposure to a different society. International students say that it has increased their confidence, independence, resourcefulness and developed other personal attributes.</p><br/>
+                <p className='studyinaustraliapara'>On the following pages, you’ll find some details on the essentials of living in Australia. For more information, talk to your local IIEC counsellor. Many IIEC counsellors have lived in Australia themselves and can tell you about their experiences.</p><br/>
+                </div>
             <h2 className='studyinaustraliaheading'>COST OF LIVING</h2>
-            <ul className='studyinaustraliapara'>
-                <li>The cost of living for international students is significantly lower in Australia than in countries like the USA and the UK.</li><br/>
-                <li>The average international student in Australia will spend around AU$700 to AU$1000 on living costs including accommodation, food, transport, telephone and entertainment.</li><br/>
-                <li>The Department of Immigration and Multicultural Affairs advises students to have AU$12,000 to AU$18,000 per year.</li><br/>
-                <li>Where you choose to study and how you choose to live in Australia will affect your costs. For example, living in a regional area or in an outer suburb is usually cheaper than in the main city centre. Your choice of transport is also important in terms of costs – riding a bike or using public transport is cheaper than buying and running your own car.</li><br/>
-            </ul><br/><br/><br/><br/><br/><br/><br/>
+           <div>
+                <p className='studyinaustraliaparas'>The cost of living for international students is significantly lower in Australia than in countries like the USA and the UK.</p><br/>
+                <p className='studyinaustraliaparas'>The average international student in Australia will spend around AU$700 to AU$1000 on living costs including accommodation, food, transport, telephone and entertainment.</p><br/>
+                <p className='studyinaustraliaparas'>The Department of Immigration and Multicultural Affairs advises students to have AU$12,000 to AU$18,000 per year.</p><br/>
+                <p className='studyinaustraliaparas'>Where you choose to study and how you choose to live in Australia will affect your costs. For example, living in a regional area or in an outer suburb is usually cheaper than in the main city centre. Your choice of transport is also important in terms of costs – riding a bike or using public transport is cheaper than buying and running your own car.</p><br/>
+                </div>
             <h2 className='studyinaustraliaheadings'> ACCOMMODATION</h2>
             <p className='studyinaustraliaparas'>You can choose where you live in Australia. IIEC can provide information and help you find accommodation. Your choice may depend on your level of education, personality, study style and financial situation.</p>
             <p className='studyinaustraliaparas'>The accommodation options for international students are:</p>
-            <ul className='studyinaustraliaparas'>
-                <li>On-campus residences
-</li><br/>
-                <li>School boarding houses
-</li><br/>
-                <li>Homestay
-</li><br/>
-                <li>Rented accommodation.
-</li><br/>
-            </ul><br/>
+            <div>
+                <p className='studyinaustraliaparas'>On-campus residences
+</p><br/>
+                <p className='studyinaustraliaparas'>School boarding houses
+</p><br/>
+                <p className='studyinaustraliaparas'>Homestay
+</p><br/>
+                <p className='studyinaustraliaparas'>Rented accommodation.
+</p><br/>
+</div>
             <p className='studyinaustraliaparas'>When you first arrive, you may stay in a hostel or guest house while you are working out your accommodation. Institutions often have links with local hostels which may provide discounts to students. Hostels and guest houses are about $80 to $135 a week and hotels are $50 to $100 a night.</p>
             <h2 className='studyinaustraliaheadings'>On-campus residences or colleges</h2>
             <p className='studyinaustraliaparas'>These are offered at universities and some vocational institutions. Depending on the level of services, they cost between $100 to $400 a week. You’ll usually have a separate bedroom but share other facilities such as the bathroom, recreation area and laundry. Some residential colleges provide three meals a day in a common dining room, while others have a shared kitchen where students cook their own meals. Some are single-sex, while others are co-educational. Some have a religious affiliation.</p>
@@ -87,16 +87,16 @@ const StudyinAustralia = ()=>{
           <p className='studyinaustraliaparas'>Australian institutions set down their own academic requirements for entry.
 </p>
 <h2 className='studyinaustraliaheadings'>As a general guide:</h2>
-<ul className='studyinaustraliaparas' >
-<li>Undergraduate courses require the equivalent of an Australian Senior School Certificate of Education (Year 12).
-</li>
-<li>Postgraduate courses require the completion of the first degree at undergraduate level.
-</li>
-<li>The vocational study is not necessarily based on academic performance. But some courses may have pre-requisite subjects or ask for demonstrated work experience.
-</li>
-<li>Schools have varying entry requirements. Some may focus on academic skills, others on sporting, and some may be limited by numbers.
-</li>
-</ul>
+<div>
+<p className='studyinaustraliaparas'>Undergraduate courses require the equivalent of an Australian Senior School Certificate of Education (Year 12).
+</p>
+<p className='studyinaustraliaparas'>Postgraduate courses require the completion of the first degree at undergraduate level.
+</p>
+<p className='studyinaustraliaparas'>The vocational study is not necessarily based on academic performance. But some courses may have pre-requisite subjects or ask for demonstrated work experience.
+</p>
+<p className='studyinaustraliaparas'>Schools have varying entry requirements. Some may focus on academic skills, others on sporting, and some may be limited by numbers.
+</p>
+</div>
 <h2 className='studyinaustraliaheadings'>English language skills</h2>
 <p className='studyinaustraliaparas'> To be accepted into a course, you may have to meet the minimum English language requirements as set down by your chosen institution. The International English Language Testing System (IELTS) is the only test accepted for student visa purposes. See the Department of Immigration and Citizenship for further information.If you do not meet the IELTS requirement, it may be possible for you to do additional English study in Australia before starting your course</p>
 <h2 className='studyinaustraliaheadings'>Transport</h2>
@@ -119,14 +119,14 @@ Australia’s vocational education and training programs are known for their pra
 </p>
 <p className='studyinaustraliaparas'>The vocational institutes are divided into private colleges and government-run TAFE institutes (Technical and Advanced Further Education). Some provide a range of courses while others specialise in one field, such as hospitality or aviation. Courses vary from six months to three years.</p>
 <p className='studyinaustraliaparas'>The vocational qualifications are listed below and they all link to each other. To understand more about each level, see the Australian Qualifications Framework.</p>
-<ul className='studyinaustraliaparas'>
-    <li>Certificate I, II, III and IV
-</li>
-    <li>Diploma
-</li>
-    <li>Advanced Diploma.
-</li>  
-    </ul>
+<div>
+    <p className='studyinaustraliapara'>Certificate I, II, III and IV
+</p>
+    <p className='studyinaustraliapara'>Diploma
+</p>
+    <p className='studyinaustraliapara'>Advanced Diploma.
+</p>  
+</div>
     <p className='studyinaustraliaparas'>A vocational course can be a pathway to university for students who may not meet the entry requirements. Many institutes have links with Australian universities and provide acceptance into a bachelor degree, dependent on your grades.</p>
 
            <YourNextStep></YourNextStep>

@@ -6,9 +6,9 @@ import Abroad from "../Asserts/images/Abroad.png";
 
 const YourNextStep = () =>{
     return (
-        <div>
+        
             <div className='yournextstepcon'>
-              <h1 className='yournextstephead'>Your Next Steps</h1>     
+                  
                <div className='yournextstepsubject'>
                <img className='imagessub' src={subject} ></img>
                <div className='yournextstepinner'><p className='yournextstepara'>Choose a subject and we’ll find courses that match your criteria.</p></div>
@@ -21,7 +21,7 @@ const YourNextStep = () =>{
 
 
 
-        </div>
+        
 
 
     )

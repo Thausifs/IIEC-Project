@@ -1,6 +1,7 @@
-.ImmigratetosouthAfricaheading {
+
+.ImmigratetosouthAfricaheading{
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
@@ -8,55 +9,72 @@
 }
 
 .ImmigratetosouthAfricapara{
-    font-size: 20px;
+    font-size: 1.389vw;
     color: rgb(205, 213, 255,1);
     width: 45%;
-    margin-left: 1%;
-
-
-}
-
-.ImmigratetosouthAfricaparali{
-    font-size: 20px;
-    color: rgb(205, 213, 255,1);
-    width: 40%;
     margin-left: 1%;
 
 }
 .ImmigratetosouthAfricapage{
     background-color: rgb(32, 32, 32);
     position: absolute;
-    width: 1366px;
+    width: 100vw;
 
-}
-.ImmigratetosouthAfricastd{
-    position: absolute;
-    margin-top: 7%;
-    margin-left: 48%;
-}
-.ImmigratetosouthAfricaparas{
-    font-size: 20px;
-    color: rgb(205, 213, 255,1);
-    width: 92%;
-    margin-left: 1%;
-}
-.ImmigratetosouthAfricaheadings{
-    color: rgb(205, 213, 255,1);
-    font-size: 26px;
-    font: bold;
-    width: 92%;
-    font-family:  'Montserrat', sans-serif;
-    margin-left: 1%;
 }
 .ImmigratetosouthAfricamainhead{
     color: rgb(205, 213, 255,1);
-    font-size: 34px;
+    font-size: 2.361vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
     /* margin-left: 1%; */
     margin-top: 7%;
 }
+.ImmigratetosouthAfricastd{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 48%;
+}
+.ImmigratetosouthAfricaheadings{
+    color: rgb(205, 213, 255,1);
+    font-size: 1.806vw;
+    font: bold;
+    width: 92%;
+    font-family:  'Montserrat', sans-serif;
+    margin-left: 1%;
+}
+.ImmigratetosouthAfricaparas{
+    font-size: 1.389vw;
+    color: rgb(205, 213, 255,1);
+    width: 92%;
+    margin-left: 1%;
+}
 .yournextstepimmitosouth{
     margin-top: 120%;
+}
+
+@media only screen and  (max-width:480px) and (min-width:150px){
+    .ImmigratetosouthAfricapara , .ImmigratetosouthAfricaparas {
+        font-size: 2.6vw;
+        width: 90%;
+    }
+    .ImmigratetosouthAfricaheading , .ImmigratetosouthAfricaheadings {
+        font-size: 3.4vw;
+        width: 90%;
+
+    }
+   
+
+    .ImmigratetosouthAfricastd{
+        width: 100%;
+        position: relative;
+        margin-left:0%;
+    }
+    .ImmigratetosouthAfricamainhead{
+        font-size: 4.5vw;
+
+    }
+    .yournextstepimmitosouth{
+        margin-top: 2%;
+    }
 }

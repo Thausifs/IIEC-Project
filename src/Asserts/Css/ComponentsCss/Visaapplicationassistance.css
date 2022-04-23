@@ -1,0 +1,81 @@
+.visaapplicationassistanceimg{
+    margin-top: 2.5%;
+    /* border: 1px solid black; */
+       display: inline-block;
+       width:"23.611vw";
+        height:"21.111vw";
+}
+.visaapplicationassistancemaindiv{
+    width: 100%;
+    padding: 0% 0.5% 0% 0.5%;
+}
+
+.visaapplicationassistancecomponents img{
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 10px  5px rgb(31, 28, 28);
+    border-radius: 20px;
+    margin-left: 8%;
+
+}
+.visaapplicationassistancecomponents{ 
+
+     width: 100%;
+     height: auto;
+     /* border: 2px solid black; */
+     display: flex;
+     position: relative;
+     background-color: rgb(52, 52, 52);
+     box-shadow: 0px 0px 10px  10px rgb(20, 18, 18);
+     border-radius: 1.497vw;
+
+     
+     /* box-shadow: -5px -5px  5px  black; */
+    
+   
+    
+}
+.visaapplicationassistanceone {
+    color: black;
+    font-size: 2.083vw;
+    text-decoration: underline;
+    display: inline-block;
+    text-underline-offset: 0.556vw;
+    margin-top: 9%;
+    position: absolute;
+    height: 5%;
+    margin-left: 50%;
+    color: aliceblue;
+    /* border: 2px solid blue; */
+}
+.visaapplicationassistancetwo{
+    font-size: 1.250vw;
+    width: 40%;
+    height: 40%;
+    display: inline-block;
+    position: absolute;
+    /* margin-top: 10px; */
+    margin-left: 50%;
+    /* border: 4px solid blue; */
+    /* margin-top: -25%; */
+    margin-top: 18%;
+    color: white;
+
+    
+}
+.visaapplicationassistanceimgdiv{
+    width: 45%;
+    margin-top: 5.7%;
+    margin-bottom: 5.7%;
+}
+@media only screen and  (max-width:480px) and (min-width:150px){
+    .visaapplicationassistanceone{
+       font-size: 4vw;
+   }
+   .visaapplicationassistancetwo{
+    font-size: 2.6vw;
+   }
+   .visaapplicationassistancecomponents{
+    border-radius: 5vw;
+   }
+}

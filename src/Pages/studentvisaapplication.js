@@ -6,6 +6,7 @@ import Navbar from '../Components/navbar';
 import StudyAbroad from '../Components/StudyAbroad';
 import YourNextStep from '../Components/YourNextStep';
 import IIECGuidetoStudyingAbroad from '../Components/IIECGuidetoStudyingAbroad';
+import CourseAdvicesixreasons from '../Components/Courseadvicesixreasons';
 
 
 const StudentVisaApplication  = ()=>{
@@ -30,6 +31,7 @@ const StudentVisaApplication  = ()=>{
               <h1 className='studentvisaapplicationheading'>How can IIEC help in your visa applications?</h1>
               <p className='studentvisaapplicationpara'>If you’re an IIEC student with an offer letter from any of our 700 partner institutions in Australia, Ireland, Canada, New Zealand, the UK or the US, we can advise you on how to go about the entire process. We’ll make sure you are fully informed on the latest visa requirements and conditions; also help you prepare the right documents for your submission. </p>
               <p className='studentvisaapplicationpara'>Our team of experts will direct you to the official websites and to authorised immigration representatives to ensure you have the latest applications forms and guidance. To reduce your hassle, we can also help certify, translate and courier your documents. </p>
+             <div className='studentvisaapplicationbottomdiv'> <CourseAdvicesixreasons/></div> 
               <YourNextStep></YourNextStep>
               <Footer></Footer>
 

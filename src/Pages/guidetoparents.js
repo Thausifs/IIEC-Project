@@ -14,7 +14,7 @@ const GuidetoParents =()=>{
          <div className='guidetoparentspage'>
              <Header></Header>
              <Navbar></Navbar>
-             <div className='studyabroadpg'><StudyAbroad></StudyAbroad></div> 
+             <div className='studyabroadgtp'><StudyAbroad></StudyAbroad></div> 
              <h2 className='guidetoparentsheading'>Study abroad guide for parents</h2>
          
              <p className='guidetoparentspara'>All you need to know when sending your child to study abroad </p>
@@ -50,7 +50,7 @@ const GuidetoParents =()=>{
            <p className='guidetoparentsparas'>Read more: 8 simple ways to keep connected with your child abroad</p>
            <p className='guidetoparentsparas'>If you still have any concerns and need to be sure about sending your child abroad, schedule a free counselling session to discuss their career path. with us. </p>
           <div className='guidetoparentsbox'> <InterviewguidefortheUSF1StudentVisa></InterviewguidefortheUSF1StudentVisa>
-          <div className='usaapplicationtime'><USAapplicationtimeline></USAapplicationtimeline></div> </div>
+      <USAapplicationtimeline></USAapplicationtimeline></div> 
            <YourNextStep></YourNextStep>
            <Footer ></Footer>
 </div>

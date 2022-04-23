@@ -1,14 +1,19 @@
 .freestudyabroadheading{
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
     margin-left: 1%;
 }
+.freestudyabroadbottomdiv{
+    display: flex;
+    flex:50%;
+}
+
 
 .freestudyabroadpara{
-    font-size: 20px;
+    font-size: 1.389vw;
     color: rgb(205, 213, 255,1);
     width: 45%;
     margin-left: 1%;
@@ -17,7 +22,7 @@
 .freestudyabroadpage{
     background-color: rgb(32, 32, 32);
     position: absolute;
-    width: 1366px;
+    width: 100vw;
 
 }
 .freestudystd{
@@ -25,15 +30,15 @@
     margin-top: 7%;
     margin-left: 48%;
 }
-predeparturesupportparas{
-    font-size: 20px;
+.predeparturesupportparas{
+    font-size: 1.389vw;
     color: rgb(205, 213, 255,1);
     width: 92%;
     margin-left: 1%;
 }
 .predeparturesupportheadings{
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 92%;
     font-family:  'Montserrat', sans-serif;
@@ -41,10 +46,39 @@ predeparturesupportparas{
 }
 .freestudyabroadmainhead{
     color: rgb(205, 213, 255,1);
-    font-size: 34px;
+    font-size: 2.361vw;
     font: bold;
     width: 60%;
     font-family:  'Montserrat', sans-serif;
     /* margin-left: 1%; */
     margin-top: 6%;
 }
+@media only screen and  (max-width:480px) and (min-width:200px) {
+    .freestudystd{
+        width: 90%;
+        position: relative;
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+    .freestudyabroadbottomdiv{
+        display: flex;
+        flex-direction: column;
+        row-gap: 2vw;
+        width: 90%;
+        margin-left: 3%;
+    }
+    .freestudyabroadheading , .freestudyabroadheadings{
+        font-size: 3.6vw;
+        width: 95%;
+    }
+    .freestudyabroadpara, .freestudyabroadparas {
+        font-size: 2.8vw;
+        width: 95%;
+    }
+    .freestudyabroadpage{
+        position: relative;
+    }
+}    
+    
+
+

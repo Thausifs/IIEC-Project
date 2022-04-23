@@ -1,6 +1,6 @@
 .studyinUKheading {
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
@@ -8,25 +8,16 @@
 }
 
 .studyinUKpara{
-    font-size: 20px;
+    font-size: 1.6vw;
     color: rgb(205, 213, 255,1);
     width: 45%;
-    margin-left: 1%;
-
-
-}
-
-.studyinUKparali{
-    font-size: 20px;
-    color: rgb(205, 213, 255,1);
-    width: 40%;
     margin-left: 1%;
 
 }
 .studyinUKpage{
     background-color: rgb(32, 32, 32);
     position: absolute;
-    width: 1366px;
+    width: 94.861vw;
 
 }
 .studyinUKstd{
@@ -35,14 +26,14 @@
     margin-left: 48%;
 }
 .studyinUKparas{
-    font-size: 20px;
+    font-size: 1.6vw;
     color: rgb(205, 213, 255,1);
     width: 92%;
     margin-left: 1%;
 }
 .studyinUKheadings{
     color: rgb(205, 213, 255,1);
-    font-size: 26px;
+    font-size: 1.806vw;
     font: bold;
     width: 92%;
     font-family:  'Montserrat', sans-serif;
@@ -50,10 +41,41 @@
 }
 .studyinUKmainhead{
     color: rgb(205, 213, 255,1);
-    font-size: 34px;
+    font-size: 2.361vw;
     font: bold;
     width: 40%;
     font-family:  'Montserrat', sans-serif;
     /* margin-left: 1%; */
     margin-top: 7%;
+}
+
+ul.studyinUKparaul{
+    list-style-type: circle;
+    font-size: 1.389vw;
+color: white;
+width: 45%;
+}
+
+
+@media only screen and  (max-width:480px) and (min-width:150px){
+    .studyinUKpara , .studyinUKparas {
+        font-size: 3vw;
+        width: 90%;
+    }
+    .studyinUKheading , .studyinUKheadings {
+        font-size: 3.4vw;
+        width: 90%;
+
+    }
+   
+
+    .studyinUKstd{
+        width: 100%;
+        position: relative;
+        margin-left:0%;
+    }
+    .studyinUKmainhead{
+        font-size: 4.5vw;
+
+    }
 }
