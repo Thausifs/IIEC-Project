@@ -22,23 +22,23 @@ const BusinessVISA = ()=>{
             <h1 className='businessvisamainhead'>PRE-DEPARTURE AND POST LANDING SERVICES :</h1>
             <div className='businessvisapara'>
                 <p>Evaluation and Assessment of eligibility.
-</p><br/>
+</p>
                 <p>Preparation of Client’s File.
-</p><br/>
+</p>
                 <p>Preparing thoroughly for interviews. (Where required)
-</p><br/>
+</p>
                 <p>Providing orientation sessions about the destination country and its life-style.
-</p><br/>
+</p>
                 <p>Personal Guidance on updating client's profile and resume to make it marketable worldwide.</p>
                 <p>Formalities at the Port of Entry.
-</p><br/>
+</p>
                 <p>Airport pickup at destination.
-</p><br/>
+</p>
                 <p>
 Initial stay at a Nominal Cost at the destination.
-</p><br/>
+</p>
                 <p>Assistance for post landing documentation and extensive job search / placement assistance.
-</p><br/>
+</p>
             </div>
 
             <h1 className='businessvisamainhead'>BENEFITS TO IMMIGRANTS :</h1>

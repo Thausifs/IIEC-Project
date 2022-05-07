@@ -17,7 +17,7 @@
 .studyinUKpage{
     background-color: rgb(32, 32, 32);
     position: absolute;
-    width: 94.861vw;
+    width: 100vw;
 
 }
 .studyinUKstd{
@@ -76,6 +76,6 @@ width: 45%;
     }
     .studyinUKmainhead{
         font-size: 4.5vw;
-
+        width: 100%;
     }
 }

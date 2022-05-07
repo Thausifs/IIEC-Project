@@ -1,8 +1,38 @@
-import React from 'react';
+import React , {useState} from 'react';
 import "../Asserts/Css/ComponentsCss/footer.css";
-
+import Axios from 'axios';
 
 const Footer=()=>{
+
+    const[data,setdata]=useState({
+        name_placehd:"",
+        phone_placehd:"",
+        email_pd:"",  
+        Mobilenumber:"",  
+        description_pd:"",  
+        
+       
+    })
+    function submit(e) {
+        e.preventDefault();
+        Axios.post(url,{
+            Firstname:data.name_placehd,
+            Lastname:data.phone_placehd,
+            EmailId:data.email_pd,
+            sub_pd:data.Mobilenumber,
+            Your_preferred_study_destination1:data.description_pd,
+
+        })
+        .then(res => {
+            console.log(res.data)
+        })
+    }
+    function handle(e) {
+        const newdata = {...data}
+         newdata[e.target.id] = e.target.value 
+         setdata(newdata)
+         console.log(newdata)
+    }
     return(
         <div className='footer_div'>
             <div className='footer_first'>
@@ -48,24 +78,30 @@ const Footer=()=>{
                  
                 
             </div>
+            
             <div className='footer_second'>
                 <h2 className='footerquestionhead'>Have a Question?</h2>
-                <input id="footerplaceholder" className='name_placehd' placeholder='Name'></input>
-                <input id="footerplaceholder" className='phone_placehd' placeholder='Phone'></input>
-                <input id="footerplaceholder" className='email_pd' placeholder='E-mail'></input>
-                <input id="footerplaceholder" className='sub_pd' placeholder='Subject'></input>
-                <input id="footerplaceholder" className='description_pd' placeholder='Description'></input>
+                <form onSubmit={(e) => submit(e)}>
+                <input id="name_placehd" className='footerplaceholder' onChange={(e)=>handle(e)} value={data.name_placehd} placeholder='Name'></input>
+                <input id="phone_placehd" className='footerplaceholder' onChange={(e)=>handle(e)} value={data.phone_placehd} placeholder='Phone'></input>
+                <input id="email_pd" className='footerplaceholder' onChange={(e)=>handle(e)} value={data.email_pd} placeholder='E-mail'></input>
+                <input id="sub_pd" className='footerplaceholder' onChange={(e)=>handle(e)} value={data.sub_pd} placeholder='Subject'></input>
+                <input id="description_pd" className='footerplaceholder' onChange={(e)=>handle(e)} value={data.description_pd} placeholder='Description'></input><br/>
+                <button className='msg'>SEND MESSAGE</button>
+            
+                </form>
             </div>
            
          
              <div className='footer_third'>
               <p className='phno'>+91 98415 12043</p>
               <a className='media'>Social Media</a>
-              <button className='msg'>SEND MESSAGE</button><br/>
-              <a className='mail'>iiecservice@gamil.com</a>
+               <br/>
+              <a className='mail'>iiecservice@gmail.com</a>
               <p className='copyrights'>@ 2022 IIEC</p>
+             
               </div>
-
+           
 
           </div>
 

@@ -125,7 +125,7 @@ function App() {
               <Route path='/Internmalaysia' element={< InternMalaysia/>} />
               <Route path='/ielts' element={<IELTS/>} />
               <Route path='/toefl' element={<TOEFL/>} />
-              <Route path='/gre' element={<GRE/>} />
+              <Route path='/gretraining' element={<GRE/>} />
               <Route path='/pte' element={< PTE/>} />
               <Route path='/gmat' element={< GMAT/>} />
               <Route path='/sat' element={< SAT/>} />

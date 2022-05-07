@@ -34,7 +34,7 @@
 
 }
 .tablediv{
-    width:10.903vw ;
+    width:42% ;
     height:3.333vw ;
     border-radius: 1.389vw;
      background-color: rgb(84, 84, 84);
@@ -66,6 +66,14 @@
     width: 100vw;
     margin-bottom: 2%;
 }
+.costtostudythtablediv{
+    font-size: 1.4vw;
+}
+.costtostudytdtablediv{
+    font-size: 1.2vw;
+    color: rgb(14, 12, 12);
+}
+
 
 
 @media only screen and  (max-width:480px) and (min-width:150px){
@@ -107,5 +115,13 @@
     .costtostudyparas{
         font-size: 2.8vw;
     }
-
+    .tablediv{
+        width:94% ;
+    }
+    .costtostudythtablediv{
+        font-size: 3vw;
+    }
+    .costtostudytdtablediv{
+        font-size: 2.5vw;
+    }
 }

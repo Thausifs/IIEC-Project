@@ -4,14 +4,14 @@ import Southafricaimmigration from "../Asserts/images/southafricaimmigration.png
 
 const ImmigrationtoSouthafrica  = () => {
   return (
-    
+    <div className='southafricaimmigrationmaindiv'>
       <div className="southafricaimmigrationcomponents">
         {" "}
-       <a href="/Immigratetosouthafrica"><img className='southafricaimmigrationcomponentsimg' src={Southafricaimmigration} width="320px" height="274px" ></img></a> 
-        <p className="southafricaimmigrationcomponentsone">South Africa</p>
-        <p className='southafricaimmigrationcomponentstwo'>Get your Intership in USA </p>
+        <div className='southafricaimmigrationimgdiv'>   <a href="/Immigratetosouthafrica"><img className='southafricaimmigrationimg' src={Southafricaimmigration}  ></img></a> </div>
+        <p className="southafricaimmigrationone">Immigrate To South Africa </p>
+        <p className='southafricaimmigrationtwo'>  </p>
       </div>
-    
+    </div>
   );
 };
 

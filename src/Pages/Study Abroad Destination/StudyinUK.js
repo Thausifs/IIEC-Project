@@ -39,18 +39,18 @@ The international alumni from UK institutions includes many leading politicians,
 </h1>
 <ul className='studyinUKpara'>
     <li className='studyinUKparali'>Employers want employees who can think effectively, creatively and independently.
-</li><br/>
+</li>
     <li className='studyinUKparali' >UK institutions use a variety of teaching and assessment methods to encourage independence, as well as mastery of the subject.
-</li><br/>
+</li>
     <li className='studyinUKparali' >Students are expected to use the information they are given to stimulate their original thinking.</li>
-</ul><br/>
+</ul>
 <h1 className='studyinUKmainhead'>Quality of Education
 </h1>
 <div className='studyinUKparas'>
     <p className='studyinUKparali' >The education system provides facilities such as international student’s societies, planned social activities, academic support, and academic counselors. UK has one of the lowest ‘drops out rates.
-</p><br/>
+</p>
     <p className='studyinUKparali'>Its quality is unrivaled throughout the world.
-</p><br/>
+</p>
     <p className='studyinUKparali'>Encourages relevant skills that are marketable and sought by today’s top companies.</p>
 
 </div>
@@ -58,12 +58,12 @@ The international alumni from UK institutions includes many leading politicians,
 </h1>
 <div className='studyinUKparas'>
     <p className='studyinUKparali'>Realization of earning potentials sooner.
-</p><br/>
+</p>
     <p className='studyinUKparali'>Numerous Scholarships and bursaries offered by UK institutions.
-</p><br/>
+</p>
     <p className='studyinUKparali'>Almost free health care by National Health Service.
-</p><br/>
-    <p className='studyinUKparali'>Student discount facilities provided free through National </p><br/>
+</p>
+    <p className='studyinUKparali'>Student discount facilities provided free through National </p>
     <p className='studyinUKparali'>Union of Students membership for all students.
 </p>
 </div>
@@ -77,17 +77,17 @@ Mulitcultural
 </h1>
 <div className='studyinUKpara'>
     <p className='studyinUKparali'>Cosmopolitan place to live.
-</p><br/>
+</p>
     <p className='studyinUKparali'>Home to numerous ethnic groups and nationalities from around the world.
-</p><br/>
+</p>
     <p className='studyinUKparali'>Tolerant, stable society where students learn about diverse range of people.
-</p><br/>
+</p>
 </div>
 <h1 className='studyinUKmainhead'>Duration
 </h1>
 <div className='studyinUKpara'>
     <p>Compared to other educational destinations shorter duration programs.
-</p><br/>
+</p>
     <p>Undergraduate – 3 years, Postgraduate – 1 year.
 </p>
 </div>
@@ -96,11 +96,11 @@ Mulitcultural
 <p className='studyinUKpara'>With a strong practical and professional orientation to the curriculum, the main emphasis of the programme is on leadership through strategic management. Its objectives are fourfold:</p>
 <div className='studyinUKpara'>
     <p className='studyinUKparali'>The advanced study of organizations, their management and the changing global context in which they operate.
-</p><br/>
+</p>
     <p className='studyinUKparali'>Preparation for and/or development of a career in business and management by developing skills at a professional or equivalent level, or as preparation for research or further study in the area.
-</p><br/>
+</p>
     <p className='studyinUKparali'>Development of the ability to apply knowledge and understanding of business and management to complex issues, both systematically and creatively, to improve business and management practice.
-</p><br/>
+</p>
     <p className='studyinUKparali'>Enhancement of lifelong learning skills and personal development so as to be able to work with self-direction and originality and to contribute to business and society at large.
 </p>
 </div>

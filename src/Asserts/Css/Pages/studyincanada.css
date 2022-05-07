@@ -18,7 +18,7 @@
 .studyincanadapage{
     background-color: rgb(32, 32, 32);
     position: absolute;
-    width: 100vw;
+    width: 100%;
 
 }
 .studyincanadamainhead{
@@ -70,6 +70,7 @@
     }
     .studyincanadamainhead{
         font-size: 4.5vw;
+        width: 90%;
 
     }
 }

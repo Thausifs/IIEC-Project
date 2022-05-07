@@ -81,7 +81,7 @@
 }
 
 
-@media only screen and  (max-width:480px) and (min-width:200px){
+@media only screen and  (max-width:480px) and (min-width:100px){
     .topbanner_studyabroad,.topbanner_immigration,.topbanner_training, .topbanner_visaguidances{
         height: 24.6vw;
     }

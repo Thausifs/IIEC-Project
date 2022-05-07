@@ -19,21 +19,21 @@ const StudyinAustralia = ()=>{
             <h2 className='studyinaustraliaheading'>STUDENTS COME TO AUSTRALIA FOR MANY REASONS INCLUDING:</h2>
             <div className='studyinaustralialidivone'>
                 <p className='studyinaustraliapara'>The excellent education system
-</p><br/>
+</p>
                 <p className='studyinaustraliapara'>The range of courses from school to postgraduate degrees
-</p><br/>
+</p>
                 <p className='studyinaustraliapara'>The many types of specialist institutions
-</p><br/>
+</p>
                 <p className='studyinaustraliapara'>The worldwide acceptance of Australian qualifications
-</p><br/>
+</p>
                 <p className='studyinaustraliapara'>The innovative teaching and learning
-</p><br/>
+</p>
                 <p className='studyinaustraliapara'>The quality of scientific research
-</p><br/>
+</p>
                 <p className='studyinaustraliapara'>The support for international students
-</p><br/>
+</p>
                 <p className='studyinaustraliapara'>The safe environment
-</p><br/>
+</p>
                 <p className='studyinaustraliapara'>The multicultural society
 </p><br/>
 </div>
@@ -58,13 +58,13 @@ const StudyinAustralia = ()=>{
             <p className='studyinaustraliaparas'>The accommodation options for international students are:</p>
             <div>
                 <p className='studyinaustraliaparas'>On-campus residences
-</p><br/>
+</p>
                 <p className='studyinaustraliaparas'>School boarding houses
-</p><br/>
+</p>
                 <p className='studyinaustraliaparas'>Homestay
-</p><br/>
+</p>
                 <p className='studyinaustraliaparas'>Rented accommodation.
-</p><br/>
+</p>
 </div>
             <p className='studyinaustraliaparas'>When you first arrive, you may stay in a hostel or guest house while you are working out your accommodation. Institutions often have links with local hostels which may provide discounts to students. Hostels and guest houses are about $80 to $135 a week and hotels are $50 to $100 a night.</p>
             <h2 className='studyinaustraliaheadings'>On-campus residences or colleges</h2>

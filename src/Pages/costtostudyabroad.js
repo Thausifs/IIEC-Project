@@ -22,46 +22,46 @@ const CosttoStudyAbroad = ()=>{
         <p className='costtostudypara'>This is the most important and major chunk of your study abroad expenses and depends on the type of qualification and institution you opt for. Here’s a quick overview of the tuition fee for different programs in our top destinations.</p>
          <table className='tablediv'>
   <tr>
-    <th>Destination</th>
-    <th>Undergraduate Program (annually)</th>
-    <th>Postgraduate master's degree (annually)</th>
-    <th>Doctoral degree (annually)</th>
+    <th className='costtostudythtablediv'>Destination</th>
+    <th className='costtostudythtablediv'>Undergraduate Program (annually)</th>
+    <th className='costtostudythtablediv'>Postgraduate master's degree (annually)</th>
+    <th className='costtostudythtablediv'>Doctoral degree (annually)</th>
   </tr>
   <tr className='trdashed'>
-    <td>Canada</td>
-    <td>CAD 13,000 to CAD 20,000</td>
-    <td>CAD 17,000 to CAD 25,000</td>
-    <td>CAD 7,000 to CAD 15,000</td>
+    <td className='costtostudytdtablediv'>Canada</td>
+    <td className='costtostudytdtablediv'>CAD 13,000 to CAD 20,000</td>
+    <td className='costtostudytdtablediv'>CAD 17,000 to CAD 25,000</td>
+    <td className='costtostudytdtablediv'>CAD 7,000 to CAD 15,000</td>
   </tr>
   <tr>
-    <td>New Zealand</td>
-    <td>NZD 20,500 to NZD 25,000</td>
-    <td>NZD 19,000 to NZD 29,000</td>
-    <td>NZD 6,500 to NZD 9,000</td>
+    <td className='costtostudytdtablediv'>New Zealand</td>
+    <td className='costtostudytdtablediv'>NZD 20,500 to NZD 25,000</td>
+    <td className='costtostudytdtablediv'>NZD 19,000 to NZD 29,000</td>
+    <td className='costtostudytdtablediv'>NZD 6,500 to NZD 9,000</td>
   </tr>
   <tr className='trdashed'>
-    <td>Australia</td>
-    <td>AUD 15,000 to AUD 33,000</td>
-    <td>AUD 20,000 to AUD 42,000</td>
-    <td>AUD 20,000 to AUD 42,000</td>
+    <td className='costtostudytdtablediv'>Australia</td>
+    <td className='costtostudytdtablediv'>AUD 15,000 to AUD 33,000</td>
+    <td className='costtostudytdtablediv'>AUD 20,000 to AUD 42,000</td>
+    <td className='costtostudytdtablediv'>AUD 20,000 to AUD 42,000</td>
   </tr>
   <tr>
-    <td>UK</td>
-    <td>£10,000 to £20,000</td>
-    <td>£10,000 to £20,000</td>
-    <td>£15,000 to £24,000</td>
+    <td className='costtostudytdtablediv'>UK</td>
+    <td className='costtostudytdtablediv'>£10,000 to £20,000</td>
+    <td className='costtostudytdtablediv'>£10,000 to £20,000</td>
+    <td className='costtostudytdtablediv' >£15,000 to £24,000</td>
   </tr>
   <tr className='trdashed'>
-    <td>US</td>
-    <td>USD 20,000 to USD 40,000</td>
-    <td>USD 20,000 to USD 45,000</td>
-    <td>USD 28,000 to USD 55,000</td>
+    <td className='costtostudytdtablediv'>US</td>
+    <td className='costtostudytdtablediv'>USD 20,000 to USD 40,000</td>
+    <td className='costtostudytdtablediv'>USD 20,000 to USD 45,000</td>
+    <td className='costtostudytdtablediv'>USD 28,000 to USD 55,000</td>
   </tr>
   <tr>
-    <td>Ireland</td>
-    <td>€9,850 to €25,500 </td>
-    <td>€9,500 to €34,500 </td>
-    <td>€9,500 to €34,500</td>
+    <td className='costtostudytdtablediv'>Ireland</td>
+    <td className='costtostudytdtablediv'>€9,850 to €25,500 </td>
+    <td className='costtostudytdtablediv'>€9,500 to €34,500 </td>
+    <td className='costtostudytdtablediv'>€9,500 to €34,500</td>
   </tr>
 </table>
     <p className='costtostudypara'>You can always apply for various scholarships available for Indian students to bring down your educational expenses when studying abroad.</p>

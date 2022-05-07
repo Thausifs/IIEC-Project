@@ -121,7 +121,7 @@
     }
     .register_button{
         font-size: 4.4vw;
-        height: 7vw;
+        height: 12vw;
     }
     .studyabroad_input {
         font-size: 3.5vw;
@@ -130,32 +130,3 @@
     }
   }
 
-/* @media only screen and  (max-width:280px) and (min-width:100px) {
-    
-    .register_button{
-        font-size: 14px;
-    }
-    .stdabdheadthree{
-        font-size: 2.222vw;
-    }
-    .stdabrdh1{
-        font-size: 2.22vw;
-    }
-    .listitemsstudyabrdli{
-        font-size: 1.250vw;
-    }
-    .studybottomheading{
-        font-size: 1.528vw;
-    }
-    #studyabroadscom::placeholder{
-        font-size: 1.042vw;
-        padding-left: 3%;
-    }
-    .studyabroad_input{
-        height: 1.5%;
-    }
-    .listitemsstudyabrd{
-        height: 14%;
-    }
-   
-} */

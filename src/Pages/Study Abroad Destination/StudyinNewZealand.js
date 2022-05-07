@@ -67,23 +67,23 @@ If you are a full scholarship or fees scholarship student you may be granted a s
 </p>
 <div className='studyinnewzealandparas'>
     <p>The relaxed pace of life or lifestyle 44%
-</p><br/>
+</p>
     <p>The climate or clean, green environment 40%
-</p><br/>
+</p>
     <p>To provide a better future for their children 39%
-</p><br/>
+</p>
     <p>Employment Opportunity 28%
-</p><br/>
+</p>
     <p>friendly People 27%
-</p><br/>
+</p>
     <p>Climate and natural beauty 77%
-</p><br/>
+</p>
     <p>Friendly people or relaxed pace of life 63%
-</p><br/>
+</p>
     <p>The ability to achieve one’s desired lifestyle 62%
-</p><br/>
+</p>
     <p>Safety from crime and violence 44%
-</p><br/>
+</p>
     <p>Recreation and leisure activities 43% </p>
 </div>
 

@@ -17,7 +17,7 @@
 .wanttobecomeadoctorpage{
     background-color: rgb(32, 32, 32);
     position: absolute;
-    width: 94.861vw;
+    width: 100vw;
 
 }
 .wanttobecomeadoctorstd{
@@ -76,6 +76,6 @@ width: 45%;
     }
     .wanttobecomeadoctormainhead{
         font-size: 4.5vw;
-
+        width: 90%;
     }
 }

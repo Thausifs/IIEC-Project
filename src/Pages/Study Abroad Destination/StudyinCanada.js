@@ -36,7 +36,7 @@ const StudyinCanada = ()=>{
 </p>
 <p className='studyincanadapara'>
 Outstanding facilities: First class libraries and sports facilities, museums and art galleries, theaters and concert halls; campuses have it all, including radio stations, newspapers, and stores that are run by students. The latest in computer labs, wired classrooms and Internet access from campus, you will find a world of technology at your fingertips. More than ninety universities span this country, which, according to the United Nations, offers the highest quality of life in the world.
-</p>
+</p><br/>
 <h1 className='studyincanadamainhead'>LIVING IN CANADA</h1>
 <h2 className='studyincanadaheading'>Climate:</h2><br/>
 <p className='studyincanadaparas'>There are many climates in Canada and they vary from the permanently frozen ice caps north of the 70th parallel to the lush vegetation of British Columbia’s west coast. Overall, however, Canada has four very distinct seasons, particularly in the more populated regions along the US border. Daytime summer temperatures can rise to 35°C and higher, while lows of -15°C are not uncommon in winter. More moderate temperatures are the norm in spring and fall. Over the years, Canadians have adapted extremely well to the colder periods of weather by installing heating in houses and cars, and by having heated public transportation systems

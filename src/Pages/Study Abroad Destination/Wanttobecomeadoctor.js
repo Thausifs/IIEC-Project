@@ -22,63 +22,63 @@ Register with IIEC to register your future in safe hands.</p>
           <h2 className='wanttobecomeadoctorheading'>Philippines</h2>
           <div className='wanttobecomeadoctorpara'>
           <p className='wanttobecomeadoctorparali'>High quality education with best in the world facilities.
-</p><br/>
+</p>
           <p className='wanttobecomeadoctorparali'>Follows USA/American education pattern.
-</p><br/>
-          <p className='wanttobecomeadoctorparali'>65% fees lesser than private medical colleges in India.</p><br/>
-          <p className='wanttobecomeadoctorparali'>Medium of Instruction is English.</p><br/>
+</p>
+          <p className='wanttobecomeadoctorparali'>65% fees lesser than private medical colleges in India.</p>
+          <p className='wanttobecomeadoctorparali'>Medium of Instruction is English.</p>
           <p className='wanttobecomeadoctorparali'>Indian food available.
-</p><br/>
+</p>
           <p className='wanttobecomeadoctorparali'>Over 20,000 foreign students enrolled. </p>
           </div>
 
           <h1 className='wanttobecomeadoctormainhead'>KYRGYZSTAN</h1>
           <div className='wanttobecomeadoctorpara'>
               <p>	Renowned for medical studies in central Asia.
-</p><br/>
+</p>
               <p>Medium of Instruction is English.
-</p><br/>
-              <p>Lesser fees compared to private medical colleges in India.</p><br/>
+</p>
+              <p>Lesser fees compared to private medical colleges in India.</p>
               <p>Has Produced many doctors from India.
-</p><br/>
+</p>
               <p>Higher Job placement opportunity.
-</p><br/>
+</p>
               <p>Location Significance closer to China and Russia   provides opportunity to      perform in those countries.
-</p><br/>
+</p>
               <p>Student Mobility worldwide. </p>
           </div>
          <h1 className='wanttobecomeadoctormainhead'>Ukraine</h1>
          <div className='wanttobecomeadoctorpara'>
              <p >Has some of the oldest universities around the world.
-</p><br/>
+</p>
              <p>Well experienced Professors.
-</p><br/>
+</p>
              <p>Medium of Instruction is English.
-</p><br/>
+</p>
              <p>Location Significance much closer to the European Union with opportunities in EU in the future.
-</p><br/>
+</p>
              <p>Safe country with very less crime rate registered.
-</p><br/>
+</p>
              <p>Lesser fees compared to private medical colleges in India. </p>
          </div>
 
          <h1 className='wanttobecomeadoctormainhead'>Georgia</h1>
          <div className='wanttobecomeadoctorpara'>
              <p>Superb education facilities with necessary practical training
-</p><br/>
+</p>
              <p>
 The fees structure of the medical universities is much lower compared to Indian Private colleges.
-</p><br/>
+</p>
              <p>Low cost of living.
-</p><br/>
+</p>
              <p>Easy availability of Indian food
-</p><br/>
+</p>
              <p>100% visa approval
-</p><br/>
+</p>
              <p>The country offers rewarding career opportunities to medical graduates.
-</p><br/>
+</p>
              <p>Safe and peaceful atmosphere for studies.
-</p><br/>
+</p>
              <p>Instruction in English for the international medical candidates </p>
          </div>
 

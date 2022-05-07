@@ -31,7 +31,7 @@
     color: rgb(205, 213, 255,1);
     
 }
- @media only screen and  (max-width:480px) and (min-width:200px){
+ @media only screen and  (max-width:480px) and (min-width:100px){
     .whystudyabroad h1{
         font-size: 4.7vw;
     }

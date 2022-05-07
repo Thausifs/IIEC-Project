@@ -25,38 +25,38 @@ const StudyHTM = ()=>{
             <h1 className='studyhtmmainhead'>Advantages of joining HTMI Dubai</h1>
             <div className='studyhtmpara'>
                 <p>75% of HTMi graduates join Major international hotel chains.
-</p><br/>
+</p>
                 <p>Brand new state-of-the-art campus in the heart of Dubai at Studio one hotel.
-</p><br/>
+</p>
                 <p>Approved and attested by the Knowledge and Human Development Authority in UAE.
-</p><br/>
+</p>
                 <p>
 International study pathway to HTMi's Global Campuses in Singapore and Switzerland.
-</p><br/>
+</p>
                 <p>International study pathway to HTMi's Global Campuses in Singapore and Switzerland.
-</p><br/>
+</p>
                 <p>Global hospitality network for Internships and work placements.
-</p><br/>
+</p>
 <p>80% of HTMI graduates secure full-time placement before completing final semesters. 
-</p><br/>
+</p>
             </div>
             <h1 className='studyhtmmainhead'>Get only the best in Dubai </h1>
             <div className='studyhtmpara'>
                 <p>Soak into the luxury of Dubai
-</p><br/>
+</p>
                 <p>Many Cultures in One Location
-</p><br/>
+</p>
                 <p>Explore All Seven Emirates countries
-</p><br/>
+</p>
                 <p>Gateway to Europe
-</p><br/>
+</p>
                 <p>Known for the luxury hotels and resorts
-</p><br/>
+</p>
                 <p>Part-time jobs for students </p>
             </div>
             
 
-<div className='yournextstepdiv'><YourNextStep></YourNextStep></div>
+<div className='yournextstepdivhtm'><YourNextStep></YourNextStep></div>
            <Footer></Footer>
               </div>
     )

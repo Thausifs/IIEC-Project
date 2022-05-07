@@ -13,7 +13,7 @@ const Header = () => {
             <div className='headerdiv'>
               <ul>
                   <li className='header_logo' ><a href="/"><img className='headerlogo' src={IIEC_logo}></img></a></li>
-                  <li> <input id="searchimputplaceholder" className='header_placeholder' placeholder= 'search' ></input>  </li>
+                  <li> <input id="searchimputplaceholder" className='header_placeholder' placeholder=  'search' ></input>  </li>
                   <li className='event'>Event</li>
                   <li className='findus'>Find us </li>
                   <li><button className='enquirebtn' >Enquire</button></li>

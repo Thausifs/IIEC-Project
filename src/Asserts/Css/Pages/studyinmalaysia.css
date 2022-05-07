@@ -17,7 +17,7 @@
 .studyinmalaysiapage{
     background-color: rgb(32, 32, 32);
     position: absolute;
-    width: 1366px;
+    width: 100%;
 
 }
 .studyinmalaysiastd{
@@ -47,4 +47,28 @@
     font-family:  'Montserrat', sans-serif;
     /* margin-left: 1%; */
     margin-top: 7%;
+}
+@media only screen and  (max-width:480px) and (min-width:150px){
+    .studyinmalaysiapara , .studyinmalaysiaparas {
+        font-size: 2.2vw;
+        width: 90%;
+    }
+    .studyinmalaysiaheading , .studyinmalaysiaheadings {
+        font-size: 3.4vw;
+        width: 90%;
+
+    }
+
+    .studyinmalaysiastd{
+        width: 100%;
+        position: relative;
+        margin-left:0%;
+    }
+    .studyinmalaysiamainhead{
+        font-size: 4.5vw;
+
+    }
+    .studyinmalaysiamainhead{
+        width: 90%;
+    }
 }

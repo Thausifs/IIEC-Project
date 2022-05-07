@@ -160,7 +160,7 @@ ul{
     width: 100%; 
 }
 
-@media only screen and  (max-width:480px) and (min-width:200px) {
+@media only screen and  (max-width:480px) and (min-width:100px) {
     .topbannerhome{
         margin-top: -15%;
         display: flex;

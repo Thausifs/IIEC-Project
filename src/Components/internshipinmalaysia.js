@@ -7,7 +7,7 @@ const InternshipinMalaysia = () => {
     <div className='Internshipinmalaysiamaindiv'>
       <div className="Internshipinmalaysiacomponents">
         {" "}
-       <div className='Internshipinmalaysiaimgdiv'><a href="/internshipmalaysia"> <img className='Internshipinmalaysiaimg' src={internshipinmalaysia}  ></img></a></div>
+       <div className='Internshipinmalaysiaimgdiv'><a href="/internmalaysia"> <img className='Internshipinmalaysiaimg' src={internshipinmalaysia}  ></img></a></div>
         <p className="Internshipinmalaysiaone"> Malaysia </p>
         <p className='Internshipinmalaysiatwo'>Get your Intership in Malaysia</p>
       </div>{" "}

@@ -17,7 +17,7 @@
 .studyhtmpage{
     background-color: rgb(32, 32, 32);
     position: absolute;
-    width: 94.861vw;
+    width: 100vw;
 
 }
 .studyhtmstd{
@@ -55,6 +55,9 @@ ul.studyhtmparaul{
 color: white;
 width: 45%;
 }
+.yournextstepdivhtm{
+    margin-top: 20%;
+}
 
 
 @media only screen and  (max-width:480px) and (min-width:150px){
@@ -76,6 +79,9 @@ width: 45%;
     }
     .studyhtmmainhead{
         font-size: 4.5vw;
-
+        width: 90%;
+    }
+    .yournextstepdivhtm{
+        margin-top: 0%;
     }
 }

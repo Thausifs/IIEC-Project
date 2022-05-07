@@ -25,15 +25,15 @@ const StudyinSingapore = ()=>{
            <h2 className='studyinsingaporeheading'>Hostels or Service Apartments</h2>
            <p className='studyinsingaporepara'>Depending on location and size,these residences are available at various costs. Shared Accomodation/Independent Residences : Students can choose to live alone or share with other students . Lease terms are usually for 1 Year or more.</p>
            <h1 className='studyinsingaporemainhead'>STUDY PERMIT</h1>
-           <p className='studyinsingaporepara'>A Singapore education gives you the chance to access an education system that promotes excellence and be part of a progressive, cosmopolitan community. Singapore courses are often bi-lingual, combining English with Mandarin, Malay or Tamil. And you’ll be part of a multicultural nation that is the creative heart of Asia. Singapore also provides an excellent quality of life in a vibrant city. Great transport within the city, and easy access to other countries through its international airport. It’s safe, and the economy is stable, providing many opportunities for graduates.</p><br/>
+           <p className='studyinsingaporepara'>A Singapore education gives you the chance to access an education system that promotes excellence and be part of a progressive, cosmopolitan community. Singapore courses are often bi-lingual, combining English with Mandarin, Malay or Tamil. And you’ll be part of a multicultural nation that is the creative heart of Asia. Singapore also provides an excellent quality of life in a vibrant city. Great transport within the city, and easy access to other countries through its international airport. It’s safe, and the economy is stable, providing many opportunities for graduates.</p>
            <h2 className='studyinsingaporeheadings'>How much will a Singapore education cost?
 </h2>
 <div>
     <p className='studyinsingaporeparas'>
 An international student in Singapore spends on average about S$500 to S$2,000 (Approx) per month on living expenses. This amount varies depending on your individual lifestyle and course of study.
-</p><br/>
+</p>
     <p className='studyinsingaporeparas'>Tuition fees per year up to SGD $18000 – $ 21,000 for Arts courses and generally more for Science courses
-</p><br/>
+</p>
     <p className='studyinsingaporeparas'>Course duration ranges from 3 to 4 years for undergraduate courses and 1 year or more for postgraduate courses
 </p>
 
@@ -43,7 +43,7 @@ An international student in Singapore spends on average about S$500 to S$2,000 (
 <div>
 
     <p className='studyinsingaporeparas'>Main intake in September each year with a smaller intake in January at many universities in Singapore
-</p><br/>
+</p>
     <p className='studyinsingaporeparas'>Application deadline for main September intake is June
 </p>
 </div>
@@ -58,21 +58,21 @@ Unconditional offer letter from your chosen university or college in Singapore a
 <div>
 
     <p className='studyinsingaporeparas'>Passport valid for a minimum of 190 days with at least two blank pages.
-</p><br/>
+</p>
     <p className='studyinsingaporeparas'>
 Correct visa fee.
-</p><br/>
+</p>
     <p className='studyinsingaporeparas'>Two recent identical passport-size photographs.
-</p><br/>
+</p>
     <p className='studyinsingaporeparas'>
 Filled application form (all columns in the form are mandatory and must be filled).
-</p><br/>
+</p>
     <p className='studyinsingaporeparas'>Letter of admission from a recognized Indian educational institution with duration of the course.
-\</p><br/>
+\</p>
     <p className='studyinsingaporeparas'>Bona fide letter from the school/college.
-</p><br/>
+</p>
     <p className='studyinsingaporeparas'>Receipt of fee paid to the school/college.
-</p><br/>
+</p>
     <p className='studyinsingaporeparas'>Document showing financial support for the tuition fee and stay in India.
 </p>
 </div>
@@ -94,21 +94,21 @@ Other Information</p>
 </h2>
 <div>
     <p className='studyinsingaporepara'>Accommodation
-</p><br/>
+</p>
     <p className='studyinsingaporepara'>Utilities
-</p><br/>
+</p>
     <p className='studyinsingaporepara'>Food
-</p><br/>
+</p>
     <p className='studyinsingaporepara'>Transport
-</p><br/>
+</p>
     <p className='studyinsingaporepara'>Clothing
-</p><br/>
+</p>
     <p className='studyinsingaporepara'>Telecommunications
-</p><br/>
+</p>
     <p className='studyinsingaporepara'>Books & Stationery
-</p><br/>
+</p>
     <p className='studyinsingaporepara'>Medical/Hospitalisation Insurance
-</p><br/>
+</p>
     <p className='studyinsingaporepara'>Personal Expenses</p>
 
 
@@ -117,27 +117,27 @@ Other Information</p>
 <div>
 
     <p className='studyinsingaporeparas'>Education in Singapore is managed by the Ministry of Education (MOE), which controls the development and administration of state schools receiving government funding, but also has an advisory and supervisory role in respect of private schools. For both private and state schools, there are variations in the extent of autonomy in their curriculum, scope of government aid and funding, tuition burden on the students, and admission policy.
-</p><br/>
+</p>
     <p className='studyinsingaporeparas'>An international student in Singapore spends an average of S$500 upwards a month on living expenses. This amount varies, depending on the individual’s lifestyle.
-</p><br/>
-    <p className='studyinsingaporeparas'>They have various education programs like Diploma, Advanced Diploma, Polytechnic, Undergraduate, Postgraduate, Phd., and lot more….</p></div><br/>
+</p>
+    <p className='studyinsingaporeparas'>They have various education programs like Diploma, Advanced Diploma, Polytechnic, Undergraduate, Postgraduate, Phd., and lot more….</p></div>
 
 <h1 className='studyinsingaporemainhead'>GUIDE FOR INTERNATIONAL STUDIES</h1>
 <h2 className='studyinsingaporeheadings'>Country overview
 </h2>
 <div>
-    <p className='studyinsingaporeparas'>Singapore stands out for its magnificent blend and influences of Chinese, Malay and Indian traditions. It is this, combined with up-to-the-minute technology and unparalleled cleanliness, that gives the city its character. It is also a major hub for travellers, and as an international student, you will be able to benefit from excellent travel deals to nearby Malaysia, Indonesia and even Australia.</p><br/>
+    <p className='studyinsingaporeparas'>Singapore stands out for its magnificent blend and influences of Chinese, Malay and Indian traditions. It is this, combined with up-to-the-minute technology and unparalleled cleanliness, that gives the city its character. It is also a major hub for travellers, and as an international student, you will be able to benefit from excellent travel deals to nearby Malaysia, Indonesia and even Australia.</p>
     <p className='studyinsingaporeparas'>Religious monuments and buildings fill the streets in Chinatown and Kampong Glam, whilst you’ll be spoilt for choice to choose between the continuous festivals and events that take place throughout the year. The international cuisine of Singapore really is something to behold and explore, with a variety of dishes you are sure to have never tried, or possibly will never want to try again!
-</p><br/>
+</p>
     <p className='studyinsingaporeparas'>Should you want some respite from the city, greenery and rainforest await you not too far away. Alternatively, you can opt to relax in one of the nation’s numerous and luxurious spas.
-</p><br/>
+</p>
     <p className='studyinsingaporeparas'>
 Three publicly funded universities exist in Singapore. The National University of Singapore, Nanyang Technological University and Singapore Management University. Singapore also has five polytechnics, offering two and three year diplomas, in many different subject areas.
-</p><br/>
+</p>
     <p className='studyinsingaporeparas'>Additionally, Singapore plays host to both an increasingly diverse private education scene and a growing number of offshore campuses. A number of these private institutions offer qualifications with completely international curricula such as those for the Chartered Institute of Marketing and the Association of Chartered Certified Accountants. Moreover, others offer international undergraduate programs from universities in countries such as Australia, Finland, New Zealand, the UK and the USA.
-</p><br/>
+</p>
     <p className='studyinsingaporeparas'>All national and international students are free to apply to the Singaporean Ministry of Education for a Tuition Grant once they have been admitted to their program of choice. This scheme allows for a grant of between SIN$14,000 and SIN$16,000 for most programs to be paid against tuition fees, thus reducing the amount considerably. For programs such as medicine and music, the grant can be as much as SIN$65,500 a year. However, international students are required to sign a bond in order to obtain a tuition grant, committing them to work in Singapore for three years after the completion of their university of polytechnic program.
-</p><br/>
+</p>
 </div>
    <YourNextStep></YourNextStep>
      <Footer></Footer>
