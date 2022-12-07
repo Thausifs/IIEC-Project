@@ -3,7 +3,7 @@ import "../styles/componentscss/card.css";
 
 
 const Card = ({icon,title,content,fdsz,link}) => {
- console.log(fdsz)
+
  
   return (
     <div  className='cardmaindiv'>

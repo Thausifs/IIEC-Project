@@ -56,6 +56,16 @@ h1 {
   
  }
  
+ .studyabroad_inner input:-webkit-autofill,
+ .studyabroad_inner input:-webkit-autofill:hover,
+ .studyabroad_inner input:-webkit-autofill:focus,
+ .studyabroad_inner input:-webkit-autofill:active {
+     -webkit-box-shadow: 0 0 0 30px rgb(72, 69, 69) inset !important;
+     
+ }
+ .studyabroad_inner input:-webkit-autofill {
+     -webkit-text-fill-color: rgb(255, 255, 255) !important;
+ }
  .register_buttons {
      border-radius: 1.667vw;
      border: 0.139vw groove rgb(208,56,59);
@@ -126,6 +136,7 @@ font-weight: 400;
      height: 1.667vw;
      width: 1.667vw;
  }
+ 
  @media only screen and  (max-width:480px) and (min-width:100px) {
 
    .studyabroad{
@@ -169,4 +180,5 @@ font-weight: 400;
     padding-left: 4%;
    }
  }
+
 
